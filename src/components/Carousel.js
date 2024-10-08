@@ -4,7 +4,9 @@
  * Carousel class component for home page
  *
  * FILE NAME:   Carousel.js
- * Location:    /src/components
+ * Location:    /src/
+ * Created:     7/10/24
+ * Author:      Michael Reed 20056066@tafe.wa.edu.au
  *
  * TODO: create a carousel component needs the following
  * TODO: images that keep state - will need to use useState to keep track of state
