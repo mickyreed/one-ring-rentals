@@ -14,11 +14,11 @@ import React from 'react';
 
 const Logo = () => {
     return (
-        <Logo className="navbar-item">
-            <div>
-                <a href="../App.js"
-                ><img src="/images/logo.png" alt="One Ring Rentals" width="187" height="85"/></a>
-            </div>
+        <Logo>
+            <a href="/home"><img
+                src="/images/logo.png"
+                alt="One Ring Rentals"
+            /></a>
         </Logo>
     );
 };

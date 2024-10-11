@@ -1,8 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 
+import './css/font-awesome.css';
+import './css/font.css';
+import './css/style.less';
+import 'bulma/css/bulma.min.css';
+
 import './index.css';
 import App from './App';
+
+import HomePage from "./views/HomePage";
+import NewsPage from "./views/NewsPage";
+import ContactPage from "./views/ContactPage";
+import RegionsPage from "./views/RegionsPage";
+
 import reportWebVitals from './reportWebVitals';
 
 import {
@@ -10,12 +21,30 @@ import {
     RouterProvider,
     Route,
 } from "react-router-dom";
+
 import "./index.css";
+
 
 const router = createBrowserRouter([
     {
         path: "/",
-        element: <App />,
+        element: <App/>,
+    },
+    {
+        path: "home",
+        element: <HomePage/>,
+    },
+    {
+        path: "news",
+        element: <NewsPage/>,
+    },
+    {
+        path: "contact",
+        element: <ContactPage/>,
+    },
+    {
+        path: "regions",
+        element: <RegionsPage/>,
     },
 ]);
 

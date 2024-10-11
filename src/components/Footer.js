@@ -13,6 +13,7 @@
  *
   */
 import React from 'react';
+import '../footer.css';
 
 const Footer = () => {
     return (
@@ -21,7 +22,7 @@ const Footer = () => {
                 <div className="columns">
                     <div className="column is-3">
                         <div className="footer-logo">
-                            <a href="#"><img src="/images/logo.png" alt="One Ring Rentals"/></a>
+                            <a href="/home"><img src="/images/logo.png" alt="One Ring Rentals"/></a>
                             <br/><br/>
                             <p>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
@@ -36,11 +37,11 @@ const Footer = () => {
                         <h3 className="title is-5 has-text-black">Helpful Links</h3>
                         <ul className="footer-links">
                             <hr className="is-divider has-background-grey-lighter"/>
-                            <li><a href="#">All rentals</a></li>
+                            <li><a href="/home">All rentals</a></li>
                             <hr className="is-divider has-background-grey-lighter"/>
-                            <li><a href="#">List your rental</a></li>
+                            <li><a href="/home">List your rental</a></li>
                             <hr className="is-divider has-background-grey-lighter"/>
-                            <li><a href="#">Read our FAQs</a></li>
+                            <li><a href="/home">Read our FAQs</a></li>
                             <hr className="is-divider has-background-grey-lighter"/>
                         </ul>
                     </div>

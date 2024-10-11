@@ -1,11 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-import './footer.css';
-import './css/font-awesome.css';
-import './css/font.css';
-import './css/style.less';
-import React from "react";
-import 'bulma/css/bulma.min.css';
+// import './footer.css';
+// import './css/font-awesome.css';
+// import './css/font.css';
+// import './css/style.less';
+// import React from "react";
+// import 'bulma/css/bulma.min.css';
 import Head from './components/Head';
 import Header from './components/Header';
 import Footer from './components/Footer';

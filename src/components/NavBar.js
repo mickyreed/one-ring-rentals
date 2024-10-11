@@ -51,7 +51,7 @@ const NavBar = () => {
                  style={{justifyContent: "space-between", padding: "0 1rem"}}>
                 <div className="navbar-brand">
                     <div className="nav-logo is-display-flex">
-                        <a href="../App.js"
+                        <a href="/home"
                         ><img src="/images/logo.png" alt="One Ring Rentals"
                         /></a>
                     </div>
@@ -59,12 +59,12 @@ const NavBar = () => {
 
                 <div id="navMenu" className={`navbar-menu ${isActive ? 'is-active' : ''}`}>
                     <div className="navbar-end">
-                        <a className="navbar-item" href="../App.js">Find a Rental</a>
+                        <a className="navbar-item" href="/home">Find a Rental</a>
                         <a className="navbar-item" href="#">List your rental</a>
                         <a className="navbar-item" href="#">Travel Guides</a>
-                        <a className="navbar-item" href="regions.html">Regions</a>
-                        <a className="navbar-item" href="news.html">News</a>
-                        <a className="navbar-item" href="contact.html">Contact</a>
+                        <a className="navbar-item" href="/regions">Regions</a>
+                        <a className="navbar-item" href="/news">News</a>
+                        <a className="navbar-item" href="/contact">Contact</a>
                         <div id="search-bar" className="navbar-item">
                             <SearchBar></SearchBar>
                         </div>
