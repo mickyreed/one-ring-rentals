@@ -1,0 +1,21 @@
+
+.footer-listings {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-list-item {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin: 10px 0; /* margin between list items */
+}
+
+.footer-list-item .image {
+    margin-right: 20px; /* Space between image and text */
+}
+
+.footer-list-item img {
+    display: block;  /* No extra space below the image */
+}

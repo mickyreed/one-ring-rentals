@@ -16,85 +16,95 @@ import React from 'react';
 
 const Footer = () => {
     return (
-        <footer id="footer">
+        <footer id="footer" className="footer has-background-white has-text-black pl-0 pr-0 mb-0 pb-0">
             <div id="footer-top" className="container">
-                <div className="row">
-                    <div className="block col-sm-3">
-                        <a href="#"
-                        ><img src="images/logo.png" alt="One Ring Rentals"
-                        /></a>
-                        <br/><br/>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
-                            commodo eros nibh, et dictum elit tincidunt eget. Pellentesque
-                            volutpat quam dignissim, convallis elit id, efficitur sem.
-                            Vivamus ac scelerisque sem. Aliquam sed enim rutrum nibh gravida
-                            pellentesque nec at metus.
-                        </p>
+                <div className="columns">
+                    <div className="column is-3">
+                        <div className="footer-logo">
+                            <a href="#"><img src="/images/logo.png" alt="One Ring Rentals"/></a>
+                            <br/><br/>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
+                                commodo eros nibh, et dictum elit tincidunt eget. Pellentesque
+                                volutpat quam dignissim, convallis elit id, efficitur sem.
+                                Vivamus ac scelerisque sem. Aliquam sed enim rutrum nibh gravida
+                                pellentesque nec at metus.
+                            </p>
+                        </div>
                     </div>
-                    <div className="block col-sm-3">
-                        <h3>Helpful Links</h3>
+                    <div className="column is-3">
+                        <h3 className="title is-5 has-text-black">Helpful Links</h3>
                         <ul className="footer-links">
+                            <hr className="is-divider has-background-grey-lighter"/>
                             <li><a href="#">All rentals</a></li>
+                            <hr className="is-divider has-background-grey-lighter"/>
                             <li><a href="#">List your rental</a></li>
+                            <hr className="is-divider has-background-grey-lighter"/>
                             <li><a href="#">Read our FAQs</a></li>
+                            <hr className="is-divider has-background-grey-lighter"/>
                         </ul>
                     </div>
-                    <div className="block col-sm-6">
-                        <h3>Popular regions</h3>
-                        <div className="row">
-                            <div className="col-sm-6">
+                    <div className="column is-6">
+                        <h3 className="title is-5 has-text-black">Popular regions</h3>
+                        <div className="columns">
+                            <div className="column is-6">
                                 <ul className="footer-listings">
-                                    <li>
+                                    <li className="footer-list-item">
                                         <div className="image">
                                             <a href="properties-detail.html"
-                                            ><img src="http://placehold.it/760x670" alt=""
+                                            ><img style={{width: 60, height: 60}} src="http://placehold.it/760x670"
+                                                  alt=""
                                             /></a>
                                         </div>
-                                        <p><a href="properties-detail.html">Rhovanion</a></p>
+                                            <p>
+                                                <a href="properties-detail.html">Rhovanion</a></p>
                                     </li>
-                                    <li>
+                                    <li className="footer-list-item">
                                         <div className="image">
                                             <a href="properties-detail.html"
-                                            ><img src="http://placehold.it/760x670" alt=""
-                                            /></a>
-                                        </div>
-                                        <p><a href="properties-detail.html">Eriador</a></p>
-                                    </li>
-                                    <li>
-                                        <div className="image">
-                                            <a href="properties-detail.html"
-                                            ><img src="http://placehold.it/760x670" alt=""
+                                            ><img style={{width: 60, height: 60}} src="http://placehold.it/760x670" alt=""
                                             /></a>
                                         </div>
                                         <p>
+                                            <a href="properties-detail.html">Eriador</a></p>
+                                    </li>
+                                    <li className="footer-list-item">
+                                        <div className="image">
+                                            <a href="properties-detis-align-self-centerail.html"
+                                            ><img style={{width: 60, height: 60}} src="http://placehold.it/760x670" alt=""
+                                            /></a>
+                                        </div>
+                                        <p className="">
                                             <a href="properties-detail.html">Bay of Belfalas</a>
                                         </p>
                                     </li>
                                 </ul>
                             </div>
-                            <div className="col-sm-6">
+                            <div className="column is-6">
                                 <ul className="footer-listings">
-                                    <li>
+                                    <li className="footer-list-item">
                                         <div className="image">
                                             <a href="properties-detail.html"
-                                            ><img src="http://placehold.it/760x670" alt=""
+                                            ><img style={{width: 60, height: 60}} src="http://placehold.it/760x670" alt=""
                                             /></a>
                                         </div>
                                         <p><a href="properties-detail.html">Mordor</a></p>
                                     </li>
-                                    <li>
+                                    <li className="footer-list-item">
                                         <div className="image">
                                             <a href="properties-detail.html"
-                                            ><img src="http://placehold.it/760x670" alt=""
+                                            ><img style={{width: 60, height: 60}} src="http://placehold.it/760x670"
+                                                  alt=""
                                             /></a>
                                         </div>
                                         <p><a href="properties-detail.html">Arnor</a></p>
+
                                     </li>
-                                    <li>
+                                    <li className="footer-list-item">
                                         <div className="image">
                                             <a href="properties-detail.html"
-                                            ><img src="http://placehold.it/760x670" alt=""
+                                            ><img style={{width: 60, height: 60}} src="http://placehold.it/760x670"
+                                                  alt=""
                                             /></a>
                                         </div>
                                         <p><a href="properties-detail.html">Forlindon</a></p>
@@ -107,31 +117,38 @@ const Footer = () => {
             </div>
 
             {/*// <!-- BEGIN COPYRIGHT -->*/}
-            <div id="copyright">
+            <div id="copyright" className="has-background-grey-lighter ml-0 mr-0 pl-0 pr-0 mt-6">
                 <div className="container">
-                    <div className="row">
-                        <div className="col-sm-12">
+                    <div className="columns is-display-flex">
+                        <div className="column is-6 is-align-content-center">
                             &copy; 2014 One Ring Rentals
-
+                        </div>
+                        <div className="column is-6 is-align-self-flex-end">
                             {/*// <!-- BEGIN SOCIAL NETWORKS -->*/}
-                            <ul className="social-networks">
+                            <ul className="social-networks is-flex">
                                 <li>
-                                    <a href="#"><i className="fa fa-facebook"></i></a>
+                                    <a href="#"><i className="fa fa-facebook
+                                    box-is-clear fa-border has-radius-normal p-3 m-2"></i></a>
                                 </li>
                                 <li>
-                                    <a href="#"><i className="fa fa-twitter"></i></a>
+                                    <a href="#"><i className="fa fa-twitter
+                                     box-is-clear fa-border has-radius-normal p-3 m-2"></i></a>
                                 </li>
                                 <li>
-                                    <a href="#"><i className="fa fa-google"></i></a>
+                                    <a href="#"><i className="fa fa-google
+                                     box-is-clear fa-border has-radius-normal p-3 m-2"></i></a>
                                 </li>
                                 <li>
-                                    <a href="#"><i className="fa fa-pinterest"></i></a>
+                                    <a href="#"><i className="fa fa-pinterest
+                                     box-is-clear fa-border has-radius-normal p-3 m-2"></i></a>
                                 </li>
                                 <li>
-                                    <a href="#"><i className="fa fa-youtube"></i></a>
+                                    <a href="#"><i className="fa fa-youtube
+                                     box-is-clear fa-border has-radius-normal p-3 m-2"></i></a>
                                 </li>
                                 <li>
-                                    <a href="#"><i className="fa fa-rss"></i></a>
+                                    <a href="#"><i className="fa fa-rss
+                                     box-is-clear fa-border has-radius-normal p-3 m-2"></i></a>
                                 </li>
                             </ul>
                             {/*// <!-- END SOCIAL NETWORKS -->*/}

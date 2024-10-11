@@ -17,25 +17,12 @@
 import React from 'react';
 import TopBar from './TopBar';
 import NavBar from './NavBar';
-import SearchBar from "./SearchBar"
 
 const Header = () => {
     return (
         <header className="header" id="header">
             <TopBar></TopBar>
-            <div id="nav-section">
-                <div className="container">
-                    <div className="row">
-                        <div className="col-sm-12">
-                            <a href="index.html" className="nav-logo"
-                            ><img src="images/logo.png" alt="One Ring Rentals"
-                            /></a>
-                            <SearchBar></SearchBar>
-                            <NavBar></NavBar>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <NavBar></NavBar>
         </header>
     );
 };

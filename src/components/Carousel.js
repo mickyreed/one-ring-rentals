@@ -19,7 +19,7 @@ import React from 'react';
 const Carousel = () => {
     return (
         <div
-            id="carousel-example-generic"
+            id="carousel"
             className="carousel slide"
             data-ride="carousel"
         >

@@ -17,7 +17,7 @@ import React from 'react';
 
 const SearchBar = () => {
     return (
-        <div id="sb-search" className="sb-search">
+        <div id="sb-search" className="sb-search is-align-self-center">
             <form>
                 <input
                     className="sb-search-input"

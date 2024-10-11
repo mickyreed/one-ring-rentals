@@ -17,42 +17,49 @@ import React from 'react';
 
 const TopBar = () => {
     return (
-        <div id="top-bar">
+        <div id="top-bar" className="has-background-light py-2 pr-4 pl-4">
             <div className="container">
-                <div className="row">
-                    <div className="col-sm-12">
-                        <ul id="top-buttons">
-                            <li>
+                <div className="columns is-mobile is-justify-content-flex-end">
+                    <div className="column is-narrow">
+                        <ul id="top-buttons" className="is-flex is-align-items-center">
+                            <li className="mr-4">
                                 <a href="#"><i className="fa fa-sign-in"></i> Login</a>
                             </li>
-                            <li>
+                            <li className="mr-4">
                                 <a href="#"
                                 ><i className="fa fa-pencil-square-o"></i> Register</a
                                 >
                             </li>
-                            <li className="divider"></li>
-                            <li>
-                                <div className="language-switcher">
-                                    <span><i className="fa fa-globe"></i> English</span>
-                                    <ul>
-                                        <li><a href="#">Deutsch</a></li>
-                                        <li><a href="#">Espa&ntilde;ol</a></li>
-                                        <li><a href="#">Fran&ccedil;ais</a></li>
-                                        <li><a href="#">Portugu&ecirc;s</a></li>
-                                    </ul>
+                            <li className="mr-4"><span>|</span></li>
+                            <li className="mr-4">
+                                <div className="dropdown is-centered is-hoverable">
+                                    <div className="dropdown-trigger">
+                                        <span className="is-flex is-align-items-center">
+                                            <i className="fa fa-globe ml-4"></i>Language
+                                        </span>
+                                    </div>
+                                    <div className="dropdown-menu pr-6" id="dropdown-menu"  role="menu">
+                                        <div className="dropdown-content">
+                                            <a href="#" className="dropdown-item">English</a>
+                                            <a href="#" className="dropdown-item">Deutsch</a>
+                                            <a href="#" className="dropdown-item">Espanol</a>
+                                            <a href="#" className="dropdown-item">Francais</a>
+                                            <a href="#" className="dropdown-item">Portugues</a>
+                                        </div>
+                                    </div>
                                 </div>
                             </li>
 
-                                {/*<!-- BOOTSTRAP SEARCH BEGINS*/}
+                            {/*<!-- BOOTSTRAP SEARCH BEGINS*/}
 
-                                {/*  <li>*/}
-                                {/*  <form id="site-search">*/}
-                                {/*      <span><i class="fa fa-search"></i></span>*/}
-                                {/*      <input type="text" name="q" placeholder="Search">*/}
-                                {/*  </form>	*/}
-                                {/*  </li> */}
+                            {/*  <li>*/}
+                            {/*  <form id="site-search">*/}
+                            {/*      <span><i class="fa fa-search"></i></span>*/}
+                            {/*      <input type="text" name="q" placeholder="Search">*/}
+                            {/*  </form>	*/}
+                            {/*  </li> */}
 
-                                {/*  BOOTSTRAP SEARCH ENDS -->*/}
+                            {/*  BOOTSTRAP SEARCH ENDS -->*/}
                         </ul>
                     </div>
                 </div>

@@ -2,11 +2,11 @@
 
 @font-face {
   font-family: "cozy-real-estate";
-  src:url("../fonts/cozy-real-estate.eot");
-  src:url("../fonts/cozy-real-estate.eot?#iefix") format("embedded-opentype"),
-    url("../fonts/cozy-real-estate.woff") format("woff"),
-    url("../fonts/cozy-real-estate.ttf") format("truetype"),
-    url("../fonts/cozy-real-estate.svg#cozy-real-estate") format("svg");
+  src:url("../../public/fonts/cozy-real-estate.eot");
+  src:url("../../public/fonts/cozy-real-estate.eot?#iefix") format("embedded-opentype"),
+    url("../../public/fonts/cozy-real-estate.woff") format("woff"),
+    url("../../public/fonts/cozy-real-estate.ttf") format("truetype"),
+    url("../../public/fonts/cozy-real-estate.svg#cozy-real-estate") format("svg");
   font-weight: normal;
   font-style: normal;
 
