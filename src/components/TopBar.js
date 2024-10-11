@@ -8,7 +8,7 @@
  * Created:     8/10/24
  * Author:      Michael Reed 20056066@tafe.wa.edu.au
  *
- * TODO: create a reusable top bar component for the use on all pages
+ * create a reusable top bar component for the use on all pages COMPLETE
  *
  *
  */

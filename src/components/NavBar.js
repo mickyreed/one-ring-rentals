@@ -8,8 +8,8 @@
  * Created:     8/10/24
  * Author:      Michael Reed 20056066@tafe.wa.edu.au
  *
- * TODO: create a reusable Nav bar component for the use on all pages
- *
+ * create a reusable Nav bar component for the use on all pages COMPLETE
+ * TODO: implement logo component (once bug fix is solved -see Logo.js DocBlock comments)
  *
  */
 

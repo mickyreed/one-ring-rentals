@@ -8,7 +8,7 @@
  * Created:     8/10/24
  * Author:      Michael Reed 20056066@tafe.wa.edu.au
  *
- * TODO: create a reusable search bar component for the main page
+ * Create a reusable search bar component for the main page COMPLETE
  *
  *
  */

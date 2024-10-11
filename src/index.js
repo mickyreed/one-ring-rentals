@@ -1,10 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import '@fortawesome/fontawesome-free/css/all.min.css';
+import './css/font-awesome.css'; //this has social media icons
 
-import './css/font-awesome.css';
-import './css/font.css';
-import './css/style.less';
-import 'bulma/css/bulma.min.css';
+// import './css/font.css';
+// import './css/style.less';
+// import 'bulma/css/bulma.min.css';
 
 import './index.css';
 import App from './App';

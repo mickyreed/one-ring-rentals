@@ -8,8 +8,8 @@
  * Created:     7/10/24
  * Author:      Michael Reed 20056066@tafe.wa.edu.au
  *
- * TODO: create a reusable header component needs logo and nav links
- * TODO: there is actually a login/register/language header component above this but ill do this later
+ * create a reusable header component needs logo and nav links COMPLETE
+ * there is actually a login/register/language header component above this but ill do this later COMPLETE
  *
  *
  */
