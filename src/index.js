@@ -8,7 +8,6 @@ import 'bulma/css/bulma.min.css';
 
 import './index.css';
 import App from './App';
-
 import HomePage from "./views/HomePage";
 import NewsPage from "./views/NewsPage";
 import ContactPage from "./views/ContactPage";
@@ -46,10 +45,12 @@ const router = createBrowserRouter([
         path: "regions",
         element: <RegionsPage/>,
     },
+
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
+
   <React.StrictMode>
     {/*<App />*/}
     <RouterProvider router={router} />

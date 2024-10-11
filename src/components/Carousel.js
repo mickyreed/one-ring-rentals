@@ -79,7 +79,7 @@ const Carousel = () => {
             {/*// <!-- Controls -->*/}
             <a
                 className="left carousel-control"
-                href="#carousel-example-generic"
+                href="#"
                 role="button"
                 data-slide="prev"
             >
@@ -88,7 +88,7 @@ const Carousel = () => {
             </a>
             <a
                 className="right carousel-control"
-                href="#carousel-example-generic"
+                href="#"
                 role="button"
                 data-slide="next"
             >

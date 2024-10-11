@@ -14,6 +14,7 @@
  */
 
 import React, { useState } from 'react';
+import { Link } from "react-router-dom";
 import 'bulma/css/bulma.min.css';
 import SearchBar from "./SearchBar";
 
@@ -51,20 +52,20 @@ const NavBar = () => {
                  style={{justifyContent: "space-between", padding: "0 1rem"}}>
                 <div className="navbar-brand">
                     <div className="nav-logo is-display-flex">
-                        <a href="/home"
+                        <Link to="/home"
                         ><img src="/images/logo.png" alt="One Ring Rentals"
-                        /></a>
+                        /></Link>
                     </div>
                 </div>
 
                 <div id="navMenu" className={`navbar-menu ${isActive ? 'is-active' : ''}`}>
                     <div className="navbar-end">
-                        <a className="navbar-item" href="/home">Find a Rental</a>
-                        <a className="navbar-item" href="#">List your rental</a>
-                        <a className="navbar-item" href="#">Travel Guides</a>
-                        <a className="navbar-item" href="/regions">Regions</a>
-                        <a className="navbar-item" href="/news">News</a>
-                        <a className="navbar-item" href="/contact">Contact</a>
+                        <Link className="navbar-item" to="/home">Find a Rental</Link>
+                        <Link className="navbar-item" to="/home">List your rental</Link>
+                        <Link className="navbar-item" to="/home">Travel Guides</Link>
+                        <Link className="navbar-item" to="/regions">Regions</Link>
+                        <Link className="navbar-item" to="/news">News</Link>
+                        <Link className="navbar-item" to="/contact">Contact</Link>
                         <div id="search-bar" className="navbar-item">
                             <SearchBar></SearchBar>
                         </div>

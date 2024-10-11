@@ -22,7 +22,7 @@ const Footer = () => {
                 <div className="columns">
                     <div className="column is-3">
                         <div className="footer-logo">
-                            <a href="/home"><img src="/images/logo.png" alt="One Ring Rentals"/></a>
+                            <a href="#"><img src="/images/logo.png" alt="One Ring Rentals"/></a>
                             <br/><br/>
                             <p>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
@@ -37,11 +37,11 @@ const Footer = () => {
                         <h3 className="title is-5 has-text-black">Helpful Links</h3>
                         <ul className="footer-links">
                             <hr className="is-divider has-background-grey-lighter"/>
-                            <li><a href="/home">All rentals</a></li>
+                            <li><a href="#">All rentals</a></li>
                             <hr className="is-divider has-background-grey-lighter"/>
-                            <li><a href="/home">List your rental</a></li>
+                            <li><a href="#">List your rental</a></li>
                             <hr className="is-divider has-background-grey-lighter"/>
-                            <li><a href="/home">Read our FAQs</a></li>
+                            <li><a href="#">Read our FAQs</a></li>
                             <hr className="is-divider has-background-grey-lighter"/>
                         </ul>
                     </div>
@@ -52,31 +52,31 @@ const Footer = () => {
                                 <ul className="footer-listings">
                                     <li className="footer-list-item">
                                         <div className="image">
-                                            <a href="properties-detail.html"
+                                            <a href="#"
                                             ><img style={{width: 60, height: 60}} src="http://placehold.it/760x670"
                                                   alt=""
                                             /></a>
                                         </div>
                                             <p>
-                                                <a href="properties-detail.html">Rhovanion</a></p>
+                                                <a href="#">Rhovanion</a></p>
                                     </li>
                                     <li className="footer-list-item">
                                         <div className="image">
-                                            <a href="properties-detail.html"
+                                            <a href="#"
                                             ><img style={{width: 60, height: 60}} src="http://placehold.it/760x670" alt=""
                                             /></a>
                                         </div>
                                         <p>
-                                            <a href="properties-detail.html">Eriador</a></p>
+                                            <a href="#">Eriador</a></p>
                                     </li>
                                     <li className="footer-list-item">
                                         <div className="image">
-                                            <a href="properties-detis-align-self-centerail.html"
+                                            <a href="#"
                                             ><img style={{width: 60, height: 60}} src="http://placehold.it/760x670" alt=""
                                             /></a>
                                         </div>
                                         <p className="">
-                                            <a href="properties-detail.html">Bay of Belfalas</a>
+                                            <a href="#">Bay of Belfalas</a>
                                         </p>
                                     </li>
                                 </ul>
@@ -85,30 +85,30 @@ const Footer = () => {
                                 <ul className="footer-listings">
                                     <li className="footer-list-item">
                                         <div className="image">
-                                            <a href="properties-detail.html"
+                                            <a href="#"
                                             ><img style={{width: 60, height: 60}} src="http://placehold.it/760x670" alt=""
                                             /></a>
                                         </div>
-                                        <p><a href="properties-detail.html">Mordor</a></p>
+                                        <p><a href="#">Mordor</a></p>
                                     </li>
                                     <li className="footer-list-item">
                                         <div className="image">
-                                            <a href="properties-detail.html"
+                                            <a href="#"
                                             ><img style={{width: 60, height: 60}} src="http://placehold.it/760x670"
                                                   alt=""
                                             /></a>
                                         </div>
-                                        <p><a href="properties-detail.html">Arnor</a></p>
+                                        <p><a href="#">Arnor</a></p>
 
                                     </li>
                                     <li className="footer-list-item">
                                         <div className="image">
-                                            <a href="properties-detail.html"
+                                            <a href="#"
                                             ><img style={{width: 60, height: 60}} src="http://placehold.it/760x670"
                                                   alt=""
                                             /></a>
                                         </div>
-                                        <p><a href="properties-detail.html">Forlindon</a></p>
+                                        <p><a href="#">Forlindon</a></p>
                                     </li>
                                 </ul>
                             </div>

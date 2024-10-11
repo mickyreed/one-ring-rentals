@@ -4,7 +4,8 @@ import Footer from '../components/Footer';
 
 function NewsPage() {
     return (
-        <div className="App m-0 p-0">
+        <div
+            className="App m-0 p-0">
             <div id="wrapper">
                 <Header className="App-header"></Header>
                 <p>THIS IS THE NEWS PAGE</p>
