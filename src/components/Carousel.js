@@ -10,7 +10,7 @@
  *
  * create a carousel component needs the following COMPLETED 12/10/24
  * images that keep state - will need to use useState to keep track of state COMPLETED 12/10/24
- * TODO: images that autoplay - will need to use useEffect to autoplay
+ * TODO: images that autoplay - will need to use useEffect to autoplay ... 3 second intervals ...
  * images have a title and subtitle (or summary) COMPLETED 12/10/24
  * carousel has buttons on left and right with click event to change active image index up or down COMPLETED 12/10/24
  *
