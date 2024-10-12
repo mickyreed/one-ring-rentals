@@ -17,7 +17,7 @@ import '../footer.css';
 
 const Footer = () => {
     return (
-        <footer id="footer" className="footer has-background-white has-text-black pl-0 pr-0 mb-0 pb-0">
+        <footer id="footer" className="footer has-background-light fa-border-top-left border has-text-black pl-0 pr-0 mb-0 pb-0">
             <div id="footer-top" className="container pl-6 pr-6">
                 <div className="columns">
                     <div className="column is-one-quarter pr-3 is-align-content-start">
