@@ -17,10 +17,10 @@ import '../footer.css';
 
 const Footer = () => {
     return (
-        <footer id="footer" className="footer has-background-light fa-border-top-left border has-text-black pl-0 pr-0 mb-0 pb-0">
+        <footer id="footer" className="footer has-background-light has-text-black pl-0 pr-0 mb-0 pb-0">
             <div id="footer-top" className="container pl-6 pr-6">
                 <div className="columns">
-                    <div className="column is-one-quarter pr-3 is-align-content-start">
+                    <div className="column is-one-quarter pr-3 is-align-content-start has-text-left">
                         <div className="footer-logo">
                             <a href="#"><img src="/images/logo.png" alt="One Ring Rentals"/></a>
                             <br/><br/>
@@ -33,7 +33,7 @@ const Footer = () => {
                             </p>
                         </div>
                     </div>
-                    <div className="column is-one-quarter is-align-content-start">
+                    <div className="column is-one-quarter is-align-content-start has-text-left">
                         <h3 className="title is-5 has-text-black">Helpful Links</h3>
                         <ul className="footer-links">
                             <hr className="is-divider has-background-grey-lighter"/>
@@ -45,7 +45,7 @@ const Footer = () => {
                             <hr className="is-divider has-background-grey-lighter"/>
                         </ul>
                     </div>
-                    <div className="column is-half is-align-content-start">
+                    <div className="column is-half is-align-content-start has-text-left">
                         <h3 className="title is-5 has-text-black">Popular regions</h3>
                         <div className="columns">
                             <div className="column is-half">
@@ -129,9 +129,9 @@ const Footer = () => {
                         <div className="column is-half is-align-content-center ">
                             &copy; 2014 One Ring Rentals
                         </div>
-                        <div className="column is-half is-centered mx-6 px-6 is-align-content-center">
+                        <div className="column is-half is-centered">
                             {/*// <!-- BEGIN SOCIAL NETWORKS -->*/}
-                            <ul className="social-networks is-flex">
+                            <ul className="social-networks is-flex pr-6 pl-6">
                                 <li>
                                     <a href="#"><i className="fa fa-facebook
                                     box-is-clear fa-border has-radius-normal has-text-grey p-3 m-2"></i></a>
