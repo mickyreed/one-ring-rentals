@@ -8,11 +8,12 @@
  * Created:     12/10/24
  * Author:      Michael Reed 20056066@tafe.wa.edu.au
  *
- * TODO: create a Content component needs the following:
- * TODO: Column 2/3 wide large padding on left Content Centered
- * TODO: Column 1/3 wide large padding on right Content centered
- * TODO: ADD COMPONENTS featured property, deals, regions, activity & recent articles
- *
+ * create a Content component needs the following:
+ * Column 2/3 wide large padding on left Content Centered COMPLETE 12/10/24
+ * Column 1/3 wide large padding on right Content centered COMPLETE 12/10/24
+ * ADD Hard Coded featured property, deals, regions, activity & recent articles COMPLETE 12/10/24
+ * TODO: Change to COMPONENTS for hardcoded featured property, deals, regions, activity & recent articles
+ * TODO: Continue to adjust styles and classNames to suit react bulma
  *
  */
 import React from 'react';
