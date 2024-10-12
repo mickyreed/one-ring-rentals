@@ -19,6 +19,11 @@
  * TODO: import 4 deals cards into a list featuring 2 columns image on the left and availability and details on the right
  * TODO: under this i need a button MORE DEALS is-black rounded Corners is-centred horizontally
  *
+ * TODO: 12/10 !!! RELOOK AT THIS !!!
+ *  - TODO: middle section is all one section/called content with 2/3 column and 1/3 column
+ *  - TODO: and property, deals, regions, activity & recent articles  are components
+ *  - TODO: maybe rename this, and make components of the other articles
+ *
  * REFERENCES:
  *
  *

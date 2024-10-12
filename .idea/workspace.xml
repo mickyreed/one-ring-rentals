@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4c8730a5-2738-4db9-8168-91a0b381ef09" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/FeaturedProperties.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Content.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/HomePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/HomePage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/FeaturedProperties.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FeaturedProperties.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +82,7 @@
       <workItem from="1728455935210" duration="9130000" />
       <workItem from="1728549770024" duration="30142000" />
       <workItem from="1728619107111" duration="31872000" />
-      <workItem from="1728705227331" duration="7409000" />
+      <workItem from="1728705227331" duration="9351000" />
     </task>
     <servers />
   </component>
