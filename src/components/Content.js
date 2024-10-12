@@ -21,176 +21,189 @@ import 'bulma/css/bulma.css';
 
 const Content = () => {
     return (
-        <div className="content">
-            <div className="container">
-                <div className="row">
+        <div className="content has-background-white ">
+            <div className="container ">
+                <div className="columns">
+
                     {/*// <!-- BEGIN MAIN CONTENT -->*/}
-                    <div className="main col-sm-8">
-                        <h1 className="section-title">Featured Properties</h1>
+                    <div className="column is-two-thirds">
 
-                        <div className="grid-style1 clearfix">
-                            <div className="item col-md-4">
-                                <div className="image">
-                                    <a href="properties-detail.html">
-                                        <h3>Luxury Apartment with great views</h3>
-                                        <span className="location">Upper East Side, New York</span>
-                                    </a>
-                                    <img src="http://placehold.it/760x670" alt=""/>
-                                </div>
-                                <div className="price">
-                                    <span>$950</span>
-                                    <p>per night</p>
-                                </div>
-                                <ul className="amenities">
-                                    <li><i className="icon-bedrooms"></i> 4</li>
-                                    <li><i className="icon-bathrooms"></i> 3</li>
-                                </ul>
-                            </div>
-
-                            <div className="item col-md-4">
-                                <div className="image">
-                                    <a href="properties-detail.html">
-                                        <h3>Stunning Villa with 5 bedrooms</h3>
-                                        <span className="location">Miami Beach, Florida</span>
-                                    </a>
-                                    <img src="http://placehold.it/760x670" alt=""/>
-                                </div>
-                                <div className="price">
-                                    <span>$1,300</span>
-                                    <p>per night</p>
-                                </div>
-                                <ul className="amenities">
-                                    <li><i className="icon-bedrooms"></i> 5</li>
-                                    <li><i className="icon-bathrooms"></i> 2</li>
-                                </ul>
-                            </div>
-
-                            <div className="item col-md-4">
-                                <div className="image">
-                                    <a href="properties-detail.html">
-                                        <h3>Recent construction with 3 bedrooms</h3>
-                                        <span className="location">Park Slope, New York</span>
-                                    </a>
-                                    <img src="http://placehold.it/760x670" alt=""/>
-                                </div>
-                                <div className="price">
-                                    <span>$560</span>
-                                    <p>per night</p>
-                                </div>
-                                <ul className="amenities">
-                                    <li><i className="icon-bedrooms"></i> 3</li>
-                                    <li><i className="icon-bathrooms"></i> 2</li>
-                                </ul>
-                            </div>
-
-                            <div className="item col-md-4">
-                                <div className="image">
-                                    <a href="properties-detail.html">
-                                        <h3>Modern construction with parking space</h3>
-                                        <span className="location">Midtown, New York</span>
-                                    </a>
-                                    <img src="http://placehold.it/760x670" alt=""/>
-                                </div>
-                                <div className="price">
-                                    <span>$85</span>
-                                    <p>per night</p>
-                                </div>
-                                <ul className="amenities">
-                                    <li><i className="icon-bedrooms"></i> 1</li>
-                                    <li><i className="icon-bathrooms"></i> 2</li>
-                                </ul>
-                            </div>
-
-                            <div className="item col-md-4">
-                                <div className="image">
-                                    <a href="properties-detail.html">
-                                        <h3>Single Family Townhouse</h3>
-                                        <span className="location">Cobble Hill, New York</span>
-                                    </a>
-                                    <img src="http://placehold.it/760x670" alt=""/>
-                                </div>
-                                <div className="price">
-                                    <span>$840</span>
-                                    <p>per night</p>
-                                </div>
-                                <ul className="amenities">
-                                    <li><i className="icon-bedrooms"></i> 2</li>
-                                    <li><i className="icon-bathrooms"></i> 2</li>
-                                </ul>
-                            </div>
-
-                            <div className="item col-md-4">
-                                <div className="image">
-                                    <a href="properties-detail.html">
-                                        <h3>3 bedroom villa with garage for rent</h3>
-                                        <span className="location">Bal Harbour, Florida</span>
-                                    </a>
-                                    <img src="http://placehold.it/760x670" alt=""/>
-                                </div>
-                                <div className="price">
-                                    <span>$150</span>
-                                    <p>per night</p>
-                                </div>
-                                <ul className="amenities">
-                                    <li><i className="icon-bedrooms"></i> 3</li>
-                                    <li><i className="icon-bathrooms"></i> 2</li>
-                                </ul>
-                            </div>
-                        </div>
-
-                        <div className="row">
-                            <div className="col-sm-12">
-                                <h1 className="section-title">Popular Regions</h1>
-                                <div id="regions">
-                                    <div className="item">
-                                        <a href="#">
-                                            <img src="http://placehold.it/194x194" alt=""/>
-                                            <h3>Rhovanion</h3>
+                        {/*// <!-- BEGIN FEATURED PROPERTIES -->*/}
+                        <h2 className="title is-2 has-text-black">Featured Properties</h2>
+                        <div className="columns">
+                            <div className="column is-one-third">
+                                <column className="item">
+                                    <div className="image">
+                                        <a href="properties-detail.html">
+                                            <h4 className="title is-4 has-text-black">Luxury Apartment with great
+                                                views</h4>
+                                            <span className="location">Upper East Side, New York</span>
                                         </a>
+                                        <img src="http://placehold.it/760x670" alt=""/>
                                     </div>
-                                    <div className="item">
-                                        <a href="#">
-                                            <img src="http://placehold.it/194x194" alt=""/>
-                                            <h3>Eriador</h3>
+                                    <div className="price">
+                                        <span>$950</span>
+                                        <p>per night</p>
+                                    </div>
+                                    <ul className="amenities">
+                                        <li><i className="icon-bedrooms"></i> 4</li>
+                                        <li><i className="icon-bathrooms"></i> 3</li>
+                                    </ul>
+                                </column>
+                                <column className="item">
+                                    <div className="image">
+                                        <a href="properties-detail.html">
+                                            <h4 className="title is-4 has-text-black">Modern construction with parking
+                                                space</h4>
+                                            <span className="location">Midtown, New York</span>
                                         </a>
+                                        <img src="http://placehold.it/760x670" alt=""/>
                                     </div>
-                                    <div className="item">
-                                        <a href="#">
-                                            <img src="http://placehold.it/194x194" alt=""/>
-                                            <h3>Bay of Belfalas</h3>
+                                    <div className="price">
+                                        <span>$85</span>
+                                        <p>per night</p>
+                                    </div>
+                                    <ul className="amenities">
+                                        <li><i className="icon-bedrooms"></i> 1</li>
+                                        <li><i className="icon-bathrooms"></i> 2</li>
+                                    </ul>
+                                </column>
+                            </div>
+                            <div className="column is-one-third">
+                                <div className="item">
+                                    <div className="image">
+                                        <a href="properties-detail.html">
+                                            <h4 className="title is-4 has-text-black">Stunning Villa with 5
+                                                bedrooms</h4>
+                                            <span className="location">Miami Beach, Florida</span>
                                         </a>
+                                        <img src="http://placehold.it/760x670" alt=""/>
                                     </div>
-                                    <div className="item">
-                                        <a href="#">
-                                            <img src="http://placehold.it/194x194" alt=""/>
-                                            <h3>Mordor</h3>
+                                    <div className="price">
+                                        <span>$1,300</span>
+                                        <p>per night</p>
+                                    </div>
+                                    <ul className="amenities">
+                                        <li><i className="icon-bedrooms"></i> 5</li>
+                                        <li><i className="icon-bathrooms"></i> 2</li>
+                                    </ul>
+                                </div>
+                                <div className="item">
+                                    <div className="image">
+                                        <a href="properties-detail.html">
+                                            <h4 className="title is-4 has-text-black">Single Family Townhouse</h4>
+                                            <span className="location">Cobble Hill, New York</span>
                                         </a>
+                                        <img src="http://placehold.it/760x670" alt=""/>
                                     </div>
-
-                                    <div className="item">
-                                        <a href="#">
-                                            <img src="http://placehold.it/194x194" alt=""/>
-                                            <h3>The Southwest</h3>
+                                    <div className="price">
+                                        <span>$840</span>
+                                        <p>per night</p>
+                                    </div>
+                                    <ul className="amenities">
+                                        <li><i className="icon-bedrooms"></i> 2</li>
+                                        <li><i className="icon-bathrooms"></i> 2</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div className="column is-one-third">
+                                <div className="item">
+                                    <div className="image">
+                                        <a href="properties-detail.html">
+                                            <h4 className="title is-4 has-text-black">Recent construction with 3
+                                                bedrooms</h4>
+                                            <span className="location">Park Slope, New York</span>
                                         </a>
+                                        <img src="http://placehold.it/760x670" alt=""/>
                                     </div>
-                                    <div className="item">
-                                        <a href="#">
-                                            <img src="http://placehold.it/194x194" alt=""/>
-                                            <h3>Arnor</h3>
+                                    <div className="price">
+                                        <span>$560</span>
+                                        <p>per night</p>
+                                    </div>
+                                    <ul className="amenities">
+                                        <li><i className="icon-bedrooms"></i> 3</li>
+                                        <li><i className="icon-bathrooms"></i> 2</li>
+                                    </ul>
+                                </div>
+                                <div className="item">
+                                    <div className="image">
+                                        <a href="properties-detail.html">
+                                            <h4 className="title is-4 has-text-black">3 bedroom villa with garage for
+                                                rent</h4>
+                                            <span className="location">Bal Harbour, Florida</span>
                                         </a>
+                                        <img src="http://placehold.it/760x670" alt=""/>
                                     </div>
+                                    <div className="price">
+                                        <span>$150</span>
+                                        <p>per night</p>
+                                    </div>
+                                    <ul className="amenities">
+                                        <li><i className="icon-bedrooms"></i> 3</li>
+                                        <li><i className="icon-bathrooms"></i> 2</li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
+                        {/*// <!-- END FEATURED PROPERTIES -->*/}
 
-                        <h1 className="section-title">Recent Articles</h1>
-                        <div className="grid-style1">
-                            <div className="item col-md-4">
+                        {/*// <!-- BEGIN POPULAR REGIONS -->*/}
+                        <h2 className="title is-2 has-text-black">Popular Regions</h2>
+                        <div className="columns" id="regions">
+                            <div className="column is-one-third">
+                                <div className="item">
+                                    <a href="#">
+                                        <img src="http://placehold.it/194x194" alt=""/>
+                                        <h4 className="title is-4 has-text-black">Rhovanion</h4>
+                                    </a>
+                                </div>
+                                <div className="item">
+                                    <a href="#">
+                                        <img src="http://placehold.it/194x194" alt=""/>
+                                        <h4 className="title is-4 has-text-black">Mordor</h4>
+                                    </a>
+                                </div>
+                            </div>
+                            <div className="column is-one-third">
+                                <div className="item">
+                                    <a href="#">
+                                        <img src="http://placehold.it/194x194" alt=""/>
+                                        <h4 className="title is-4 has-text-black">Eriador</h4>
+                                    </a>
+                                </div>
+                                <div className="item">
+                                    <a href="#">
+                                        <img src="http://placehold.it/194x194" alt=""/>
+                                        <h4 className="title is-4 has-text-black">The Southwest</h4>
+                                    </a>
+                                </div>
+                            </div>
+                            <div className="column is-one-third">
+                                <div className="item">
+                                    <a href="#">
+                                        <img src="http://placehold.it/194x194" alt=""/>
+                                        <h4 className="title is-4 has-text-black">Bay of Belfalas</h4>
+                                    </a>
+                                </div>
+                                <div className="item">
+                                    <a href="#">
+                                        <img src="http://placehold.it/194x194" alt=""/>
+                                        <h4 className="title is-4 has-text-black">Arnor</h4>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        {/*// <!-- END POPULAR REGIONS -->*/}
+
+                        {/*// <!-- BEGIN RECENT ARTICLES -->*/}
+                        <h2 className="title is-2 has-text-black">Recent Articles</h2>
+                        <div className="columns">
+                            <div className="column is-one-third">
                                 <div className="image">
                                     <a href="#">
-                      <span className="btn btn-default"
-                      ><i className="fa fa-file-o"></i> Read More</span
-                      >
+                                      <span className="btn btn-default"
+                                      ><i className="fa fa-file-o"></i> Read More</span
+                                      >
                                     </a>
                                     <img src="http://placehold.it/766x515" alt=""/>
                                 </div>
@@ -216,12 +229,12 @@ const Content = () => {
                                     </p>
                                 </div>
                             </div>
-                            <div className="item col-md-4">
+                            <div className="column is-one-third">
                                 <div className="image">
                                     <a href="#">
-                      <span className="btn btn-default"
-                      ><i className="fa fa-file-o"></i> Read More</span
-                      >
+                                      <span className="btn btn-default"
+                                      ><i className="fa fa-file-o"></i> Read More</span
+                                      >
                                     </a>
                                     <img src="http://placehold.it/766x515" alt=""/>
                                 </div>
@@ -242,12 +255,12 @@ const Content = () => {
                                     </p>
                                 </div>
                             </div>
-                            <div className="item col-md-4">
+                            <div className="column is-one-third">
                                 <div className="image">
                                     <a href="#">
-                      <span className="btn btn-default"
-                      ><i className="fa fa-file-o"></i> Read More</span
-                      >
+                                      <span className="btn btn-default"
+                                      ><i className="fa fa-file-o"></i> Read More</span
+                                      >
                                     </a>
                                     <img src="http://placehold.it/766x515" alt=""/>
                                 </div>
@@ -274,119 +287,141 @@ const Content = () => {
                         </div>
 
                         <div className="center">
-                            <a href="#" className="btn btn-default-color">View All News</a>
+                            <a href="#" className="button is-primary">View All News</a>
                         </div>
+                        {/*// <!-- END RECENT ARTICLES -->*/}
                     </div>
                     {/*// <!-- END MAIN CONTENT -->*/}
 
                     {/*// <!-- BEGIN SIDEBAR -->*/}
-                    <div className="sidebar col-sm-4">
+                    <div className="sidebar column is-one-third">
+
                         {/*// <!-- BEGIN SIDEBAR ABOUT -->*/}
-                        <div className="col-sm-12">
-                            <h2 className="section-title">Last minute deals</h2>
-                            <ul className="latest-news">
-                                <li className="col-md-12">
-                                    <div className="image">
+                        <column className="column">
+                            <h3 className="title is-3 has-text-black">Last minute deals</h3>
+
+                            {/*add dividing lines here 2 bars*/}
+
+                            <ul className="latest-news has-text-left">
+                                <li className="columns ">
+                                    <column className="image column is-half">
                                         <a href="blog-detail.html"></a>
                                         <img alt="" src="http://placehold.it/100x100"/>
-                                    </div>
+                                    </column>
+                                    <column className="column is-half">
+                                        <div className="is-size-7 mb-0 pr-2 ">
+                                            <div><i className="fa fa-calendar pr-2"></i>Available Now</div>
+                                        </div>
 
-                                    <ul className="top-info">
-                                        <li><i className="fa fa-calendar"></i>Available Now</li>
-                                    </ul>
-
-                                    <h4>
-                                        <a href="blog-detail.html">Private Beach</a>
-                                        <p>Lossarnach, Eriado</p>
-                                    </h4>
+                                        <h4 className="has-text-black is-size-6 mb-0">
+                                            <a href="blog-detail.html">Private Beach</a>
+                                            <p>Lossarnach, Eriado</p>
+                                        </h4>
+                                    </column>
                                 </li>
-                                <li className="col-md-12">
-                                    <div className="image">
+                                <li className="columns">
+                                    <column className="image column is-half">
                                         <a href="blog-detail.html"></a>
                                         <img alt="" src="http://placehold.it/100x100"/>
-                                    </div>
+                                    </column>
+                                    <column className="column is-half">
+                                        <div className="is-size-7 mb-0 pr-2">
+                                            <div>
+                                                <i className="fa fa-calendar pr-2"></i>Available on 24 July
+                                            </div>
+                                        </div>
 
-                                    <ul className="top-info">
-                                        <li>
-                                            <i className="fa fa-calendar"></i>Available on 24 July
-                                        </li>
-                                    </ul>
-
-                                    <h4>
-                                        <a href="blog-detail.html">Mountain views</a>
-                                        <p>Hyarnustar, Rhovanion</p>
-                                    </h4>
+                                        <h4 className="has-text-black is-size-6 mb-0">
+                                            <a href="blog-detail.html">Mountain views</a>
+                                            <p>Hyarnustar, Rhovanion</p>
+                                        </h4>
+                                    </column>
                                 </li>
-                                <li className="col-md-12">
-                                    <div className="image">
+                                <li className="columns">
+                                    <column className="image column is-half">
                                         <a href="blog-detail.html"></a>
                                         <img alt="" src="http://placehold.it/100x100"/>
-                                    </div>
+                                    </column>
+                                    <column className="column is-half">
+                                        <div className="is-size-7 mb-0 pr-2">
+                                            <div><i className="fa fa-calendar pr-2"></i>Available 5 July</div>
+                                        </div>
 
-                                    <ul className="top-info">
-                                        <li><i className="fa fa-calendar"></i>Available 5 July</li>
-                                    </ul>
-
-                                    <h4>
-                                        <a href="blog-detail.html">Heart of the village</a>
-                                        <p>Minhiriath, Eriador</p>
-                                    </h4>
+                                        <h4 className="has-text-black is-size-6 mb-0">
+                                            <a href="blog-detail.html">Heart of the village</a>
+                                            <p>Minhiriath, Eriador</p>
+                                        </h4>
+                                    </column>
                                 </li>
-                                <li className="col-md-12">
-                                    <div className="image">
+                                <li className="columns">
+                                    <column className="image column is-half">
                                         <a href="blog-detail.html"></a>
                                         <img alt="" src="http://placehold.it/100x100"/>
-                                    </div>
+                                    </column>
+                                    <column className="column is-half">
+                                        <div className="is-size-7 mb-0 pr-2">
+                                            <div><i className="fa fa-calendar pr-2"></i>Available 6 July</div>
+                                        </div>
 
-                                    <ul className="top-info">
-                                        <li><i className="fa fa-calendar"></i>Available 6 July</li>
-                                    </ul>
-
-                                    <h4>
-                                        <a href="blog-detail.html">The city life</a>
-                                        <p>West Beleriand, Mordor</p>
-                                    </h4>
+                                        <h4 className="has-text-black is-size-6 mb-0">
+                                            <a href="blog-detail.html">The city life</a>
+                                            <p>West Beleriand, Mordor</p>
+                                        </h4>
+                                    </column>
                                 </li>
                             </ul>
                             <p className="center">
-                                <a className="btn btn-fullcolor" href="#">More deals</a>
+                                <a className="button is-primary" href="#">More deals</a>
                             </p>
-                        </div>
+                        </column>
                         {/*// <!-- END SIDEBAR ABOUT -->*/}
 
-                        <div className="col-sm-12">
-                            <h2 className="section-title">Activity</h2>
-                            <ul className="activity">
-                                <li className="col-lg-12">
-                                    <a href="#"
-                                    ><img src="http://placehold.it/70x70" alt=""
-                                    /></a>
-                                    <div className="info">
-                                        <h5>
+                        {/*// <!-- BEGIN SIDEBAR ACTIVITY -->*/}
+                        <column className="column ml-0 mr-0 pl-0 pr-0">
+                            <h3 className="title is-3 has-text-black">Activity</h3>
+
+                            {/*add dividing lines here 2 bars*/}
+
+                            <ul className="activity ml-0 mr-0 pl-0 pr-0 ">
+                                <li className="columns">
+                                    <column className="column is-half">
+                                        <a href="#"
+                                        ><img className="has-radius-rounded" src="http://placehold.it/70x70" alt=""
+                                        /></a>
+                                    </column>
+
+                                    <column className="info column is-half has-text-left">
+                                        <h6 className="has-text-black is-size-7 mb-0">
                                             Sam Minnée reviewed
-                                            <a href="#">The House With No Windows</a>
-                                        </h5>
-                                        <p>
-                                            Awesome solitary confinement, mate. Spot on. Sweet as.
-                                        </p>
-                                        <h6>Just now</h6>
-                                    </div>
+                                                <a  href="#"> The House With No Windows</a>
+                                        </h6>
+                                            <p className="is-size-7 mb-2">
+                                                Awesome solitary confinement, mate. Spot on. Sweet as.
+                                            </p>
+                                        <h6 className="has-text-black is-size-7 mb-1">Just now</h6>
+                                    </column>
                                 </li>
-                                <li className="col-lg-12">
-                                    <a href="#"
-                                    ><img src="http://placehold.it/70x70" alt=""
-                                    /></a>
-                                    <div className="info">
-                                        <h5>
-                                            Ingo Schoomer asked a question about
-                                            <a href="#">The Mistake by the Lake</a>
-                                        </h5>
-                                        <p>Has this house been unit tested?</p>
-                                        <h6>37 minutes ago</h6>
-                                    </div>
+                                <li className="columns is-flex">
+                                    <column className="column is-half">
+                                        <a href="#"
+                                        ><img className="has-radius-rounded" src="http://placehold.it/70x70" alt=""
+                                        /></a>
+                                    </column>
+                                    <column className="column is-half has-text-left">
+                                        <div className="info is-align-items-flex-end">
+                                            <h6 className="has-text-black is-size-7 mb-0">
+                                                Ingo Schoomer asked a question about
+                                                <a href="#"> The Mistake by the Lake</a>
+                                            </h6>
+                                            <p className="mb-2 is-size-7">Has this house been unit tested?</p>
+                                            <h6 className="has-text-black is-size-7 mb-0">37 minutes ago</h6>
+                                        </div>
+                                    </column>
                                 </li>
                             </ul>
-                        </div>
+                        </column>
+                        {/*// <!-- END SIDEBAR ACTIVITY -->*/}
+
                     </div>
                     {/*// <!-- END SIDEBAR -->*/}
                 </div>
