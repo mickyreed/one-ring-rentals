@@ -13,20 +13,9 @@
  * TODO: Add double underline
  * TODO: import 6 property cards into 3 columns of 2 (or grid)
  * TODO: Properties cards (will be another component props for title, subtitle(location), cost per night, beds, bath, image
- * TODO: images have a title and subtitle that appears on hover
- *
- * TODO: create a Last Minute Deals column on the right column is 1/3 with Title centred and double underline
- * TODO: create card components for each deal with props title, subtitle(location), availability(bool or date) and image
- * TODO: import 4 deals cards into a list featuring 2 columns image on the left and availability and details on the right
- * TODO: under this i need a button MORE DEALS is-black rounded Corners is-centred horizontally
- *
- * 12/10 !!! RELOOK AT THIS !!! COMPLETE 13/10/24
- *  - middle section is all one section/called content with 2/3 column and 1/3 column COMPLETE 13/10/24
- *  - and property, deals, regions, activity & recent articles  are components COMPLETE 13/10/24
- *  - maybe rename this, and make components of the other articles COMPLETE 13/10/24
+ * TODO: images have the title and subtitle that appears on hover
  *
  * REFERENCES:
- *
  *
  */
 import React from 'react';
@@ -41,7 +30,7 @@ const FeaturedProperties = () => {
 
             <div className="columns">
                 <div className="column is-one-third">
-                    <column className="item">
+                    <div className="item">
                         <div className="image">
                             <a href="properties-detail.html">
                                 <h4 className="title is-4 has-text-black">Luxury Apartment with great
@@ -58,8 +47,8 @@ const FeaturedProperties = () => {
                             <li><i className="icon-bedrooms"></i> 4</li>
                             <li><i className="icon-bathrooms"></i> 3</li>
                         </ul>
-                    </column>
-                    <column className="item">
+                    </div>
+                    <div className="item">
                         <div className="image">
                             <a href="properties-detail.html">
                                 <h4 className="title is-4 has-text-black">Modern construction with parking
@@ -76,7 +65,7 @@ const FeaturedProperties = () => {
                             <li><i className="icon-bedrooms"></i> 1</li>
                             <li><i className="icon-bathrooms"></i> 2</li>
                         </ul>
-                    </column>
+                    </div>
                 </div>
                 <div className="column is-one-third">
                     <div className="item">

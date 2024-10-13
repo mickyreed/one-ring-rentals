@@ -12,6 +12,7 @@
  *  TODO: add down CHEVRON to rh side of dropdown
  *  TODO: add little symbols on letters as per original dropdown
  *  TODO: remove Languages and just make this English
+ *  TODO: pass in props for Languages
  *
  */
 
