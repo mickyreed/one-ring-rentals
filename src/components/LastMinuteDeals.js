@@ -8,10 +8,11 @@
  * Created:     13/10/24
  * Author:      Michael Reed 20056066@tafe.wa.edu.au
  *
- * TODO: create a Last Minute Deals component needs the following:
- * TODO: Column suits 1/3 wide Title is centred and double underline
+ * create a Last Minute Deals component needs the following: COMPLETE 13/10/24
+ * Column suits 1/3 wide Title is centred COMPLETE 13/10/24
+ * TODO: Add double underline
  * TODO: import 4 Deal cards into 1 columns (cards are 2 columns)
- * TODO: under this is a rectangular button "MORE DEALS" rounded corners border white text on black background
+ * under this is a rectangular button "MORE DEALS" rounded corners border white text on black background COMPLETE 13/10/24
  * TODO: Deal cards (will be another component props for Availability, Title, Location, image, articleLink
  *
  * REFERENCES:
@@ -97,7 +98,7 @@ const LastMinuteDeals = () => {
                     </li>
                 </ul>
                 <p className="center">
-                    <a className="button is-primary mt-6 mb-6" href="#">More deals</a>
+                    <a className="button is-black mt-6 mb-6" href="#">More deals</a>
                 </p>
             </column>
         </div>

@@ -8,8 +8,9 @@
  * Created:     13/10/24
  * Author:      Michael Reed 20056066@tafe.wa.edu.au
  *
- * TODO: create an Activity component needs the following:
- * TODO: Column suits 1/3 wide Title is centred and double underline
+ * create an Activity component needs the following: COMPLETE 13/10/24
+ * Column suits 1/3 wide Title is centred COMPLETE 13/10/24
+ * TODO: Add double underline
  * TODO: import 2 Activity cards into 1 columns (cards are 2 columns)
  * TODO: Deal cards (will be another component props for userName, action, title, comment, dateTime ,image, articleLink
  *

@@ -8,8 +8,9 @@
  * Created:     13/10/24
  * Author:      Michael Reed 20056066@tafe.wa.edu.au
  *
- * TODO: create a Featured Properties component needs the following:
- * TODO: Column suits 2/3 wide Title is centred and double underline
+ * create a Featured Properties component needs the following: COMPLETE 13/10/24
+ * Column suits 2/3 wide Title is centred COMPLETE 13/10/24
+ * TODO: Add double underline
  * TODO: import 6 property cards into 3 columns of 2 (or grid)
  * TODO: Properties cards (will be another component props for title, subtitle(location), cost per night, beds, bath, image
  * TODO: images have a title and subtitle that appears on hover
@@ -19,10 +20,10 @@
  * TODO: import 4 deals cards into a list featuring 2 columns image on the left and availability and details on the right
  * TODO: under this i need a button MORE DEALS is-black rounded Corners is-centred horizontally
  *
- * TODO: 12/10 !!! RELOOK AT THIS !!!
- *  - TODO: middle section is all one section/called content with 2/3 column and 1/3 column
- *  - TODO: and property, deals, regions, activity & recent articles  are components
- *  - TODO: maybe rename this, and make components of the other articles
+ * 12/10 !!! RELOOK AT THIS !!! COMPLETE 13/10/24
+ *  - middle section is all one section/called content with 2/3 column and 1/3 column COMPLETE 13/10/24
+ *  - and property, deals, regions, activity & recent articles  are components COMPLETE 13/10/24
+ *  - maybe rename this, and make components of the other articles COMPLETE 13/10/24
  *
  * REFERENCES:
  *

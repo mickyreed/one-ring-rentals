@@ -8,10 +8,11 @@
  * Created:     13/10/24
  * Author:      Michael Reed 20056066@tafe.wa.edu.au
  *
- * TODO: create a Recent Articles component needs the following:
- * TODO: Column suits 2/3 wide Title is centred and double underline
+ * create a Recent Articles component needs the following: COMPLETE 13/10/24
+ * Column suits 2/3 wide Title is centred COMPLETE 13/10/24
+ * TODO: Add double underline
  * TODO: import 3 Article cards into 3 columns of 1 (or grid)
- * TODO: under this is a rectangular button "VIEW ALL NEWS" rounded corners border and tranparent background
+ * under this is a rectangular button "VIEW ALL NEWS" rounded corners border and tranparent background COMPLETE 13/10/24
  * TODO: Article cards (will be another component props for Title, Summary, Availability, Tags, CommentCount, image, articleLink
  *
  * REFERENCES:
@@ -117,7 +118,7 @@ const RecentArticles = () => {
             </div>
 
             <div className="center">
-                <a href="#" className="button is-primary mt-6 mb-6">View All News</a>
+                <a href="#" className="button has-background-white is-bordered has-text-black mt-6 mb-6">View All News</a>
             </div>
         </div>
     );
