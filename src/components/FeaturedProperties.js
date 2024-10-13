@@ -9,7 +9,7 @@
  * Author:      Michael Reed 20056066@tafe.wa.edu.au
  *
  * TODO: create a Featured Properties component needs the following:
- * TODO: Column 2/3 wide large padding on left Title is centred and double underline
+ * TODO: Column suits 2/3 wide Title is centred and double underline
  * TODO: import 6 property cards into 3 columns of 2 (or grid)
  * TODO: Properties cards (will be another component props for title, subtitle(location), cost per night, beds, bath, image
  * TODO: images have a title and subtitle that appears on hover
@@ -34,46 +34,119 @@ import 'bulma/css/bulma.css';
 
 const FeaturedProperties = () => {
     return (
-        <div className="wrapper has-background-white has-text-black">
+        <div><h2 className="title is-2 has-text-black">Featured Properties</h2>
             <div className="columns">
-                <div className="column is-two-thirds">
-                    <h3 className="title is-3 has-text-black">Featured Properties</h3>
-                    <div className="column is-flex text-center">
-                        <div className="column is-one-third">Column1
-                            <div>Item 1</div>
-                            <div>Item 2</div>
+                <div className="column is-one-third">
+                    <column className="item">
+                        <div className="image">
+                            <a href="properties-detail.html">
+                                <h4 className="title is-4 has-text-black">Luxury Apartment with great
+                                    views</h4>
+                                <span className="location">Upper East Side, New York</span>
+                            </a>
+                            <img src="http://placehold.it/760x670" alt=""/>
                         </div>
-                        <div className="column is-one-third">Column2
-                            <div>Item 1</div>
-                            <div>Item 2</div>
+                        <div className="price">
+                            <span>$950</span>
+                            <p>per night</p>
                         </div>
-                        <div className="column is-one-third">Column3
-                            <div>Item 1</div>
-                            <div>Item 2</div>
+                        <ul className="amenities">
+                            <li><i className="icon-bedrooms"></i> 4</li>
+                            <li><i className="icon-bathrooms"></i> 3</li>
+                        </ul>
+                    </column>
+                    <column className="item">
+                        <div className="image">
+                            <a href="properties-detail.html">
+                                <h4 className="title is-4 has-text-black">Modern construction with parking
+                                    space</h4>
+                                <span className="location">Midtown, New York</span>
+                            </a>
+                            <img src="http://placehold.it/760x670" alt=""/>
                         </div>
+                        <div className="price">
+                            <span>$85</span>
+                            <p>per night</p>
+                        </div>
+                        <ul className="amenities">
+                            <li><i className="icon-bedrooms"></i> 1</li>
+                            <li><i className="icon-bathrooms"></i> 2</li>
+                        </ul>
+                    </column>
+                </div>
+                <div className="column is-one-third">
+                    <div className="item">
+                        <div className="image">
+                            <a href="properties-detail.html">
+                                <h4 className="title is-4 has-text-black">Stunning Villa with 5
+                                    bedrooms</h4>
+                                <span className="location">Miami Beach, Florida</span>
+                            </a>
+                            <img src="http://placehold.it/760x670" alt=""/>
+                        </div>
+                        <div className="price">
+                            <span>$1,300</span>
+                            <p>per night</p>
+                        </div>
+                        <ul className="amenities">
+                            <li><i className="icon-bedrooms"></i> 5</li>
+                            <li><i className="icon-bathrooms"></i> 2</li>
+                        </ul>
+                    </div>
+                    <div className="item">
+                        <div className="image">
+                            <a href="properties-detail.html">
+                                <h4 className="title is-4 has-text-black">Single Family Townhouse</h4>
+                                <span className="location">Cobble Hill, New York</span>
+                            </a>
+                            <img src="http://placehold.it/760x670" alt=""/>
+                        </div>
+                        <div className="price">
+                            <span>$840</span>
+                            <p>per night</p>
+                        </div>
+                        <ul className="amenities">
+                            <li><i className="icon-bedrooms"></i> 2</li>
+                            <li><i className="icon-bathrooms"></i> 2</li>
+                        </ul>
                     </div>
                 </div>
-                <div className="column is-one-third is-flex-end">
-                    <h3 className="title is-3 has-text-black">Last Minute Deals</h3>
-                    <div className="columns">
-                        <div className="column is-flex is-one-third pl-6 pr-0 is-align-content-center">
-                            <div className="column is-one-half pl-6 pr-0 is-align-content-center">
-                                <div className="image">
-                                    <a href="#"
-                                    ><img style={{width: 60, height: 60}} src="http://placehold.it/760x670"
-                                          alt=""
-                                    /></a>
-                                </div>
-                            </div>
+                <div className="column is-one-third">
+                    <div className="item">
+                        <div className="image">
+                            <a href="properties-detail.html">
+                                <h4 className="title is-4 has-text-black">Recent construction with 3
+                                    bedrooms</h4>
+                                <span className="location">Park Slope, New York</span>
+                            </a>
+                            <img src="http://placehold.it/760x670" alt=""/>
                         </div>
-                        <div className="column is-flex is-one-third pl-0 pr-0 is-align-content-center">
-                            <div className="column is-one-half pl-0 pr-0">
-                                <div className="is-text is-small">Availability Date</div>
-                                <div>Description</div>
-                                <div>Location Location</div>
-                            </div>
+                        <div className="price">
+                            <span>$560</span>
+                            <p>per night</p>
                         </div>
-                        <div className="column is-flex is-one-third pl-6 pr-0 is-align-content-center"></div>
+                        <ul className="amenities">
+                            <li><i className="icon-bedrooms"></i> 3</li>
+                            <li><i className="icon-bathrooms"></i> 2</li>
+                        </ul>
+                    </div>
+                    <div className="item">
+                        <div className="image">
+                            <a href="properties-detail.html">
+                                <h4 className="title is-4 has-text-black">3 bedroom villa with garage for
+                                    rent</h4>
+                                <span className="location">Bal Harbour, Florida</span>
+                            </a>
+                            <img src="http://placehold.it/760x670" alt=""/>
+                        </div>
+                        <div className="price">
+                            <span>$150</span>
+                            <p>per night</p>
+                        </div>
+                        <ul className="amenities">
+                            <li><i className="icon-bedrooms"></i> 3</li>
+                            <li><i className="icon-bathrooms"></i> 2</li>
+                        </ul>
                     </div>
                 </div>
             </div>
