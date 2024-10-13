@@ -19,6 +19,7 @@
  *
  */
 import React from 'react';
+import PropertyCard from "./PropertyCard";
 import 'bulma/css/bulma.css';
 
 
