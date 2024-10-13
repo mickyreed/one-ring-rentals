@@ -9,7 +9,9 @@
  * Author:      Michael Reed 20056066@tafe.wa.edu.au
  *
  * create a reusable top bar component for the use on all pages COMPLETE
- *
+ *  TODO: add down CHEVRON to rh side of dropdown
+ *  TODO: add little symbols on letters as per original dropdown
+ *  TODO: remove Languages and just make this English
  *
  */
 
@@ -39,12 +41,12 @@ const TopBar = () => {
                                         </span>
                                     </div>
                                     <div className="dropdown-menu pr-6" id="dropdown-menu"  role="menu">
-                                        <div className="dropdown-content">
-                                            <a href="#" className="dropdown-item">English</a>
-                                            <a href="#" className="dropdown-item">Deutsch</a>
-                                            <a href="#" className="dropdown-item">Espanol</a>
-                                            <a href="#" className="dropdown-item">Francais</a>
-                                            <a href="#" className="dropdown-item">Portugues</a>
+                                        <div className="dropdown-content has-background-white">
+                                            <a href="#" className="dropdown-item has-background-white has-text-black">English</a>
+                                            <a href="#" className="dropdown-item has-background-white has-text-black">Deutsch</a>
+                                            <a href="#" className="dropdown-item has-background-white has-text-black">Espanol</a>
+                                            <a href="#" className="dropdown-item has-background-white has-text-black">Francais</a>
+                                            <a href="#" className="dropdown-item has-background-white has-text-black">Portugues</a>
                                         </div>
                                     </div>
                                 </div>
