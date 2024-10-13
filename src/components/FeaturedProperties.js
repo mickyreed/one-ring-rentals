@@ -5,7 +5,7 @@
  *
  * FILE NAME:   FeaturedProperties.js
  * Location:    /src/components
- * Created:     12/10/24
+ * Created:     13/10/24
  * Author:      Michael Reed 20056066@tafe.wa.edu.au
  *
  * TODO: create a Featured Properties component needs the following:
@@ -34,7 +34,10 @@ import 'bulma/css/bulma.css';
 
 const FeaturedProperties = () => {
     return (
-        <div><h2 className="title is-2 has-text-black">Featured Properties</h2>
+        <div><h3 className="title is-3 has-text-black mt-6 mb-6 pt-0">Featured Properties</h3>
+
+            {/*add dividing lines here 2 bars*/}
+
             <div className="columns">
                 <div className="column is-one-third">
                     <column className="item">

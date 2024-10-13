@@ -22,7 +22,10 @@ import 'bulma/css/bulma.css';
 const PopularRegions = () => {
     return (
         <div>
-            <h2 className="title is-2 has-text-black">Popular Regions</h2>
+            <h3 className="title is-3 has-text-black mt-6 mb-6">Popular Regions</h3>
+
+            {/*add dividing lines here 2 bars*/}
+
             <div className="columns" id="regions">
                 <div className="column is-one-third">
                     <div className="item">

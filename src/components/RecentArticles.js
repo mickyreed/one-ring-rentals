@@ -23,7 +23,10 @@ import 'bulma/css/bulma.css';
 const RecentArticles = () => {
     return (
         <div>
-            <h2 className="title is-2 has-text-black">Recent Articles</h2>
+            <h3 className="title is-3 has-text-black mt-6 mb-6">Recent Articles</h3>
+
+            {/*add dividing lines here 2 bars*/}
+
             <div className="columns">
                 <div className="column is-one-third">
                     <div className="image">
@@ -114,7 +117,7 @@ const RecentArticles = () => {
             </div>
 
             <div className="center">
-                <a href="#" className="button is-primary">View All News</a>
+                <a href="#" className="button is-primary mt-6 mb-6">View All News</a>
             </div>
         </div>
     );
