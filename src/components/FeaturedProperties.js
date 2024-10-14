@@ -53,6 +53,7 @@ const FeaturedProperties = () => {
             image: "http://placehold.it/760x670", link: "properties-detail.html"},
     ];
 
+
     // Split into 3 columns using slice()
     const column1 = properties.slice(0, 2); // First 2 items
     const column2 = properties.slice(2, 4); // Next 2 items
@@ -62,6 +63,7 @@ const FeaturedProperties = () => {
         <div><h3 className="title is-3 has-text-black mt-6 mb-6 pt-0">Featured Properties</h3>
 
             {/*add dividing lines here 2 bars*/}
+            <div className="double-underline mb-6 has-text-center"></div>
 
             <div className="columns">
                 <div className="column is-one-third">

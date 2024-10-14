@@ -46,3 +46,10 @@
   padding-right: 5%;
   z-index: 1000;
 }
+
+/*double underline as section divider*/
+.double-underline {
+  border-bottom: 3px double black;
+  margin: 1rem auto;
+  max-width: 200px;
+}
