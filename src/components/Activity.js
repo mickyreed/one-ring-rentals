@@ -18,9 +18,35 @@
  */
 import React from 'react';
 import 'bulma/css/bulma.css';
+import ActivityCard from "./ActivityCard";
 
 
 const Activity = () => {
+
+    // Add regions props
+    const activities = [
+        {userName: "Sam Minnée",
+            action: "reviewed",
+            location: "The House With No Windows",
+            comment: "Awesome solitary confinement, mate. Spot on. Sweet as.",
+            image: "http://placehold.it/70x70",
+            link: "#",
+            postedTime: "Just Now"
+        },
+        {userName: "Ingo Schoomer",
+            action: "asked a question about",
+            location: "The Mistake by the Lake",
+            comment: "Has this house been unit tested?",
+            image: "http://placehold.it/70x70",
+            link: "#",
+            postedTime: "37 Minutes Ago",
+        },
+    ];
+
+    // Split into 3 columns using slice()
+    const column1 = activities.slice(0, 2); // First 2 items
+
+
     return (
         <div>
             <column className="column ml-0 mr-0 pl-0 pr-0">
@@ -30,40 +56,45 @@ const Activity = () => {
                 <div className="double-underline mb-6 has-text-center"></div>
 
                 <ul className="activity ml-0 mr-0 pl-0 pr-0 ">
-                    <li className="columns">
-                        <column className="column is-half">
-                            <a href="#"
-                            ><img className="has-radius-rounded" src="http://placehold.it/70x70" alt=""
-                            /></a>
-                        </column>
+                    <li>
 
-                        <column className="info column is-half has-text-left">
-                            <h6 className="has-text-black is-size-7 mb-0">
-                                Sam Minnée reviewed
-                                <a href="#"> The House With No Windows</a>
-                            </h6>
-                            <p className="is-size-7 mb-2">
-                                Awesome solitary confinement, mate. Spot on. Sweet as.
-                            </p>
-                            <h6 className="has-text-black is-size-7 mb-1">Just now</h6>
-                        </column>
-                    </li>
-                    <li className="columns is-flex">
-                        <column className="column is-half">
-                            <a href="#"
-                            ><img className="has-radius-rounded" src="http://placehold.it/70x70" alt=""
-                            /></a>
-                        </column>
-                        <column className="column is-half has-text-left">
-                            <div className="info is-align-items-flex-end">
-                                <h6 className="has-text-black is-size-7 mb-0">
-                                    Ingo Schoomer asked a question about
-                                    <a href="#"> The Mistake by the Lake</a>
-                                </h6>
-                                <p className="mb-2 is-size-7">Has this house been unit tested?</p>
-                                <h6 className="has-text-black is-size-7 mb-0">37 minutes ago</h6>
-                            </div>
-                        </column>
+                        {column1.map((activity, index) => (
+                            <ActivityCard key={index} {...activity} />
+                        ))}
+
+                    {/*    <column className="column is-half">*/}
+                    {/*        <a href="#"*/}
+                    {/*        ><img className="has-radius-rounded" src="http://placehold.it/70x70" alt=""*/}
+                    {/*        /></a>*/}
+                    {/*    </column>*/}
+
+                    {/*    <column className="info column is-half has-text-left">*/}
+                    {/*        <h6 className="has-text-black is-size-7 mb-0">*/}
+                    {/*            Sam Minnée reviewed*/}
+                    {/*            <a href="#"> The House With No Windows</a>*/}
+                    {/*        </h6>*/}
+                    {/*        <p className="is-size-7 mb-2">*/}
+                    {/*            Awesome solitary confinement, mate. Spot on. Sweet as.*/}
+                    {/*        </p>*/}
+                    {/*        <h6 className="has-text-black is-size-7 mb-1">Just now</h6>*/}
+                    {/*    </column>*/}
+                    {/*</li>*/}
+                    {/*<li className="columns is-flex">*/}
+                    {/*    <column className="column is-half">*/}
+                    {/*        <a href="#"*/}
+                    {/*        ><img className="has-radius-rounded" src="http://placehold.it/70x70" alt=""*/}
+                    {/*        /></a>*/}
+                    {/*    </column>*/}
+                    {/*    <column className="column is-half has-text-left">*/}
+                    {/*        <div className="info is-align-items-flex-end">*/}
+                    {/*            <h6 className="has-text-black is-size-7 mb-0">*/}
+                    {/*                Ingo Schoomer asked a question about*/}
+                    {/*                <a href="#"> The Mistake by the Lake</a>*/}
+                    {/*            </h6>*/}
+                    {/*            <p className="mb-2 is-size-7">Has this house been unit tested?</p>*/}
+                    {/*            <h6 className="has-text-black is-size-7 mb-0">37 minutes ago</h6>*/}
+                    {/*        </div>*/}
+                    {/*    </column>*/}
                     </li>
                 </ul>
             </column>

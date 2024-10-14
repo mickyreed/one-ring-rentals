@@ -23,7 +23,7 @@ import RegionsCard from "./RegionsCard";
 
 const PopularRegions = () => {
 
-    // Add properties props
+    // Add regions props
     const properties = [
         {location: "Rhovanion",
             image: "http://placehold.it/194x194",
