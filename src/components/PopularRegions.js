@@ -10,9 +10,9 @@
  *
  * create a Popular Regions component needs the following: COMPLETE 13/10/24
  * Column suits 2/3 wide Title is centred COMPLETE 13/10/24
- * TODO: Add double underline
- * TODO: import 6 region cards into 3 columns of 2 (or grid)
- * TODO: Region cards (will be another component props for regionName, image
+ * Add double underline COMPLETED 15/10/24
+ * import 6 region cards into 3 columns of 2 (or grid) COMPLETED 15/10/24
+ * Region cards (will be another component props for regionName, image COMPLETED 15/10/24
  *
  * REFERENCES:
  */

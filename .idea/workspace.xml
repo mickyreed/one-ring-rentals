@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4c8730a5-2738-4db9-8168-91a0b381ef09" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/RegionsCard.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/RegionsCard.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Activity.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Activity.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/LastMinuteDeals.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LastMinuteDeals.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/PopularRegions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PopularRegions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/RecentArticles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RecentArticles.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +90,7 @@
       <workItem from="1728705227331" duration="21148000" />
       <workItem from="1728819849161" duration="9984000" />
       <workItem from="1728876628055" duration="4715000" />
-      <workItem from="1728916650412" duration="15703000" />
+      <workItem from="1728916650412" duration="16313000" />
     </task>
     <servers />
   </component>

@@ -27,6 +27,7 @@ const RecentArticles = () => {
             <h3 className="title is-3 has-text-black mt-6 mb-6">Recent Articles</h3>
 
             {/*add dividing lines here 2 bars*/}
+            <div className="double-underline mb-6 has-text-center"></div>
 
             <div className="columns">
                 <div className="column is-one-third">
@@ -118,7 +119,8 @@ const RecentArticles = () => {
             </div>
 
             <div className="center">
-                <a href="#" className="button has-background-white is-bordered has-text-black mt-6 mb-6">View All News</a>
+                <a href="#" className="button has-background-white is-bordered has-text-black mt-6 mb-6">View All
+                    News</a>
             </div>
         </div>
     );
