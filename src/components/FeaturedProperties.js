@@ -24,6 +24,40 @@ import 'bulma/css/bulma.css';
 
 
 const FeaturedProperties = () => {
+
+    // Add properties props
+    const properties = [
+        {title: "Luxury Apartment with great views",
+            location: "Upper East Side", city: "New York",
+            price: "950", beds: "4", baths: "3",
+            image: "http://placehold.it/760x670", link: "properties-detail.html"},
+        {title: "Modern construction with parking space",
+            location: "Midtown", city: "New York",
+            price: "85", beds: "1", baths: "2",
+            image: "http://placehold.it/760x670", link: "properties-detail.html"},
+        {title: "Stunning Villa with 5 bedrooms",
+            location: "Miami Beach", city: "Florida",
+            price: "1,300", beds: "5", baths: "2",
+            image: "http://placehold.it/760x670", link: "properties-detail.html"},
+        {title: "Single Family Townhouse",
+            location: "Cobble Hill", city: "New York",
+            price: "840", beds: "2", baths: "2",
+            image: "http://placehold.it/760x670", link: "properties-detail.html"},
+        {title: "Recent construction with 3 bedrooms",
+            location: "Park Slope", city: "New York",
+            price: "560", beds: "3", baths: "2",
+            image: "http://placehold.it/760x670", link: "properties-detail.html"},
+        {title: "3 bedroom villa with garage for rent",
+            location: "Bal Harbour", city: "Florida",
+            price: "150", beds: "3", baths: "2",
+            image: "http://placehold.it/760x670", link: "properties-detail.html"},
+    ];
+
+    // Split into 3 columns using slice()
+    const column1 = properties.slice(0, 2); // First 2 items
+    const column2 = properties.slice(2, 4); // Next 2 items
+    const column3 = properties.slice(4, 6); // Last 2 items
+
     return (
         <div><h3 className="title is-3 has-text-black mt-6 mb-6 pt-0">Featured Properties</h3>
 
@@ -31,117 +65,19 @@ const FeaturedProperties = () => {
 
             <div className="columns">
                 <div className="column is-one-third">
-                    <div className="item">
-                        <div className="image">
-                            <a href="properties-detail.html">
-                                <h4 className="title is-4 has-text-black">Luxury Apartment with great
-                                    views</h4>
-                                <span className="location">Upper East Side, New York</span>
-                            </a>
-                            <img src="http://placehold.it/760x670" alt=""/>
-                        </div>
-                        <div className="price">
-                            <span>$950</span>
-                            <p>per night</p>
-                        </div>
-                        <ul className="amenities">
-                            <li><i className="icon-bedrooms"></i> 4</li>
-                            <li><i className="icon-bathrooms"></i> 3</li>
-                        </ul>
-                    </div>
-                    <div className="item">
-                        <div className="image">
-                            <a href="properties-detail.html">
-                                <h4 className="title is-4 has-text-black">Modern construction with parking
-                                    space</h4>
-                                <span className="location">Midtown, New York</span>
-                            </a>
-                            <img src="http://placehold.it/760x670" alt=""/>
-                        </div>
-                        <div className="price">
-                            <span>$85</span>
-                            <p>per night</p>
-                        </div>
-                        <ul className="amenities">
-                            <li><i className="icon-bedrooms"></i> 1</li>
-                            <li><i className="icon-bathrooms"></i> 2</li>
-                        </ul>
-                    </div>
+                    {column1.map((property, index) => (
+                        <PropertyCard key={index} {...property} />
+                    ))}
                 </div>
                 <div className="column is-one-third">
-                    <div className="item">
-                        <div className="image">
-                            <a href="properties-detail.html">
-                                <h4 className="title is-4 has-text-black">Stunning Villa with 5
-                                    bedrooms</h4>
-                                <span className="location">Miami Beach, Florida</span>
-                            </a>
-                            <img src="http://placehold.it/760x670" alt=""/>
-                        </div>
-                        <div className="price">
-                            <span>$1,300</span>
-                            <p>per night</p>
-                        </div>
-                        <ul className="amenities">
-                            <li><i className="icon-bedrooms"></i> 5</li>
-                            <li><i className="icon-bathrooms"></i> 2</li>
-                        </ul>
-                    </div>
-                    <div className="item">
-                        <div className="image">
-                            <a href="properties-detail.html">
-                                <h4 className="title is-4 has-text-black">Single Family Townhouse</h4>
-                                <span className="location">Cobble Hill, New York</span>
-                            </a>
-                            <img src="http://placehold.it/760x670" alt=""/>
-                        </div>
-                        <div className="price">
-                            <span>$840</span>
-                            <p>per night</p>
-                        </div>
-                        <ul className="amenities">
-                            <li><i className="icon-bedrooms"></i> 2</li>
-                            <li><i className="icon-bathrooms"></i> 2</li>
-                        </ul>
-                    </div>
+                    {column2.map((property, index) => (
+                        <PropertyCard key={index} {...property} />
+                    ))}
                 </div>
                 <div className="column is-one-third">
-                    <div className="item">
-                        <div className="image">
-                            <a href="properties-detail.html">
-                                <h4 className="title is-4 has-text-black">Recent construction with 3
-                                    bedrooms</h4>
-                                <span className="location">Park Slope, New York</span>
-                            </a>
-                            <img src="http://placehold.it/760x670" alt=""/>
-                        </div>
-                        <div className="price">
-                            <span>$560</span>
-                            <p>per night</p>
-                        </div>
-                        <ul className="amenities">
-                            <li><i className="icon-bedrooms"></i> 3</li>
-                            <li><i className="icon-bathrooms"></i> 2</li>
-                        </ul>
-                    </div>
-                    <div className="item">
-                        <div className="image">
-                            <a href="properties-detail.html">
-                                <h4 className="title is-4 has-text-black">3 bedroom villa with garage for
-                                    rent</h4>
-                                <span className="location">Bal Harbour, Florida</span>
-                            </a>
-                            <img src="http://placehold.it/760x670" alt=""/>
-                        </div>
-                        <div className="price">
-                            <span>$150</span>
-                            <p>per night</p>
-                        </div>
-                        <ul className="amenities">
-                            <li><i className="icon-bedrooms"></i> 3</li>
-                            <li><i className="icon-bathrooms"></i> 2</li>
-                        </ul>
-                    </div>
+                    {column3.map((property, index) => (
+                        <PropertyCard key={index} {...property} />
+                    ))}
                 </div>
             </div>
         </div>
