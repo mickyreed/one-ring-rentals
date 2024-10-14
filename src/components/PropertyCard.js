@@ -26,27 +26,45 @@
  *
  */
 
-import React from 'react';
+import React, { useState } from 'react';
 import 'bulma/css/bulma.css';
+import '../PropertyCard.css';
 
+// REF: hovered state research
+// https://medium.com/@iamviveksi/how-to-animate-a-button-in-react-using-css-transitions-eca2f636a63
 const PropertyCard =({ link, title, location, city, image, price, beds, baths}) => {
+    const [isHovered, setIsHovered] = useState(false);
     return (
-        <div className="item">
-            <div className="image">
-                <a href={link}>
-                    <h4 className="title is-4 has-text-black">{title}</h4>
-                    <span className="location">{location}, {city}</span>
-                </a>
-                <img src={image} alt={title}/>
+        <div>
+            <div className={`property-card ${isHovered ? 'hovered' : ''}`}
+                 onMouseEnter={() => setIsHovered(true)}
+                 onMouseLeave={() => setIsHovered(false)}>
+
+                <div className="is-align-items-center">
+                    <img src={image} alt={title} className="property-image"/>
+                </div>
+                <div className="price-tag has-background-black has-text-white">
+                    <span className="price">${price}</span>
+                    <p>per night</p>
+                </div>
+                <div className="overlay is-display-flex is-align-items-center">
+                    <a href={link}>
+                        <h4 className="property-title has-text-white mt-6 mb-0">{title}</h4>
+                        <span className="location has-text-white ">{location}, {city}</span>
+                    </a>
+                </div>
             </div>
-            <div className="price">
-                <span>${price}</span>
-                <p>per night</p>
+
+
+            <div>
+                <div className="amenities">
+                    <div className="columns mb-4">
+                        <div className="column is-6 pl-6"><i className="has-text-centered"></i> {beds} Beds</div>
+                        <div className="column is-6 pr-6"><i className="has-text-centered"></i> {baths} Bath</div>
+                    </div>
+                </div>
             </div>
-            <ul className="amenities">
-                <li><i className="icon-bedrooms"></i> {beds}</li>
-                <li><i className="icon-bathrooms"></i> {baths}</li>
-            </ul>
+
         </div>
     )
 }

@@ -1,0 +1,30 @@
+.property-card {
+    position: relative;
+}
+
+.price-tag {
+    position: absolute;
+    top: 10px;
+    left: 0px;
+    /*background: black;*/
+    /*color: white;*/
+    padding: 5px 10px;
+    border-radius: 3px;
+    z-index: 1; /* set z index to keep price tag on top of hover effect */
+}
+
+/* Overlay confined to image area */
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7); /* Transparent black */
+    opacity: 0; /* Set opacity to 0 until hovered */
+    border: 6px solid rgba(0, 0, 0, 0.9); /* Darker black border */
+}
+
+.property-card.hovered .overlay {
+    opacity: 0.8;
+}
