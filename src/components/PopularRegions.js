@@ -18,57 +18,61 @@
  */
 import React from 'react';
 import 'bulma/css/bulma.css';
+import RegionsCard from "./RegionsCard";
 
 
 const PopularRegions = () => {
+
+    // Add properties props
+    const properties = [
+        {location: "Rhovanion",
+            image: "http://placehold.it/194x194",
+            link: "#"},
+        {location: "Mordor",
+            image: "http://placehold.it/194x194",
+            link: "#"},
+        {location: "Eriador",
+            image: "http://placehold.it/194x194",
+            link: "#"},
+        {location: "The Southwest",
+            image: "http://placehold.it/194x194",
+            link: "#"},
+        {location: "Bay of Belfalas",
+            image: "http://placehold.it/194x194",
+            link: "#"},
+        {location: "Arnor",
+            image: "http://placehold.it/194x194",
+            link: "#"},
+    ];
+
+
+    // Split into 3 columns using slice()
+    const column1 = properties.slice(0, 2); // First 2 items
+    const column2 = properties.slice(2, 4); // Next 2 items
+    const column3 = properties.slice(4, 6); // Last 2 items
+
     return (
         <div>
             <h3 className="title is-3 has-text-black mt-6 mb-6">Popular Regions</h3>
 
             {/*add dividing lines here 2 bars*/}
+            <div className="double-underline mb-6 has-text-center"></div>
 
             <div className="columns" id="regions">
                 <div className="column is-one-third">
-                    <div className="item">
-                        <a href="#">
-                            <img src="http://placehold.it/194x194" alt=""/>
-                            <h4 className="title is-4 has-text-black">Rhovanion</h4>
-                        </a>
-                    </div>
-                    <div className="item">
-                        <a href="#">
-                            <img src="http://placehold.it/194x194" alt=""/>
-                            <h4 className="title is-4 has-text-black">Mordor</h4>
-                        </a>
-                    </div>
+                    {column1.map((property, index) => (
+                        <RegionsCard key={index} {...property} />
+                    ))}
                 </div>
                 <div className="column is-one-third">
-                    <div className="item">
-                        <a href="#">
-                            <img src="http://placehold.it/194x194" alt=""/>
-                            <h4 className="title is-4 has-text-black">Eriador</h4>
-                        </a>
-                    </div>
-                    <div className="item">
-                        <a href="#">
-                            <img src="http://placehold.it/194x194" alt=""/>
-                            <h4 className="title is-4 has-text-black">The Southwest</h4>
-                        </a>
-                    </div>
+                    {column2.map((property, index) => (
+                        <RegionsCard key={index} {...property} />
+                    ))}
                 </div>
                 <div className="column is-one-third">
-                    <div className="item">
-                        <a href="#">
-                            <img src="http://placehold.it/194x194" alt=""/>
-                            <h4 className="title is-4 has-text-black">Bay of Belfalas</h4>
-                        </a>
-                    </div>
-                    <div className="item">
-                        <a href="#">
-                            <img src="http://placehold.it/194x194" alt=""/>
-                            <h4 className="title is-4 has-text-black">Arnor</h4>
-                        </a>
-                    </div>
+                    {column3.map((property, index) => (
+                        <RegionsCard key={index} {...property} />
+                    ))}
                 </div>
             </div>
         </div>
