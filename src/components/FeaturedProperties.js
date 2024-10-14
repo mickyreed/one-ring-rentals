@@ -10,10 +10,13 @@
  *
  * create a Featured Properties component needs the following: COMPLETE 13/10/24
  * Column suits 2/3 wide Title is centred COMPLETE 13/10/24
- * TODO: Add double underline
- * TODO: import 6 property cards into 3 columns of 2 (or grid)
- * TODO: Properties cards (will be another component props for title, subtitle(location), cost per night, beds, bath, image
+ * Add double underline COMPLETE:15/10/24
+ * import 6 property cards into 3 columns of 2 (or grid) COMPLETE 13/10/24
  * TODO: images have the title and subtitle that appears on hover
+ * TODO: re-look at how we do the property cards
+ *  - i want to change this to for for loop using the number of columns and number of items in array
+ *  - then populate all columns this way... could even then make a helper function and pass in number of columns
+ *  - so effectively could use this anywhere in app
  *
  * REFERENCES:
  *
