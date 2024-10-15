@@ -28,7 +28,6 @@ const ActivityCard =({ userName, action, location, link, image, comment, postedT
                 ><img className="has-radius-rounded" src={image} alt=""
                 /></a>
             </column>
-
             <column className="info column is-half has-text-left">
                 <h6 className="has-text-black is-size-7 mb-0">
                     {userName} {action}
