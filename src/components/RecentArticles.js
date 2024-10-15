@@ -19,9 +19,43 @@
  */
 import React from 'react';
 import 'bulma/css/bulma.css';
+import ArticlesCard from "./ArticlesCard";
 
 
 const RecentArticles = () => {
+
+    const articles = [
+        {title: "How to get your dream property for the best price?",
+            summary: "Sed rutrum urna id tellus euismod gravida. Praesent placerat, mauris ac pellentesque fringilla, tortor libero condimen.",
+            date: "July 30, 2014",
+            tags: "Properties, Prices, best deals",
+            image: "http://placehold.it/766x515",
+            link: "#",
+            mediaType: "fa fa-file-text",
+            commentsCount: "2"},
+        {title: "7 tips to get the best mortgage.",
+            summary: "Sed rutrum urna id tellus euismod gravida. Praesent placerat, mauris ac pellentesque fringilla, tortor libero condimen.",
+            date: "July 24, 2014",
+            tags: "Tips, Mortgage",
+            image: "http://placehold.it/766x515",
+            link: "#",
+            mediaType: "fa fa-file-video",
+            commentsCount: "4"},
+        {title: "House, location or price: What's the most important factor?",
+            summary: "Sed rutrum urna id tellus euismod gravida. Praesent placerat, mauris ac pellentesque fringilla, tortor libero condimen.",
+            date: "July 05, 2014",
+            tags: "Location, Price, House",
+            image: "http://placehold.it/766x515",
+            link: "#",
+            mediaType: "fa fa-file-text",
+            commentsCount: "1"},
+        ];
+
+    // Split into 3 columns using slice()
+    const column1 = articles.slice(0, 1); // First 1 items
+    const column2 = articles.slice(1, 2); // Next 1 items
+    const column3 = articles.slice(2, 3); // Last 1 items
+
     return (
         <div>
             <h3 className="title is-3 has-text-black mt-6 mb-6">Recent Articles</h3>
@@ -29,99 +63,28 @@ const RecentArticles = () => {
             {/*add dividing lines here 2 bars*/}
             <div className="double-underline mb-6 has-text-center"></div>
 
-            <div className="columns">
-                <div className="column is-one-third">
-                    <div className="image">
-                        <a href="#">
-                                      <span className="btn btn-default"
-                                      ><i className="fa fa-file-o"></i> Read More</span
-                                      >
-                        </a>
-                        <img src="http://placehold.it/766x515" alt=""/>
+                <div className="columns">
+                    <div className="column is-one-third">
+                        {column1.map((article, index) => (
+                            <ArticlesCard key={index} {...article} />
+                        ))}
                     </div>
-                    <div className="tag"><i className="fa fa-file-text"></i></div>
-                    <div className="info-blog">
-                        <ul className="top-info">
-                            <li><i className="fa fa-calendar"></i> July 30, 2014</li>
-                            <li><i className="fa fa-comments-o"></i> 2</li>
-                            <li>
-                                <i className="fa fa-tags"></i> Properties, Prices, best
-                                deals
-                            </li>
-                        </ul>
-                        <h3>
-                            <a href="#"
-                            >How to get your dream property for the best price?</a
-                            >
-                        </h3>
-                        <p>
-                            Sed rutrum urna id tellus euismod gravida. Praesent
-                            placerat, mauris ac pellentesque fringilla, tortor libero
-                            condimen.
-                        </p>
+                    <div className="column is-one-third">
+                        {column2.map((article, index) => (
+                            <ArticlesCard key={index} {...article} />
+                        ))}
+                    </div>
+                    <div className="column is-one-third">
+                        {column3.map((article, index) => (
+                            <ArticlesCard key={index} {...article} />
+                        ))}
                     </div>
                 </div>
-                <div className="column is-one-third">
-                    <div className="image">
-                        <a href="#">
-                                      <span className="btn btn-default"
-                                      ><i className="fa fa-file-o"></i> Read More</span
-                                      >
-                        </a>
-                        <img src="http://placehold.it/766x515" alt=""/>
-                    </div>
-                    <div className="tag"><i className="fa fa-film"></i></div>
-                    <div className="info-blog">
-                        <ul className="top-info">
-                            <li><i className="fa fa-calendar"></i> July 24, 2014</li>
-                            <li><i className="fa fa-comments-o"></i> 4</li>
-                            <li><i className="fa fa-tags"></i> Tips, Mortgage</li>
-                        </ul>
-                        <h3>
-                            <a href="#">7 tips to get the best mortgage.</a>
-                        </h3>
-                        <p>
-                            Sed rutrum urna id tellus euismod gravida. Praesent
-                            placerat, mauris ac pellentesque fringilla, tortor libero
-                            condimen.
-                        </p>
-                    </div>
-                </div>
-                <div className="column is-one-third">
-                    <div className="image">
-                        <a href="#">
-                                      <span className="btn btn-default"
-                                      ><i className="fa fa-file-o"></i> Read More</span
-                                      >
-                        </a>
-                        <img src="http://placehold.it/766x515" alt=""/>
-                    </div>
-                    <div className="tag"><i className="fa fa-file-text"></i></div>
-                    <div className="info-blog">
-                        <ul className="top-info">
-                            <li><i className="fa fa-calendar"></i> July 05, 2014</li>
-                            <li><i className="fa fa-comments-o"></i> 1</li>
-                            <li><i className="fa fa-tags"></i> Location, Price, House</li>
-                        </ul>
-                        <h3>
-                            <a href="#"
-                            >House, location or price: What's the most important
-                                factor?</a
-                            >
-                        </h3>
-                        <p>
-                            Sed rutrum urna id tellus euismod gravida. Praesent
-                            placerat, mauris ac pellentesque fringilla, tortor libero
-                            condimen.
-                        </p>
-                    </div>
-                </div>
-            </div>
 
-            <div className="center">
-                <a href="#" className="button has-background-white is-bordered has-text-black mt-6 mb-6">View All
-                    News</a>
-            </div>
+                <div className="center">
+                    <a href="#" className="button has-background-white is-bordered has-text-black mt-6 mb-6">View All
+                        News</a>
+                </div>
         </div>
     );
 };
