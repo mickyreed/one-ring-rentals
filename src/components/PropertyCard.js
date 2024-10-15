@@ -12,17 +12,17 @@
  * Properties card props for title, subtitle(location), cost per night, beds, bath, image COMPLETE 13/10/24
  * copy over existing card section from FeaturedProperties.js COMPLETE 13/10/24
  * create a function with props of the keys that get passed to it and update this info in the code COMPLETE 13/10/24
- * TODO: images have the title and subtitle that appears on hover
+ * images have the title and subtitle that appears on hover COMPLETED 15/10/24
  * TODO: do i need to use PropTypes?? https://www.geeksforgeeks.org/how-to-use-proptypes-for-type-checking-in-react-components/
- *
+ * add wrap around banner on price tag.. use z-index and radius COMPLETED 13/10/24
  *
  * REFERENCES:
  * https://react.dev/learn/passing-props-to-a-component
  * https://bobbyhadz.com/blog/react-pass-function-as-prop
- * TODO: https://blog.logrocket.com/how-props-passed-components-react/
- * TODO: https://www.codemzy.com/blog/react-pass-function-as-prop
- * TODO: https://coreui.io/blog/passing-props-to-child-components-in-react-function-components/
- * TODO: https://www.freecodecamp.org/news/react-props-cheatsheet/
+ * https://blog.logrocket.com/how-props-passed-components-react/
+ * https://www.codemzy.com/blog/react-pass-function-as-prop
+ * https://coreui.io/blog/passing-props-to-child-components-in-react-function-components/
+ * https://www.freecodecamp.org/news/react-props-cheatsheet/
  *
  */
 
@@ -42,6 +42,10 @@ const PropertyCard =({ link, title, location, city, image, price, beds, baths}) 
 
                 <div className="is-align-items-center">
                     <img src={image} alt={title} className="property-image"/>
+                </div>
+                <div className="price-tag-wrap has-background-black">
+                    <span className="price">${price}</span>
+                    <p>per night</p>
                 </div>
                 <div className="price-tag has-background-black has-text-white">
                     <span className="price">${price}</span>
