@@ -27,8 +27,8 @@ import Activity from "./activity/Activity";
 
 const Content = () => {
     return (
-        <div className="content has-background-white ">
-            <div className="container ">
+        <div className="content has-background-white mb-0 pb-6 ">
+            <div className="container mb-0 pb-0 ">
                 <div className="columns">
 
                     {/*// <!-- MAIN CONTENT -->*/}

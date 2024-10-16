@@ -21,7 +21,7 @@ import React from 'react';
 const TopBar = () => {
     return (
         <div id="top-bar" className="has-background-light is-flex  py-2 pr-2 pl-2">
-            <div className="container">
+            <div className="container ">
                 <div className="columns is-mobile is-justify-content-flex-end">
                     <div className="column is-narrow">
                         <ul id="top-buttons" className="is-flex is-align-items-center">

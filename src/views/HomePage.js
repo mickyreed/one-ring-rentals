@@ -3,6 +3,7 @@ import Header from '../components/global/Header';
 import Footer from '../components/global/Footer';
 import Carousel from '../components/homePage/Carousel';
 import Content from "../components/homePage/Content";
+import FooterTop from "../components/global/FooterTop";
 
 function HomePage() {
     return (
@@ -11,6 +12,7 @@ function HomePage() {
                 <Header className="App-header"></Header>
                 <Carousel className="App-carousel"></Carousel>
                 <Content></Content>
+                <FooterTop></FooterTop>
                 <Footer className="App-footer"></Footer>
             </div>
         </div>

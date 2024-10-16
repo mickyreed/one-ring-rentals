@@ -10,7 +10,7 @@ function ContactPage() {
             {/*<div id="has-background-white">*/}
                 <Header className="App-header"></Header>
                 <div className="has-background-white mt-0 pt-0 pl-6 pr-6">
-                    <div className="container has-background-white ">
+                    <div className="container has-background-white">
                         <div className="column is-12 ">
                             <h2 className="title is-2 has-text-centered has-text-black mt-6 pt-6">Contact Us</h2>
 

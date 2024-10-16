@@ -5,32 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4c8730a5-2738-4db9-8168-91a0b381ef09" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/global/FooterTop.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ArticlesCard.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArticlesCard.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PropertyCard.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/PropertyCard.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Activity.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/homePage/activity/Activity.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ActivityCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/homePage/activity/ActivityCard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ArticlesCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/homePage/recentArticles/ArticlesCard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Carousel.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/homePage/Carousel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Content.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/homePage/Content.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/DealsCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/homePage/lastMinuteDeals/DealsCard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/FeaturedProperties.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/homePage/featuredProperties/FeaturedProperties.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/global/Footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/global/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/LastMinuteDeals.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/homePage/lastMinuteDeals/LastMinuteDeals.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Logo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/global/Logo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/NavBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/global/NavBar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PopularRegions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/homePage/popularRegions/PopularRegions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PropertyCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/homePage/featuredProperties/PropertyCard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/RecentArticles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/homePage/recentArticles/RecentArticles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/RegionsCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/homePage/popularRegions/RegionsCard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SearchBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/global/SearchBar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TopBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/global/TopBar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/global/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/global/Footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/global/TopBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/global/TopBar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/homePage/Content.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/homePage/Content.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/ContactPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/ContactPage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/HomePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/HomePage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/NewsPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/NewsPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/RegionsPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/RegionsPage.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +57,7 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/xcal1/source/repos/one-ring-rentals",
+    "last_opened_file_path": "C:/Users/xcal1/source/repos/one-ring-rentals/src/components/global",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -88,6 +69,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\xcal1\source\repos\one-ring-rentals\src\components\global" />
       <recent name="C:\Users\xcal1\source\repos\one-ring-rentals\src" />
       <recent name="C:\Users\xcal1\source\repos\one-ring-rentals\src\components" />
       <recent name="C:\Users\xcal1\source\repos\one-ring-rentals" />
@@ -130,7 +112,7 @@
       <workItem from="1729007052878" duration="4913000" />
       <workItem from="1729012804564" duration="142000" />
       <workItem from="1729037553384" duration="561000" />
-      <workItem from="1729091037092" duration="6797000" />
+      <workItem from="1729091037092" duration="8603000" />
     </task>
     <servers />
   </component>
