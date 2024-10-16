@@ -7,21 +7,18 @@
     position: absolute;
     top: 10px;
     left: 0px;
-    /*background: black;*/
-    /*color: white;*/
     padding: 5px 10px;
     border-radius: 3px 3px 3px 0px ;
-    z-index: -1; /* set z index to keep price tag on top of hover effect */
+    z-index: 1; /* set z index to keep price tag on top of hover effect */
 }
 
 .media-type-wrap {
     position: absolute;
     top: 10px;
-    bottom: 10px;
     left: -8px;
-    padding: 5px 10px;
-    border-radius: 12px;
-    z-index: 1; /* set z index to keep price tag on top of hover effect */
+    padding: 10px;
+    border-radius: 8px;
+    z-index: -1; /* set z index to keep price tag on top of hover effect */
 }
 
 /* Overlay confined to image area */

@@ -28,7 +28,7 @@
 
 import React, { useState } from 'react';
 import 'bulma/css/bulma.css';
-import '../PropertyCard.css';
+import '../../../PropertyCard.css';
 
 // REF: hovered state research
 // https://medium.com/@iamviveksi/how-to-animate-a-button-in-react-using-css-transitions-eca2f636a63
@@ -46,6 +46,7 @@ const PropertyCard =({ link, title, location, city, image, price, beds, baths}) 
                 <div className="price-tag-wrap has-background-black">
                     <span className="price">${price}</span>
                     <p>per night</p>
+
                 </div>
                 <div className="price-tag has-background-black has-text-white">
                     <span className="price">${price}</span>

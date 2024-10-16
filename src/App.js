@@ -7,9 +7,9 @@ import './App.css';
 // import React from "react";
 // import 'bulma/css/bulma.min.css';
 //import Head from './components/Head';
-import Header from './components/Header';
-import Footer from './components/Footer';
-import Carousel from './components/Carousel';
+import Header from './components/global/Header';
+import Footer from './components/global/Footer';
+import Carousel from './components/homePage/Carousel';
 
 function App() {
   return (

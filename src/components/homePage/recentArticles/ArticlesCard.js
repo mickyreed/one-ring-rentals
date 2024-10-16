@@ -16,7 +16,7 @@
 
 import React, { useState } from 'react';
 import 'bulma/css/bulma.css';
-import '../ArticlesCard.css';
+import '../../../ArticlesCard.css';
 
 // REF: hovered state research
 // https://medium.com/@iamviveksi/how-to-animate-a-button-in-react-using-css-transitions-eca2f636a63
@@ -32,8 +32,12 @@ const ArticlesCard =({ title, summary, date, tags, image, link, mediaType, comme
                     <img src={image} alt={title} className="article-image"/>
                 </div>
                 <div className="tag media-type-wrap has-background-black px-5 py-5"><i className={`${mediaType}`}></i>
-                    <span></span>
-                    <span></span>
+                    <p>dfdf</p>
+                    <p>dfdf</p>
+                    <p>dfdf</p>
+                </div>
+                <div className="tag media-type has-background-black px-5 py-5"><i className={`${mediaType}`}></i>
+
                 </div>
                 <div className="overlay is-display-flex is-align-items-center has-text-centered">
                     <a href={link} className="button has-background-transparent is-bordered has-text-warning mx-6 my-6">

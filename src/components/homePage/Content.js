@@ -18,11 +18,11 @@
  */
 import React from 'react';
 import 'bulma/css/bulma.css';
-import FeaturedProperties from "./FeaturedProperties";
-import PopularRegions from "./PopularRegions";
-import RecentArticles from "./RecentArticles";
-import LastMinuteDeals from "./LastMinuteDeals";
-import Activity from "./Activity";
+import FeaturedProperties from "./featuredProperties/FeaturedProperties";
+import PopularRegions from "./popularRegions/PopularRegions";
+import RecentArticles from "./recentArticles/RecentArticles";
+import LastMinuteDeals from "./lastMinuteDeals/LastMinuteDeals";
+import Activity from "./activity/Activity";
 
 
 const Content = () => {
@@ -31,20 +31,18 @@ const Content = () => {
             <div className="container ">
                 <div className="columns">
 
-                    {/*// <!-- BEGIN MAIN CONTENT -->*/}
+                    {/*// <!-- MAIN CONTENT -->*/}
                     <div className="column is-two-thirds">
                         <FeaturedProperties></FeaturedProperties>
                         <PopularRegions></PopularRegions>
                         <RecentArticles></RecentArticles>
                     </div>
-                    {/*// <!-- END MAIN CONTENT -->*/}
 
-                    {/*// <!-- BEGIN SIDEBAR -->*/}
+                    {/*// <!-- SIDEBAR -->*/}
                     <div className="sidebar column is-one-third">
                         <LastMinuteDeals></LastMinuteDeals>
                         <Activity></Activity>
                     </div>
-                    {/*// <!-- END SIDEBAR -->*/}
 
                 </div>
             </div>

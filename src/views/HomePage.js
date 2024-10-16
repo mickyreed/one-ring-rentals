@@ -1,8 +1,8 @@
 import '../App.css';
-import Header from '../components/Header';
-import Footer from '../components/Footer';
-import Carousel from '../components/Carousel';
-import Content from "../components/Content";
+import Header from '../components/global/Header';
+import Footer from '../components/global/Footer';
+import Carousel from '../components/homePage/Carousel';
+import Content from "../components/homePage/Content";
 
 function HomePage() {
     return (
