@@ -29,30 +29,12 @@ const NavBar = () => {
 
     return (
 
-        // ORIGINAL CODE USES public/css styling
-        // <nav className="navbar"
-        //      role="navigation"
-        //      aria-label="main navigation">
-        //     <button id="nav-mobile-btn">
-        //         <i className="fa fa-bars"></i>
-        //     </button>
-        //
-        //     <ul className="nav navbar-nav">
-        //         <li><a href="index.html">Find a Rental</a></li>
-        //         <li><a href="#">List your rental</a></li>
-        //         <li><a href="#">Travel Guides</a></li>
-        //         <li><a href="regions.html">Regions</a></li>
-        //         <li><a href="news.html">News</a></li>
-        //         <li><a href="contact.html">Contact</a></li>
-        //     </ul>
-        // </nav>
-
         <nav className="navbar is-light is-display-flex" role="navigation" aria-label="main navigation">
             <div className="container is-display-flex is-align-items-center mr-3 ml-3 pr-6 pl-6"
                  style={{justifyContent: "space-between", padding: "0 1rem"}}>
                 <div className="navbar-brand">
                     <div className="nav-logo is-display-flex">
-                        <Link to="/home"
+                        <Link to="/"
                         ><img src="/images/logo.png" alt="One Ring Rentals"
                         /></Link>
                     </div>
@@ -60,9 +42,9 @@ const NavBar = () => {
 
                 <div id="navMenu" className={`navbar-menu ${isActive ? 'is-active' : ''}`}>
                     <div className="navbar-end">
-                        <Link className="navbar-item" to="/home">Find a Rental</Link>
-                        <Link className="navbar-item" to="/home">List your rental</Link>
-                        <Link className="navbar-item" to="/home">Travel Guides</Link>
+                        <Link className="navbar-item" to="/">Find a Rental</Link>
+                        <Link className="navbar-item" to="/">List your rental</Link>
+                        <Link className="navbar-item" to="/">Travel Guides</Link>
                         <Link className="navbar-item" to="/regions">Regions</Link>
                         <Link className="navbar-item" to="/news">News</Link>
                         <Link className="navbar-item" to="/contact">Contact</Link>

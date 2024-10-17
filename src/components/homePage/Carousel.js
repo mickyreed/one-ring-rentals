@@ -33,14 +33,14 @@ const Carousel = () => {
         {
             title: 'Breathtaking views',
             subtitle: 'Relaxation in the Bay of Belfalas',
-            // imageUrl: 'http://placehold.it/1920x605',
-            imageUrl: '#', //use this for now until proper images are found as its a cleaner look
+            imageUrl: 'https://picsum.photos/id/871/1920/605.webp',
+            // imageUrl: '#', //use this for now until proper images are found as its a cleaner look
         },
         {
             title: 'The simple life',
             subtitle: 'Lush gardens in Mordor',
-            // imageUrl: 'http://placehold.it/1920x605',
-            imageUrl: '#', //use this for now until proper images are found as its a cleaner look
+            imageUrl: 'https://picsum.photos/id/884/1920/605.webp',
+            // imageUrl: '#', //use this for now until proper images are found as its a cleaner look
         },
     ];
 

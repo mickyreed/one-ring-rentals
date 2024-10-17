@@ -15,11 +15,11 @@ import ContactPage from "./views/ContactPage";
 import RegionsPage from "./views/RegionsPage";
 
 import reportWebVitals from './reportWebVitals';
-
+import { RegionsProvider } from './contexts/RegionsContext';
 import {
     createBrowserRouter,
     RouterProvider,
-    Route,
+
 } from "react-router-dom";
 
 import "./index.css";
@@ -31,7 +31,11 @@ const router = createBrowserRouter([
         element: <App/>,
     },
     {
-        path: "home",
+        path: "/",
+        element: <HomePage/>,
+    },
+    {
+        path: "/",
         element: <HomePage/>,
     },
     {
@@ -52,10 +56,12 @@ const router = createBrowserRouter([
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
 
-  <React.StrictMode>
-    {/*<App />*/}
-    <RouterProvider router={router} />
-  </React.StrictMode>
+      <React.StrictMode>
+          <RegionsProvider>
+            <RouterProvider router={router} />
+          </RegionsProvider>
+      </React.StrictMode>
+
 );
 
 // If you want to start measuring performance in your app, pass a function

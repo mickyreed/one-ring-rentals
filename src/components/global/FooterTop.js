@@ -12,10 +12,26 @@
  *
  *
   */
-import React from 'react';
+import React, { useContext } from 'react';
+import { RegionsContext } from '../../contexts/RegionsContext';
 import '../../footer.css';
 
 const FooterTop = () => {
+
+    const { regions, loading, error } = useContext(RegionsContext); // Use the context
+
+    if (loading) {
+        return <div>Loading regions...</div>;  // Show loading message
+    }
+
+    if (error) {
+        return <div>Error: {error}</div>;  // Show error message if any
+    }
+
+    // Split into 3 columns using slice()
+    const column1 = regions.slice(0, 3); // First 3 items
+    const column2 = regions.slice(3, 6); // Next 3 items
+
     return (
         <footer id="footer" className="footer has-background-light has-text-black pl-0 pr-0 pb-6 pb-0">
             <div id="footer-top" className="container pl-6 pr-6">
@@ -48,73 +64,48 @@ const FooterTop = () => {
                     <div className="column is-half is-align-content-start has-text-left">
                         <h3 className="title is-5 has-text-black">Popular regions</h3>
                         <div className="columns">
+
+                            {/* Column 1 */}
                             <div className="column is-half">
                                 <ul className="footer-listings">
-                                    <li className="footer-list-item">
-                                        <div className="image">
-                                            <a href="#"
-                                            ><img style={{width: 60, height: 60}} src="http://placehold.it/760x670"
-                                                  alt=""
-                                            /></a>
-                                        </div>
+                                    {column1.map((region, index) => (
+                                        <li key={index} className="footer-list-item">
+                                            <div className="image">
+                                                <a href={region.link}>
+                                                    <img
+                                                        style={{width: 60, height: 60}}
+                                                        src={region.image} // Dynamically rendered image
+                                                        alt={region.location} // Use the region name for alt text
+                                                    />
+                                                </a>
+                                            </div>
                                             <p>
-                                                <a href="#">Rhovanion</a></p>
-                                    </li>
-                                    <li className="footer-list-item">
-                                        <div className="image">
-                                            <a href="#"
-                                            ><img style={{width: 60, height: 60}}
-                                                  src="http://placehold.it/760x670" alt=""
-                                            /></a>
-                                        </div>
-                                        <p>
-                                            <a href="#">Eriador</a></p>
-                                    </li>
-                                    <li className="footer-list-item">
-                                        <div className="image">
-                                            <a href="#"
-                                            ><img style={{width: 60, height: 60}}
-                                                  src="http://placehold.it/760x670" alt=""
-                                            /></a>
-                                        </div>
-                                        <p className="">
-                                            <a href="#">Bay of Belfalas</a>
-                                        </p>
-                                    </li>
+                                                <a href={region.link}>{region.location}</a> {/* Dynamically rendered region name */}
+                                            </p>
+                                        </li>
+                                    ))}
                                 </ul>
                             </div>
+
+                            {/* Column 2 */}
                             <div className="column is-half">
                                 <ul className="footer-listings">
-                                    <li className="footer-list-item">
-                                        <div className="image">
-                                            <a href="#"
-                                            ><img style={{width: 60, height: 60}}
-                                                  src="http://placehold.it/760x670" alt=""
-                                            /></a>
-                                        </div>
-                                        <p><a href="#">Mordor</a></p>
-                                    </li>
-                                    <li className="footer-list-item">
-                                        <div className="image">
-                                            <a href="#"
-                                            ><img style={{width: 60, height: 60}}
-                                                  src="http://placehold.it/760x670"
-                                                  alt=""
-                                            /></a>
-                                        </div>
-                                        <p><a href="#">Arnor</a></p>
-
-                                    </li>
-                                    <li className="footer-list-item">
-                                        <div className="image">
-                                            <a href="#"
-                                            ><img style={{width: 60, height: 60}}
-                                                  src="http://placehold.it/760x670"
-                                                  alt=""
-                                            /></a>
-                                        </div>
-                                        <p><a href="#">Forlindon</a></p>
-                                    </li>
+                                    {column2.map((region, index) => (
+                                        <li key={index} className="footer-list-item">
+                                            <div className="image">
+                                                <a href={region.link}>
+                                                    <img
+                                                        style={{width: 60, height: 60}}
+                                                        src={region.image}
+                                                        alt={region.location}
+                                                    />
+                                                </a>
+                                            </div>
+                                            <p>
+                                                <a href={region.link}>{region.location}</a>
+                                            </p>
+                                        </li>
+                                    ))}
                                 </ul>
                             </div>
                         </div>

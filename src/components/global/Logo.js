@@ -17,7 +17,7 @@ import React from 'react';
 const Logo = () => {
     return (
         <Logo>
-            <a href="/home"><img
+            <a href="/"><img
                 src="/images/logo.png"
                 alt="One Ring Rentals"
             /></a>

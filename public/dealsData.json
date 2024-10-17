@@ -3,7 +3,7 @@
       "title": "Private Beach",
       "location": "Lossarnach",
       "region": "Eriado",
-      "image": "http://placehold.it/100x100",
+      "image": "https://picsum.photos/id/447/100.webp",
       "link": "#",
       "availability": "Now"
     },
@@ -11,7 +11,7 @@
       "title": "Mountain Views",
       "location": "Hyarnustar",
       "region": "Rhovanion",
-      "image": "http://placehold.it/100x100",
+      "image": "https://picsum.photos/id/327/100.webp",
       "link": "#",
       "postedTime": "24th July"
     },
@@ -19,7 +19,7 @@
       "title": "Heart of the Village",
       "location": "Minhiriath",
       "region": "Eriador",
-      "image": "http://placehold.it/100x100",
+      "image": "https://picsum.photos/id/322/100.webp",
       "link": "#",
       "postedTime": "5th July"
     },
@@ -27,7 +27,7 @@
       "title": "The city life",
       "location": "West Beleriand",
       "region": "Mordor",
-      "image": "http://placehold.it/100x100",
+      "image": "https://picsum.photos/id/448/100.webp",
       "link": "#",
       "postedTime": "6th July"
     }

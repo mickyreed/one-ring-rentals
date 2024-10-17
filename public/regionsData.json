@@ -1,32 +1,32 @@
 [
   {
     "location": "Rhovanion",
-    "image": "http://placehold.it/194x194",
+    "image": "https://picsum.photos/id/231/194.webp",
     "link": "#"
   },
   {
     "location": "Mordor",
-    "image": "http://placehold.it/194x194",
+    "image": "https://picsum.photos/id/177/194.webp",
     "link": "#"
   },
   {
     "location": "Eriador",
-    "image": "http://placehold.it/194x194",
+    "image": "https://picsum.photos/id/93/194.webp",
     "link": "#"
   },
   {
     "location": "The Southwest",
-    "image": "http://placehold.it/194x194",
+    "image": "https://picsum.photos/id/66/194.webp",
     "link": "#"
   },
   {
     "location": "Bay of Belfalas",
-    "image": "http://placehold.it/194x194",
+    "image": "https://picsum.photos/id/128/194.webp",
     "link": "#"
   },
   {
     "location": "Arnor",
-    "image": "http://placehold.it/194x194",
+    "image": "https://picsum.photos/id/95/194.webp",
     "link": "#"
   }
 ]

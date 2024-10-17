@@ -6,7 +6,7 @@
     "price": "950",
     "beds": "4",
     "baths": "3",
-    "image": "http://placehold.it/760x670",
+    "image": "https://picsum.photos/id/10/250/220.webp",
     "link": "properties-detail.html"
   },
   {
@@ -16,7 +16,7 @@
     "price": "85",
     "beds": "1",
     "baths": "2",
-    "image": "http://placehold.it/760x670",
+    "image": "https://picsum.photos/id/11/250/220.webp",
     "link": "properties-detail.html"
   },
   {
@@ -26,7 +26,7 @@
     "price": "1,300",
     "beds": "5",
     "baths": "2",
-    "image": "http://placehold.it/760x670",
+    "image": "https://picsum.photos/id/12/250/220.webp",
     "link": "properties-detail.html"
   },
   {
@@ -36,7 +36,7 @@
     "price": "840",
     "beds": "2",
     "baths": "2",
-    "image": "http://placehold.it/760x670",
+    "image": "https://picsum.photos/id/13/250/220.webp",
     "link": "properties-detail.html"
   },
   {
@@ -46,7 +46,7 @@
     "price": "560",
     "beds": "3",
     "baths": "2",
-    "image": "http://placehold.it/760x670",
+    "image": "https://picsum.photos/id/14/250/220.webp",
     "link": "properties-detail.html"
   },
   {
@@ -56,7 +56,7 @@
     "price": "150",
     "beds": "3",
     "baths": "2",
-    "image": "http://placehold.it/760x670",
+    "image": "https://picsum.photos/id/15/250/220.webp",
     "link": "properties-detail.html"
   }
 ]

@@ -15,41 +15,30 @@
  * Region cards (will be another component props for regionName, image COMPLETED 15/10/24
  *
  * REFERENCES:
+ * Prop Drilling & context
+ *  https://react.dev/learn/passing-data-deeply-with-context
+ *  https://dmitripavlutin.com/react-context-and-usecontext/#:~:text=React%20context%20provides%20data%20to%20components%20no%20matter,global%20state%2C%20theme%2C%20services%2C%20user%20settings%2C%20and%20more.
+ *  https://dev.to/luqmanshaban/react-context-api-a-step-by-step-guide-i1i
+ *  https://blog.logrocket.com/react-context-api-deep-dive-examples/
+ *  https://dev.to/clickpesa/react-manage-state-using-context-api-with-usestate-or-usereducer-hooks-d5l
+ *  https://stackoverflow.com/questions/69675357/what-is-the-proper-way-to-do-global-state
+ *  https://www.freecodecamp.org/news/react-context-for-beginners/
+ *
  */
-import React, {useEffect, useState} from 'react';
+import React, { useContext } from 'react';
 import 'bulma/css/bulma.css';
 import RegionsCard from "./RegionsCard";
-import {fetchAPIData} from "../../../fetchAPIData";
-
+import { RegionsContext } from '../../../contexts/RegionsContext';
 
 const PopularRegions = () => {
-
-    const [regions, setRegions] = useState([]);  // Empty array initially to hold the fetched data
-    const [loading, setLoading] = useState(true);  // Loading state
-    const [error, setError] = useState(null); // Error state
-
-    // Simulate an API call with fetch to load properties from JSON
-    useEffect(() => {
-        const loadRegions = async () => {
-            try {
-                const regions = await fetchAPIData('/regionsData.json');  // Call the helper function
-                setRegions(regions);  // Store the fetched data in state
-                setLoading(false);  // Set loading to false once data is fetched
-            } catch (err) {
-                setError(err.message);  // Set error message if something goes wrong
-                setLoading(false);
-            }
-        };
-
-        loadRegions();
-    }, []);
-
+    const { regions, loading, error } = useContext(RegionsContext); // Use the context
+    console.log(regions);
     if (loading) {
-        return <div>Loading regions...</div>;  // Show a loading state while fetching data
+        return <div>Loading regions...</div>;
     }
 
     if (error) {
-        return <div>Error: {error}</div>;  // Show error if fetching fails
+        return <div>Sorry, unable to load regions at this time</div>;
     }
 
     // Split into 3 columns using slice()
