@@ -31,34 +31,34 @@ import PropertyCard from "./PropertyCard";
 import 'bulma/css/bulma.css';
 import {fetchAPIData} from "../../../fetchAPIData";
 
-    const FeaturedProperties = () => {
-        const [properties, setProperties] = useState([]);  // Empty array initially to hold the fetched data
-        const [loading, setLoading] = useState(true);  // Loading state
-        const [error, setError] = useState(null); // Error state
+const FeaturedProperties = () => {
+    const [properties, setProperties] = useState([]);  // Empty array initially to hold the fetched data
+    const [loading, setLoading] = useState(true);  // Loading state
+    const [error, setError] = useState(null); // Error state
 
-        // Simulate an API call with fetch to load properties from JSON
-        useEffect(() => {
-            const loadProperties = async () => {
-                try {
-                    const data = await fetchAPIData('/propertiesData.json');  // Call the helper function
-                    setProperties(data);  // Store the fetched data in state
-                    setLoading(false);  // Set loading to false once data is fetched
-                } catch (err) {
-                    setError(err.message);  // Set error message if something goes wrong
-                    setLoading(false);
-                }
-            };
+    // Simulate an API call with fetch to load properties from JSON
+    useEffect(() => {
+        const loadProperties = async () => {
+            try {
+                const properties = await fetchAPIData('/propertiesData.json');  // Call the helper function
+                setProperties(properties);  // Store the fetched data in state
+                setLoading(false);  // Set loading to false once data is fetched
+            } catch (err) {
+                setError(err.message);  // Set error message if something goes wrong
+                setLoading(false);
+            }
+        };
 
-            loadProperties();
-        }, []);
+        loadProperties();
+    }, []);
 
-        if (loading) {
-            return <div>Loading properties...</div>;  // Show a loading state while fetching data
-        }
+    if (loading) {
+        return <div>Loading properties...</div>;  // Show a loading state while fetching data
+    }
 
-        if (error) {
-            return <div>Error: {error}</div>;  // Show error if fetching fails
-        }
+    if (error) {
+        return <div>Error: {error}</div>;  // Show error if fetching fails
+    }
 
     // Split into 3 columns using slice()
     const column1 = properties.slice(0, 2); // First 2 items

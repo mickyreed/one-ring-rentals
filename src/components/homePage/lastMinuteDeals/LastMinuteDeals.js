@@ -17,45 +17,42 @@
  *
  * REFERENCES:
  */
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 import 'bulma/css/bulma.css';
 import DealsCard from "./DealsCard";
+import {fetchAPIData} from "../../../fetchAPIData";
 
 const LastMinuteDeals = () => {
+    const [deals, setDeals] = useState([]);  // Empty array initially to hold the fetched data
+    const [loading, setLoading] = useState(true);  // Loading state
+    const [error, setError] = useState(null); // Error state
 
-    // Add deals props
-    const deals = [
-        {title: "Private Beach",
-            location: "Lossarnach",
-            region: "Eriado",
-            image: "http://placehold.it/100x100",
-            link: "#",
-            availability: "Now"
-        },
-        {title: "Mountain Views",
-            location: "Hyarnustar",
-            region: "Rhovanion",
-            image: "http://placehold.it/100x100",
-            link: "#",
-            postedTime: "24th July",
-        },
-        {title: "Heart of the Village",
-            location: "Minhiriath",
-            region: "Eriador",
-            image: "http://placehold.it/100x100",
-            link: "#",
-            postedTime: "5th July",
-        },
-        {title: "The city life",
-            location: "West Beleriand",
-            region: "Mordor",
-            image: "http://placehold.it/100x100",
-            link: "#",
-            postedTime: "6th July",
-        },
-    ];
+    // Simulate an API call with fetch to load properties from JSON
+    useEffect(() => {
+        const loadDeals = async () => {
+            try {
+                const deals = await fetchAPIData('/dealsData.json');  // Call the helper function
+                setDeals(deals);  // Store the fetched data in state
+                setLoading(false);  // Set loading to false once data is fetched
+            } catch (err) {
+                setError(err.message);  // Set error message if something goes wrong
+                setLoading(false);
+            }
+        };
 
-    // Split into 3 columns using slice()
+        loadDeals();
+    }, []);
+
+    if (loading) {
+        return <div>Loading deals...</div>;  // Show a loading state while fetching data
+    }
+
+    if (error) {
+        return <div>Error: {error}</div>;  // Show error if fetching fails
+    }
+
+
+    // Split into 1 columns using slice()
     const column = deals.slice(0, 4); // First 2 items to display only
 
     return (
