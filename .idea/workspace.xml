@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4c8730a5-2738-4db9-8168-91a0b381ef09" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/public/dealsData.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/propertiesData.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fetchAPIData.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/homePage/featuredProperties/FeaturedProperties.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/homePage/featuredProperties/FeaturedProperties.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/homePage/lastMinuteDeals/LastMinuteDeals.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/homePage/lastMinuteDeals/LastMinuteDeals.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,11 +71,11 @@
       <recent name="C:\Users\xcal1\source\repos\one-ring-rentals" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\xcal1\source\repos\one-ring-rentals\src" />
       <recent name="C:\Users\xcal1\source\repos\one-ring-rentals\src\components\homePage\recentArticles" />
       <recent name="C:\Users\xcal1\source\repos\one-ring-rentals\src\components\homePage\featuredProperties" />
       <recent name="C:\Users\xcal1\source\repos\one-ring-rentals\src\components\homePage\lastMinuteDeals" />
       <recent name="C:\Users\xcal1\source\repos\one-ring-rentals\src\components\homePage\activity" />
-      <recent name="C:\Users\xcal1\source\repos\one-ring-rentals\src\components\homePage\popularRegions" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -111,7 +109,7 @@
       <workItem from="1729012804564" duration="142000" />
       <workItem from="1729037553384" duration="561000" />
       <workItem from="1729091037092" duration="8603000" />
-      <workItem from="1729138156931" duration="6848000" />
+      <workItem from="1729138156931" duration="8813000" />
     </task>
     <servers />
   </component>

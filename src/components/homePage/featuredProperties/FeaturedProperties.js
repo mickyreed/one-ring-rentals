@@ -29,6 +29,7 @@
 import React, { useEffect, useState } from 'react';
 import PropertyCard from "./PropertyCard";
 import 'bulma/css/bulma.css';
+import {fetchAPIData} from "../../../fetchAPIData";
 
     const FeaturedProperties = () => {
         const [properties, setProperties] = useState([]);  // Empty array initially to hold the fetched data
@@ -36,29 +37,27 @@ import 'bulma/css/bulma.css';
         const [error, setError] = useState(null); // Error state
 
         // Simulate an API call with fetch to load properties from JSON
-
         useEffect(() => {
-            const fetchData = async () => {
+            const loadProperties = async () => {
                 try {
-                    const response = await fetch('/propertiesData.json');  // Fetch JSON from the public folder
-                    if (!response.ok) {
-                        throw new Error(`HTTP error! status: ${response.status}`);
-                    }
-                    const data = await response.json();
-                    setProperties(data);
-                    setLoading(false);
+                    const data = await fetchAPIData('/propertiesData.json');  // Call the helper function
+                    setProperties(data);  // Store the fetched data in state
+                    setLoading(false);  // Set loading to false once data is fetched
                 } catch (err) {
-                    // console.error("Error fetching properties:", error);
-                    setError(err.message); // Set error message state
+                    setError(err.message);  // Set error message if something goes wrong
                     setLoading(false);
                 }
             };
 
-            fetchData();
+            loadProperties();
         }, []);
 
         if (loading) {
             return <div>Loading properties...</div>;  // Show a loading state while fetching data
+        }
+
+        if (error) {
+            return <div>Error: {error}</div>;  // Show error if fetching fails
         }
 
     // Split into 3 columns using slice()
@@ -71,9 +70,6 @@ import 'bulma/css/bulma.css';
 
             {/*add dividing lines here 2 bars*/}
             <div className="double-underline mb-6 has-text-center"></div>
-
-            {/* Display error if there is one use {error} to get error details */}
-            {error && <p className="has-text-danger">Sorry, we are unable to fetch properties at this time: <br/></p>}
 
             <div className="columns">
                 <div className="column is-one-third">
