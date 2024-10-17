@@ -16,32 +16,41 @@
  *
  * REFERENCES:
  */
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 import 'bulma/css/bulma.css';
 import ActivityCard from "./ActivityCard";
+import {fetchAPIData} from "../../../fetchAPIData";
 
 
 const Activity = () => {
 
-    // Add regions props
-    const activities = [
-        {userName: "Sam Minnée",
-            action: "reviewed",
-            location: "The House With No Windows",
-            comment: "Awesome solitary confinement, mate. Spot on. Sweet as.",
-            image: "http://placehold.it/70x70",
-            link: "#",
-            postedTime: "Just Now"
-        },
-        {userName: "Ingo Schoomer",
-            action: "asked a question about",
-            location: "The Mistake by the Lake",
-            comment: "Has this house been unit tested?",
-            image: "http://placehold.it/70x70",
-            link: "#",
-            postedTime: "37 Minutes Ago",
-        },
-    ];
+    const [activities, setActivities] = useState([]);  // Empty array initially to hold the fetched data
+    const [loading, setLoading] = useState(true);  // Loading state
+    const [error, setError] = useState(null); // Error state
+
+    // Simulate an API call with fetch to load properties from JSON
+    useEffect(() => {
+        const loadActivities = async () => {
+            try {
+                const activities = await fetchAPIData('/activityData.json');  // Call the helper function
+                setActivities(activities);  // Store the fetched data in state
+                setLoading(false);  // Set loading to false once data is fetched
+            } catch (err) {
+                setError(err.message);  // Set error message if something goes wrong
+                setLoading(false);
+            }
+        };
+
+        loadActivities();
+    }, []);
+
+    if (loading) {
+        return <div>Loading regions...</div>;  // Show a loading state while fetching data
+    }
+
+    if (error) {
+        return <div>Error: {error}</div>;  // Show error if fetching fails
+    }
 
     // Split into 3 columns using slice()
     const column = activities.slice(0, 2); // First 2 items to display only

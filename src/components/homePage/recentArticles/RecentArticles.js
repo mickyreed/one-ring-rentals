@@ -17,39 +17,41 @@
  *
  * REFERENCES:
  */
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 import 'bulma/css/bulma.css';
 import ArticlesCard from "./ArticlesCard";
+import {fetchAPIData} from "../../../fetchAPIData";
 
 
 const RecentArticles = () => {
 
-    const articles = [
-        {title: "How to get your dream property for the best price?",
-            summary: "Sed rutrum urna id tellus euismod gravida. Praesent placerat, mauris ac pellentesque fringilla, tortor libero condimen.",
-            date: "July 30, 2014",
-            tags: "Properties, Prices, best deals",
-            image: "http://placehold.it/766x515",
-            link: "#",
-            mediaType: "fa fa-file-text",
-            commentsCount: "2"},
-        {title: "7 tips to get the best mortgage.",
-            summary: "Sed rutrum urna id tellus euismod gravida. Praesent placerat, mauris ac pellentesque fringilla, tortor libero condimen.",
-            date: "July 24, 2014",
-            tags: "Tips, Mortgage",
-            image: "http://placehold.it/766x515",
-            link: "#",
-            mediaType: "fa fa-file-video",
-            commentsCount: "4"},
-        {title: "House, location or price: What's the most important factor?",
-            summary: "Sed rutrum urna id tellus euismod gravida. Praesent placerat, mauris ac pellentesque fringilla, tortor libero condimen.",
-            date: "July 05, 2014",
-            tags: "Location, Price, House",
-            image: "http://placehold.it/766x515",
-            link: "#",
-            mediaType: "fa fa-file-text",
-            commentsCount: "1"},
-        ];
+    const [articles, setArticles] = useState([]);  // Empty array initially to hold the fetched data
+    const [loading, setLoading] = useState(true);  // Loading state
+    const [error, setError] = useState(null); // Error state
+
+    // Simulate an API call with fetch to load properties from JSON
+    useEffect(() => {
+        const loadArticles = async () => {
+            try {
+                const articles = await fetchAPIData('/articlesData.json');  // Call the helper function
+                setArticles(articles);  // Store the fetched data in state
+                setLoading(false);  // Set loading to false once data is fetched
+            } catch (err) {
+                setError(err.message);  // Set error message if something goes wrong
+                setLoading(false);
+            }
+        };
+
+        loadArticles();
+    }, []);
+
+    if (loading) {
+        return <div>Loading articles...</div>;  // Show a loading state while fetching data
+    }
+
+    if (error) {
+        return <div>Error: {error}</div>;  // Show error if fetching fails
+    }
 
     // Split into 3 columns using slice()
     const column1 = articles.slice(0, 1); // First 1 items

@@ -1,0 +1,32 @@
+[
+  {
+    "title": "How to get your dream property for the best price?",
+    "summary": "Sed rutrum urna id tellus euismod gravida. Praesent placerat, mauris ac pellentesque fringilla, tortor libero condimen.",
+    "date": "July 30, 2014",
+    "tags": "Properties, Prices, best deals",
+    "image": "http://placehold.it/766x515",
+    "link": "#",
+    "mediaType": "fa fa-file-text",
+    "commentsCount": "2"
+  },
+  {
+    "title": "7 tips to get the best mortgage.",
+    "summary": "Sed rutrum urna id tellus euismod gravida. Praesent placerat, mauris ac pellentesque fringilla, tortor libero condimen.",
+    "date": "July 24, 2014",
+    "tags": "Tips, Mortgage",
+    "image": "http://placehold.it/766x515",
+    "link": "#",
+    "mediaType": "fa fa-file-video",
+    "commentsCount": "4"
+  },
+  {
+    "title": "House, location or price: What's the most important factor?",
+    "summary": "Sed rutrum urna id tellus euismod gravida. Praesent placerat, mauris ac pellentesque fringilla, tortor libero condimen.",
+    "date": "July 05, 2014",
+    "tags": "Location, Price, House",
+    "image": "http://placehold.it/766x515",
+    "link": "#",
+    "mediaType": "fa fa-file-text",
+    "commentsCount": "1"
+  }
+]
