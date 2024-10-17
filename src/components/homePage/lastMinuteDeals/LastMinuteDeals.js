@@ -23,7 +23,7 @@ import DealsCard from "./DealsCard";
 
 const LastMinuteDeals = () => {
 
-    // Add regions props
+    // Add deals props
     const deals = [
         {title: "Private Beach",
             location: "Lossarnach",

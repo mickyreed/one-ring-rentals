@@ -1,0 +1,36 @@
+{
+  "deals": [
+    {
+      "title": "Private Beach",
+      "location": "Lossarnach",
+      "region": "Eriado",
+      "image": "http://placehold.it/100x100",
+      "link": "#",
+      "availability": "Now"
+    },
+    {
+      "title": "Mountain Views",
+      "location": "Hyarnustar",
+      "region": "Rhovanion",
+      "image": "http://placehold.it/100x100",
+      "link": "#",
+      "postedTime": "24th July"
+    },
+    {
+      "title": "Heart of the Village",
+      "location": "Minhiriath",
+      "region": "Eriador",
+      "image": "http://placehold.it/100x100",
+      "link": "#",
+      "postedTime": "5th July"
+    },
+    {
+      "title": "The city life",
+      "location": "West Beleriand",
+      "region": "Mordor",
+      "image": "http://placehold.it/100x100",
+      "link": "#",
+      "postedTime": "6th July"
+    }
+  ]
+}

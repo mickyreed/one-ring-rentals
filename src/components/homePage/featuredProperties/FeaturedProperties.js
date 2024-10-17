@@ -19,43 +19,47 @@
  *  - so effectively could use this anywhere in app
  *
  * REFERENCES:
- *
+ * REF: research api's and returning error when api call fails
+ * https://www.pluralsight.com/resources/blog/guides/fetch-data-from-a-json-file-in-a-react-app
+ * https://chatgpt.com/share/6710b3ce-1c48-8005-9cca-f9d8b64a891e
+ * TODO: look at using mock api using json-server - https://medium.com/@yogeshmulecraft/json-server-testing-mock-apis-with-react-5b75b8421fc3
+ *  - https://medium.com/how-to-react/how-to-use-json-file-as-a-server-for-fake-api-in-react-js-6b72606023b7
+ *  - https://stackoverflow.com/questions/39442306/simulating-an-api-call-with-javascript
  */
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import PropertyCard from "./PropertyCard";
 import 'bulma/css/bulma.css';
 
+    const FeaturedProperties = () => {
+        const [properties, setProperties] = useState([]);  // Empty array initially to hold the fetched data
+        const [loading, setLoading] = useState(true);  // Loading state
+        const [error, setError] = useState(null); // Error state
 
-const FeaturedProperties = () => {
+        // Simulate an API call with fetch to load properties from JSON
 
-    // Add properties props
-    const properties = [
-        {title: "Luxury Apartment with great views",
-            location: "Upper East Side", city: "New York",
-            price: "950", beds: "4", baths: "3",
-            image: "http://placehold.it/760x670", link: "properties-detail.html"},
-        {title: "Modern construction with parking space",
-            location: "Midtown", city: "New York",
-            price: "85", beds: "1", baths: "2",
-            image: "http://placehold.it/760x670", link: "properties-detail.html"},
-        {title: "Stunning Villa with 5 bedrooms",
-            location: "Miami Beach", city: "Florida",
-            price: "1,300", beds: "5", baths: "2",
-            image: "http://placehold.it/760x670", link: "properties-detail.html"},
-        {title: "Single Family Townhouse",
-            location: "Cobble Hill", city: "New York",
-            price: "840", beds: "2", baths: "2",
-            image: "http://placehold.it/760x670", link: "properties-detail.html"},
-        {title: "Recent construction with 3 bedrooms",
-            location: "Park Slope", city: "New York",
-            price: "560", beds: "3", baths: "2",
-            image: "http://placehold.it/760x670", link: "properties-detail.html"},
-        {title: "3 bedroom villa with garage for rent",
-            location: "Bal Harbour", city: "Florida",
-            price: "150", beds: "3", baths: "2",
-            image: "http://placehold.it/760x670", link: "properties-detail.html"},
-    ];
+        useEffect(() => {
+            const fetchData = async () => {
+                try {
+                    const response = await fetch('/propertiesData.json');  // Fetch JSON from the public folder
+                    if (!response.ok) {
+                        throw new Error(`HTTP error! status: ${response.status}`);
+                    }
+                    const data = await response.json();
+                    setProperties(data);
+                    setLoading(false);
+                } catch (err) {
+                    // console.error("Error fetching properties:", error);
+                    setError(err.message); // Set error message state
+                    setLoading(false);
+                }
+            };
 
+            fetchData();
+        }, []);
+
+        if (loading) {
+            return <div>Loading properties...</div>;  // Show a loading state while fetching data
+        }
 
     // Split into 3 columns using slice()
     const column1 = properties.slice(0, 2); // First 2 items
@@ -67,6 +71,9 @@ const FeaturedProperties = () => {
 
             {/*add dividing lines here 2 bars*/}
             <div className="double-underline mb-6 has-text-center"></div>
+
+            {/* Display error if there is one use {error} to get error details */}
+            {error && <p className="has-text-danger">Sorry, we are unable to fetch properties at this time: <br/></p>}
 
             <div className="columns">
                 <div className="column is-one-third">

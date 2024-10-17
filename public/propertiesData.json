@@ -1,0 +1,62 @@
+[
+  {
+    "title": "Luxury Apartment with great views",
+    "location": "Upper East Side",
+    "city": "New York",
+    "price": "950",
+    "beds": "4",
+    "baths": "3",
+    "image": "http://placehold.it/760x670",
+    "link": "properties-detail.html"
+  },
+  {
+    "title": "Modern construction with parking space",
+    "location": "Midtown",
+    "city": "New York",
+    "price": "85",
+    "beds": "1",
+    "baths": "2",
+    "image": "http://placehold.it/760x670",
+    "link": "properties-detail.html"
+  },
+  {
+    "title": "Stunning Villa with 5 bedrooms",
+    "location": "Miami Beach",
+    "city": "Florida",
+    "price": "1,300",
+    "beds": "5",
+    "baths": "2",
+    "image": "http://placehold.it/760x670",
+    "link": "properties-detail.html"
+  },
+  {
+    "title": "Single Family Townhouse",
+    "location": "Cobble Hill",
+    "city": "New York",
+    "price": "840",
+    "beds": "2",
+    "baths": "2",
+    "image": "http://placehold.it/760x670",
+    "link": "properties-detail.html"
+  },
+  {
+    "title": "Recent construction with 3 bedrooms",
+    "location": "Park Slope",
+    "city": "New York",
+    "price": "560",
+    "beds": "3",
+    "baths": "2",
+    "image": "http://placehold.it/760x670",
+    "link": "properties-detail.html"
+  },
+  {
+    "title": "3 bedroom villa with garage for rent",
+    "location": "Bal Harbour",
+    "city": "Florida",
+    "price": "150",
+    "beds": "3",
+    "baths": "2",
+    "image": "http://placehold.it/760x670",
+    "link": "properties-detail.html"
+  }
+]
