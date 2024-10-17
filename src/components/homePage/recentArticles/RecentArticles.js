@@ -10,10 +10,10 @@
  *
  * create a Recent Articles component needs the following: COMPLETE 13/10/24
  * Column suits 2/3 wide Title is centred COMPLETE 13/10/24
- * TODO: Add double underline
- * TODO: import 3 Article cards into 3 columns of 1 (or grid)
+ * Add double underline COMPLETE
+ * import 3 Article cards into 3 columns of 1 (or grid) COMPLETE
  * under this is a rectangular button "VIEW ALL NEWS" rounded corners border and tranparent background COMPLETE 13/10/24
- * TODO: Article cards (will be another component props for Title, Summary, Availability, Tags, CommentCount, image, articleLink
+ * Article cards (will be another component props for Title, Summary, Availability, Tags, CommentCount, image, articleLink COMPLETE
  *
  * REFERENCES:
  */

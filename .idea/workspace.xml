@@ -5,13 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4c8730a5-2738-4db9-8168-91a0b381ef09" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/public/activityData.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/articlesData.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/regionsData.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/homePage/activity/Activity.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/homePage/activity/Activity.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/homePage/popularRegions/PopularRegions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/homePage/popularRegions/PopularRegions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/homePage/activity/ActivityCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/homePage/activity/ActivityCard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/homePage/featuredProperties/FeaturedProperties.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/homePage/featuredProperties/FeaturedProperties.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/homePage/popularRegions/RegionsCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/homePage/popularRegions/RegionsCard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/homePage/recentArticles/ArticlesCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/homePage/recentArticles/ArticlesCard.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/homePage/recentArticles/RecentArticles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/homePage/recentArticles/RecentArticles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/RegionsPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/RegionsPage.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +115,7 @@
       <workItem from="1729037553384" duration="561000" />
       <workItem from="1729091037092" duration="8603000" />
       <workItem from="1729138156931" duration="9798000" />
-      <workItem from="1729155211276" duration="1054000" />
+      <workItem from="1729155211276" duration="1800000" />
     </task>
     <servers />
   </component>

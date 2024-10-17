@@ -8,8 +8,8 @@
  * Created:     15/10/24
  * Author:      Michael Reed 20056066@tafe.wa.edu.au
  *
- * TODO: create a Articles Card component needs the following:
- *  props for title, summary, date, tags, image, link, mediaType
+ * create a Articles Card component needs the following: COMPLETE
+ *  props for title, summary, date, tags, image, link, mediaType COMPLETE
  * TODO: do i need to use PropTypes?? https://www.geeksforgeeks.org/how-to-use-proptypes-for-type-checking-in-react-components/
  *
  */

@@ -26,7 +26,7 @@ const RegionCard =({ link, location, image}) => {
                 <div className="item">
                     <a href={link}>
                         <img src={image} alt={location}/>
-                        <h4 className="title is-5 has-text-black">{location}</h4>
+                        <h4 className="title is-5 has-text-black mb-4">{location} </h4>
                     </a>
                 </div>
             </div>

@@ -12,8 +12,8 @@
  * Column suits 2/3 wide Title is centred COMPLETE 13/10/24
  * Add double underline COMPLETE:15/10/24
  * import 6 property cards into 3 columns of 2 (or grid) COMPLETE 13/10/24
- * TODO: images have the title and subtitle that appears on hover
- * TODO: re-look at how we do the property cards
+ * images have the title and subtitle that appears on hover COMPLETE
+ * re-look at how we do the property cards COMPLETE
  *  - i want to change this to for for loop using the number of columns and number of items in array
  *  - then populate all columns this way... could even then make a helper function and pass in number of columns
  *  - so effectively could use this anywhere in app
@@ -22,7 +22,7 @@
  * REF: research api's and returning error when api call fails
  * https://www.pluralsight.com/resources/blog/guides/fetch-data-from-a-json-file-in-a-react-app
  * https://chatgpt.com/share/6710b3ce-1c48-8005-9cca-f9d8b64a891e
- * TODO: look at using mock api using json-server - https://medium.com/@yogeshmulecraft/json-server-testing-mock-apis-with-react-5b75b8421fc3
+ * TODO: (future) look at using mock api using json-server - https://medium.com/@yogeshmulecraft/json-server-testing-mock-apis-with-react-5b75b8421fc3
  *  - https://medium.com/how-to-react/how-to-use-json-file-as-a-server-for-fake-api-in-react-js-6b72606023b7
  *  - https://stackoverflow.com/questions/39442306/simulating-an-api-call-with-javascript
  */

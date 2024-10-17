@@ -10,9 +10,9 @@
  *
  * create an Activity component needs the following: COMPLETE 13/10/24
  * Column suits 1/3 wide Title is centred COMPLETE 13/10/24
- * TODO: Add double underline
- * TODO: import 2 Activity cards into 1 columns (cards are 2 columns)
- * TODO: Deal cards (will be another component props for userName, action, title, comment, dateTime ,image, articleLink
+ * Add double underline COMPLETE
+ * import 2 Activity cards into 1 columns (cards are 2 columns) COMPLETE
+ * Deal cards (will be another component props for userName, action, title, comment, dateTime ,image, articleLink COMPLETE
  *
  * REFERENCES:
  */

@@ -7,7 +7,7 @@ import RecentArticles from "../components/homePage/recentArticles/RecentArticles
 
 function RegionsPage() {
     return (
-        <div className="App m-0 p-0 has-background-white">
+        <div className="App m-0 p-0 has-background-white mr-6 ml-6">
             <div id="wrapper">
                 <Header className="App-header"></Header>
                 <div className="wrapper mx-6 my-6 pb-6">
