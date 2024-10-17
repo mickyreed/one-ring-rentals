@@ -5,22 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4c8730a5-2738-4db9-8168-91a0b381ef09" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/contexts/RegionsContext.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/activityData.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/activityData.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/articlesData.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/articlesData.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/dealsData.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/dealsData.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/propertiesData.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/propertiesData.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/regionsData.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/regionsData.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/global/FooterTop.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/global/FooterTop.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/global/Logo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/global/Logo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/global/NavBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/global/NavBar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/homePage/Carousel.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/homePage/Carousel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/homePage/popularRegions/PopularRegions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/homePage/popularRegions/PopularRegions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/ContactPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/ContactPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/HomePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/HomePage.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,7 +110,7 @@
       <workItem from="1729091037092" duration="8603000" />
       <workItem from="1729138156931" duration="9798000" />
       <workItem from="1729155211276" duration="1800000" />
-      <workItem from="1729162414801" duration="17719000" />
+      <workItem from="1729162414801" duration="18998000" />
     </task>
     <servers />
   </component>

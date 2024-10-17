@@ -19,27 +19,42 @@ function ContactPage() {
 
                             <div className="contact-form">
                                 <div className="field">
-                                    <label className="label is-display-flex has-text-black">Name</label>
+                                    <label
+                                        className="label is-display-flex has-text-black">Name
+                                    </label>
                                     <div className="control">
-                                        <input className="input is-medium has-background-light has-text-dark-90" type="text"/>
+                                        <input
+                                            className="input is-medium has-background-light has-text-dark-90"
+                                            type="text"/>
                                     </div>
                                 </div>
                                 <div className="field">
-                                    <label className="label is-display-flex has-text-black">Email</label>
+                                    <label
+                                        className="label is-display-flex has-text-black">Email
+                                    </label>
                                     <div className="control">
-                                        <input className="input is-medium has-background-light has-text-dark-90" type="text"/>
+                                        <input className="input is-medium has-background-light has-text-dark-90"
+                                               type="text"/>
                                     </div>
                                 </div>
                                 <div className="field">
-                                    <label className="label is-display-flex has-text-black">Subject</label>
+                                    <label
+                                        className="label is-display-flex has-text-black">Subject
+                                    </label>
                                     <div className="control">
-                                        <input className="input is-medium has-background-light has-text-dark-90" type="text"/>
+                                        <input
+                                            className="input is-medium has-background-light has-text-dark-90"
+                                            type="text"/>
                                     </div>
                                 </div>
                                 <div className="field">
-                                    <label className="label is-display-flex has-text-black">Message</label>
+                                    <label
+                                        className="label is-display-flex has-text-black">Message
+                                    </label>
                                     <div className="control">
-                                        <textarea className="textarea is-medium has-background-light has-text-dark-90"></textarea>
+                                        <textarea
+                                            className="textarea is-medium has-background-light has-text-black">
+                                        </textarea>
                                     </div>
                                 </div>
                                 <div className="control is-display-flex pb-6 mb-6 mt-6">
