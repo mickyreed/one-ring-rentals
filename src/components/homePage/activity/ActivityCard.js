@@ -64,15 +64,15 @@ const ActivityCard =({ userName, action, location, link, image, comment, postedT
                 /></a>
             </column>
             <column className="info column is-half has-text-left">
-                <h6 className="has-text-black is-size-7 mb-0">
+                <h6 className="has-text-black is-size-7 mb-0 has-text-centered">
                     {userName} {action}
                     <a href={link} className={`location-highlight ${isHovered ? 'hovered' : ''}`}
                        onMouseEnter={() => setIsHovered(true)}
                        onMouseLeave={() => setIsHovered(false)}> {location}</a></h6>
-                <p className="is-size-7 mb-2">
+                <p className="is-size-7 mb-2 has-text-centered">
                     {comment}
                 </p>
-                <h6 className="has-text-black is-size-7 mb-1">{elapsedTime(postedTime)}</h6>
+                <h6 className="has-text-black is-size-7 mb-1 has-text-centered">{elapsedTime(postedTime)}</h6>
             </column>
         </div>
     )

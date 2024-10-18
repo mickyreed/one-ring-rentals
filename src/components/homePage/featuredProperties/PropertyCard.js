@@ -63,7 +63,7 @@ const PropertyCard =({ link, title, location, city, image, price, beds, baths}) 
 
             <div>
                 <div className="amenities">
-                    <div className="columns mb-4">
+                    <div className="columns mb-4 is-flex">
                         <div className="column is-6 pl-6"><i className="has-text-centered"></i> {beds} Beds</div>
                         <div className="column is-6 pr-6"><i className="has-text-centered"></i> {baths} Bath</div>
                     </div>

@@ -66,7 +66,8 @@ const FeaturedProperties = () => {
     const column3 = properties.slice(4, 6); // Last 2 items
 
     return (
-        <div><h3 className="title is-3 has-text-black mt-6 mb-6 pt-0">Featured Properties</h3>
+        <div>
+            <h3 className="title is-3 has-text-black mt-6 mb-6 pt-0">Featured Properties</h3>
 
             {/*add dividing lines here 2 bars*/}
             <div className="double-underline mb-6 has-text-center"></div>

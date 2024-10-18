@@ -31,12 +31,12 @@ const ArticlesCard =({ title, summary, date, tags, image, link, mediaType, comme
                 <div className=" is-align-items-center">
                     <img src={image} alt={title} className="article-image"/>
                 </div>
-                <div className="tag media-type-wrap has-background-black px-5 py-5"><i className={`${mediaType}`}></i>
-                    <p>dfdf</p>
-                    <p>dfdf</p>
-                    <p>dfdf</p>
+                <div className="tag media-type-wrap has-background-black px-5 py-5">
+                    <i className={`${mediaType}`}></i>
+
                 </div>
-                <div className="tag media-type has-background-black px-5 py-5"><i className={`${mediaType}`}></i>
+                <div className="tag media-type has-background-black px-5 py-5">
+                    <i className={`${mediaType}`}></i>
 
                 </div>
                 <div className="overlay is-display-flex is-align-items-center has-text-centered">
@@ -48,20 +48,26 @@ const ArticlesCard =({ title, summary, date, tags, image, link, mediaType, comme
                 </div>
             </div>
             <div>
-                <div className="info-blog">
-                    <div className="top-info is-display-flex px-6">
-                        <div><i className="fa fa-calendar"></i> {date}</div>
-                        <div><i className="fa fa-comments-o"></i> {commentsCount}</div>
+                <div className="info-blog has-text-centered">
+                    <div className="top-info is-flex is-justify-content-space-around is-align-items-center px-6">
+                        <div className="is-flex is-align-items-center">
+                            <i className="fa fa-calendar pr-2"></i>
+                            <span>{date}</span>
+                        </div>
+                        <div className="is-flex is-align-items-center">
+                            <i className="fa fa-comments-o pr-2"></i>
+                            <span>{commentsCount}</span>
+                        </div>
                     </div>
-                    <div>
+                    <div className="has-text-centered">
                         <div>
                             <i className="fa fa-tags"></i> {tags}
                         </div>
                     </div>
                     <div className="double-underline has-text-center pl-0 pr-0"></div>
 
-                    <h4><a href={link} className="title is-4 has-text-black">{title}</a></h4>
-                    <p>{summary}</p>
+                    <h4><a href={link} className="title is-4 has-text-black pr-4 pl-4 has-text-centered">{title}</a></h4>
+                    <p className="pr-4 pl-4">{summary}</p>
                 </div>
             </div>
 

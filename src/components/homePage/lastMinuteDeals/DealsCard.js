@@ -47,24 +47,28 @@ const checkDateAvailable = (dateBookedTil) => {
 const DealCard =({ title, location, region, link, image, availability,}) => {
     const [isHovered, setIsHovered] = useState(false);
     return (
-        <li className="columns ">
-            <column className="image column is-half">
-                <a href="#"></a>
-                <img alt={title} src={image}/>
-            </column>
-            <column className="column is-half">
-                <div className="is-size-7 mb-0 pr-2 ">
-                    <div><i className="fa fa-calendar pr-2"></i>Available {checkDateAvailable(availability)}</div>
+        <div className=" is-align-items-center px-3">
+            <div className="columns  ">
+                <div className="image column is-half is-flex
+                                    is-justify-content-space-around
+                                    is-align-items-center pb-4">
+                    <a href="#"></a>
+                    <img alt={title} src={image}/>
                 </div>
+                <column className="column is-half is-flex is-align-items-center pb-4">
+                    <div className="is-size-7 mb-0 pr-2 ">
+                        <div><i className="fa fa-calendar pr-2"></i>Available {checkDateAvailable(availability)}</div>
+                    </div>
 
-                <h4 className="has-text-black is-size-6 mb-0">
-                    <a href={link} className={`location-highlight ${isHovered ? 'hovered' : ''}`}
-                       onMouseEnter={() => setIsHovered(true)}
-                       onMouseLeave={() => setIsHovered(false)}> {title}</a>
-                    <p>{location}, {region}</p>
-                </h4>
-            </column>
-        </li>
+                    <h4 className="has-text-black is-size-6 mb-0">
+                        <a href={link} className={`location-highlight ${isHovered ? 'hovered' : ''}`}
+                           onMouseEnter={() => setIsHovered(true)}
+                           onMouseLeave={() => setIsHovered(false)}> {title}</a>
+                        <p>{location}, {region}</p>
+                    </h4>
+                </column>
+            </div>
+        </div>
     )
 }
 

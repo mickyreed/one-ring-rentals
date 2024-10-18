@@ -59,7 +59,7 @@ const RecentArticles = () => {
     const column3 = articles.slice(2, 3); // Last 1 items
 
     return (
-        <div>
+        <div className="">
             <h3 className="title is-3 has-text-black mt-6 mb-6">Recent Articles</h3>
 
             {/*add dividing lines here 2 bars*/}

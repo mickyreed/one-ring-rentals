@@ -34,13 +34,13 @@ const FooterTop = () => {
 
     return (
         <footer id="footer" className="footer has-background-light has-text-black pl-0 pr-0 pb-6 pb-0">
-            <div id="footer-top" className="container pl-6 pr-6">
+            <div id="footer-top" className="container pl-2 pr-2">
                 <div className="columns">
                     <div className="column is-one-quarter pr-3 is-align-content-start has-text-left">
                         <div className="footer-logo">
                             <a href="#"><img src="/images/logo.png" alt="One Ring Rentals"/></a>
-                            <br/><br/>
-                            <p>
+                            {/*<br/><br/>*/}
+                            <p className="pr-4">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
                                 commodo eros nibh, et dictum elit tincidunt eget. Pellentesque
                                 volutpat quam dignissim, convallis elit id, efficitur sem.
@@ -49,8 +49,8 @@ const FooterTop = () => {
                             </p>
                         </div>
                     </div>
-                    <div className="column is-one-quarter is-align-content-start has-text-left">
-                        <h3 className="title is-5 has-text-black">Helpful Links</h3>
+                    <div className="column is-one-quarter is-align-content-start has-text-left ml-4 mr-4">
+                        <h3 className="title is-5 has-text-black pt-4 pb-4">Helpful Links</h3>
                         <ul className="footer-links">
                             <hr className="is-divider has-background-grey-lighter"/>
                             <li><a href="#">All rentals</a></li>
@@ -62,7 +62,7 @@ const FooterTop = () => {
                         </ul>
                     </div>
                     <div className="column is-half is-align-content-start has-text-left">
-                        <h3 className="title is-5 has-text-black">Popular regions</h3>
+                        <h3 className="title is-5 has-text-black pt-4  pb-4">Popular regions</h3>
                         <div className="columns">
 
                             {/* Column 1 */}
