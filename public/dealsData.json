@@ -5,7 +5,7 @@
       "region": "Eriado",
       "image": "https://picsum.photos/id/447/100.webp",
       "link": "#",
-      "availability": "Now"
+      "availability": "2024-10-15T10:00:00Z"
     },
     {
       "title": "Mountain Views",
@@ -13,7 +13,7 @@
       "region": "Rhovanion",
       "image": "https://picsum.photos/id/327/100.webp",
       "link": "#",
-      "postedTime": "24th July"
+      "availability": "2024-10-20T10:00:00Z"
     },
     {
       "title": "Heart of the Village",
@@ -21,7 +21,7 @@
       "region": "Eriador",
       "image": "https://picsum.photos/id/322/100.webp",
       "link": "#",
-      "postedTime": "5th July"
+      "availability": "2024-11-24T10:00:00Z"
     },
     {
       "title": "The city life",
@@ -29,6 +29,6 @@
       "region": "Mordor",
       "image": "https://picsum.photos/id/448/100.webp",
       "link": "#",
-      "postedTime": "6th July"
+      "availability": "2024-11-11T10:00:00Z"
     }
   ]

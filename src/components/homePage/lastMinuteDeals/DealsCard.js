@@ -17,9 +17,34 @@ import React, { useState } from 'react';
 import 'bulma/css/bulma.css';
 import '../../../ActivityCard.css';
 
+// Function to set the formatting of the date we will be returning
+const formatDate = (date) => {
+    const options = { day: 'numeric', month: 'short', year: 'numeric' }; // will return 4 Jul 25 (short month version)
+    return date.toLocaleDateString('en-AU', options);
+};
+
+// Function to calculate booking dates against the current date
+// REFERENCES:
+//  - Date Method - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date
+//  - Convert date to local time - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleDateString
+//  - DateTime formatting and UTC - https://chatgpt.com/share/6711f7ec-4038-8005-a59f-d5fea2c168e0
+const checkDateAvailable = (dateBookedTil) => {
+    const currentDate = new Date();
+    const bookedTilDate= new Date(dateBookedTil);
+
+    if (bookedTilDate > currentDate){
+        return formatDate(bookedTilDate);
+    }
+    else{
+        return " Now";
+    }
+
+
+}
+
 // REF: hovered state research
 // https://medium.com/@iamviveksi/how-to-animate-a-button-in-react-using-css-transitions-eca2f636a63
-const DealCard =({ title, location, region, link, image, availability}) => {
+const DealCard =({ title, location, region, link, image, availability,}) => {
     const [isHovered, setIsHovered] = useState(false);
     return (
         <li className="columns ">
@@ -29,7 +54,7 @@ const DealCard =({ title, location, region, link, image, availability}) => {
             </column>
             <column className="column is-half">
                 <div className="is-size-7 mb-0 pr-2 ">
-                    <div><i className="fa fa-calendar pr-2"></i>Available {availability}</div>
+                    <div><i className="fa fa-calendar pr-2"></i>Available {checkDateAvailable(availability)}</div>
                 </div>
 
                 <h4 className="has-text-black is-size-6 mb-0">
