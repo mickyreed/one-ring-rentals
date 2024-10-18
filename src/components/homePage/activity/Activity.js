@@ -55,6 +55,8 @@ const Activity = () => {
     // Split into 3 columns using slice()
     const column = activities.slice(0, 2); // First 2 items to display only
 
+
+
     return (
         <div>
             <column className="column ml-0 mr-0 pl-0 pr-0">
