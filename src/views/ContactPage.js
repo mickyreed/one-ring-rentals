@@ -1,7 +1,7 @@
-import '../App.css';
+import '../css/App.css';
 import Header from '../components/global/Header';
 import Footer from '../components/global/Footer';
-import ContactForm from "../components/homePage/ContactForm";
+import ContactForm from "../components/ContactForm";
 import React from "react";
 
 function ContactPage() {

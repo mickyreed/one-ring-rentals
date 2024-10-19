@@ -15,7 +15,7 @@
 
 import React, { useState } from 'react';
 import 'bulma/css/bulma.css';
-import '../../../ActivityCard.css';
+import '../../../css/ActivityCard.css';
 
 // Function to calculate time difference between now and when a post was made
 // REFERENCES:

@@ -4,7 +4,7 @@
 // https://www.freecodecamp.org/news/react-context-for-beginners/
 
 import React, { createContext, useState, useEffect } from 'react';
-import { fetchAPIData } from '../fetchAPIData';
+import { fetchAPIData } from '../js/fetchAPIData';
 
 export const RegionsContext = createContext();
 

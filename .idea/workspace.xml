@@ -6,7 +6,154 @@
   <component name="ChangeListManager">
     <list default="true" id="4c8730a5-2738-4db9-8168-91a0b381ef09" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/global/NavBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/global/NavBar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/QRC.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/Thumbs.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/close_infobox.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/comment-man.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/comment-woman.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/css-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/home-search.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/htm-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/logo.oldpng.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/markers/Thumbs.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/markers/aquamarine-marker-commercial.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/markers/aquamarine-marker-cozy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/markers/aquamarine-marker-land.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/markers/aquamarine-marker-residential.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/markers/aquamarine-marker.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/markers/blue-marker-commercial.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/markers/blue-marker-cozy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/markers/blue-marker-land.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/markers/blue-marker-residential.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/markers/blue-marker.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/markers/coral-marker-commercial.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/markers/coral-marker-cozy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/markers/coral-marker-land.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/markers/coral-marker-residential.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/markers/coral-marker.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/markers/darkblue-marker-commercial.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/markers/darkblue-marker-cozy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/markers/darkblue-marker-land.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/markers/darkblue-marker-residential.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/markers/darkblue-marker.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/markers/darkgrey-marker-commercial.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/markers/darkgrey-marker-cozy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/markers/darkgrey-marker-land.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/markers/darkgrey-marker-residential.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/markers/darkgrey-marker.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/markers/firebrick-marker-commercial.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/markers/firebrick-marker-cozy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/markers/firebrick-marker-land.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/markers/firebrick-marker-residential.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/markers/firebrick-marker.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/markers/green-marker-commercial.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/markers/green-marker-cozy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/markers/green-marker-land.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/markers/green-marker-residential.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/markers/green-marker.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/markers/grey-marker-commercial.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/markers/grey-marker-cozy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/markers/grey-marker-land.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/markers/grey-marker-residential.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/markers/grey-marker.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/markers/lighgrey-marker-commercial.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/markers/lighgrey-marker-cozy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/markers/lighgrey-marker-land.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/markers/lighgrey-marker-residential.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/markers/lighgrey-marker.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/markers/orange-marker-commercial.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/markers/orange-marker-cozy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/markers/orange-marker-land.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/markers/orange-marker-residential.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/markers/orange-marker.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/markers/pink-marker-commercial.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/markers/pink-marker-cozy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/markers/pink-marker-land.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/markers/pink-marker-residential.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/markers/pink-marker.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/markers/purple-marker-commercial.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/markers/purple-marker-cozy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/markers/purple-marker-land.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/markers/purple-marker-residential.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/markers/purple-marker.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/markers/turquoise-marker-commercial.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/markers/turquoise-marker-cozy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/markers/turquoise-marker-land.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/markers/turquoise-marker-residential.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/markers/turquoise-marker.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/markers/violet-marker-commercial.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/markers/violet-marker-cozy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/markers/violet-marker-land.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/markers/violet-marker-residential.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/markers/violet-marker.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/markers/white-marker-commercial.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/markers/white-marker-cozy (1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/markers/white-marker-cozy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/markers/white-marker-land.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/markers/white-marker-residential.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/markers/white-marker.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/markers/yellow-marker-commercial.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/markers/yellow-marker-cozy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/markers/yellow-marker-land.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/markers/yellow-marker-residential.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/markers/yellow-marker.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/patterns/Thumbs.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/patterns/pattern1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/patterns/pattern1@2x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/patterns/pattern2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/patterns/pattern2@2x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/patterns/pattern3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/patterns/pattern3@2x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/patterns/pattern4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/patterns/pattern4@2x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/patterns/pattern5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/patterns/pattern5@2x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/patterns/pattern6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/patterns/pattern6@2x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/patterns/pattern7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/patterns/pattern7@2x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/patterns/pattern8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/patterns/pattern8@2x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/patterns/pattern9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/patterns/pattern9@2x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/plus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ActivityCard.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/ActivityCard.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/App.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArticlesCard.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/ArticlesCard.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PropertyCard.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/PropertyCard.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RegionsCard.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/RegionsCard.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/global/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/global/Footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/global/FooterTop.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/global/FooterTop.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/homePage/ContactForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ContactForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/homePage/Content.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/homePage/Content.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/homePage/activity/Activity.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/homePage/activity/Activity.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/homePage/activity/ActivityCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/homePage/activity/ActivityCard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/homePage/featuredProperties/FeaturedProperties.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/homePage/featuredProperties/FeaturedProperties.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/homePage/featuredProperties/PropertyCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/homePage/featuredProperties/PropertyCard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/homePage/lastMinuteDeals/DealsCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/homePage/lastMinuteDeals/DealsCard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/homePage/lastMinuteDeals/LastMinuteDeals.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/homePage/lastMinuteDeals/LastMinuteDeals.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/homePage/popularRegions/PopularRegions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/popularRegions/PopularRegions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/homePage/popularRegions/RegionsCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/popularRegions/RegionsCard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/homePage/recentArticles/ArticlesCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/recentArticles/ArticlesCard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/homePage/recentArticles/RecentArticles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/recentArticles/RecentArticles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contexts/RegionsContext.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/contexts/RegionsContext.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/bootstrap-datepicker.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fetchAPIData.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/fetchAPIData.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/footer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reportWebVitals.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/reportWebVitals.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/setupTests.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/setupTests.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/ContactPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/ContactPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/HomePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/HomePage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/NewsPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/NewsPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/RegionsPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/RegionsPage.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,11 +218,11 @@
       <recent name="C:\Users\xcal1\source\repos\one-ring-rentals" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\xcal1\source\repos\one-ring-rentals\src\components" />
+      <recent name="C:\Users\xcal1\source\repos\one-ring-rentals\src\js" />
+      <recent name="C:\Users\xcal1\source\repos\one-ring-rentals\src\css" />
       <recent name="C:\Users\xcal1\source\repos\one-ring-rentals\src" />
       <recent name="C:\Users\xcal1\source\repos\one-ring-rentals\src\components\homePage\recentArticles" />
-      <recent name="C:\Users\xcal1\source\repos\one-ring-rentals\src\components\homePage\featuredProperties" />
-      <recent name="C:\Users\xcal1\source\repos\one-ring-rentals\src\components\homePage\lastMinuteDeals" />
-      <recent name="C:\Users\xcal1\source\repos\one-ring-rentals\src\components\homePage\activity" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -113,7 +260,7 @@
       <workItem from="1729155211276" duration="1800000" />
       <workItem from="1729162414801" duration="18998000" />
       <workItem from="1729224976624" duration="26273000" />
-      <workItem from="1729339746177" duration="10558000" />
+      <workItem from="1729339746177" duration="12053000" />
     </task>
     <servers />
   </component>

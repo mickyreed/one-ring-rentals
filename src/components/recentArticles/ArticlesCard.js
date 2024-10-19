@@ -16,7 +16,7 @@
 
 import React, { useState } from 'react';
 import 'bulma/css/bulma.css';
-import '../../../ArticlesCard.css';
+import '../../css/ArticlesCard.css';
 
 // REF: hovered state research
 // https://medium.com/@iamviveksi/how-to-animate-a-button-in-react-using-css-transitions-eca2f636a63

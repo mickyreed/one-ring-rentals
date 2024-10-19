@@ -1,9 +1,9 @@
-import '../App.css';
+import '../css/App.css';
 import Header from '../components/global/Header';
 import Footer from '../components/global/Footer';
-import PopularRegions from "../components/homePage/popularRegions/PopularRegions";
+import PopularRegions from "../components/popularRegions/PopularRegions";
 import React from "react";
-import RecentArticles from "../components/homePage/recentArticles/RecentArticles";
+import RecentArticles from "../components/recentArticles/RecentArticles";
 
 function RegionsPage() {
     return (

@@ -19,7 +19,7 @@
 import React, {useEffect, useState} from 'react';
 import 'bulma/css/bulma.css';
 import ActivityCard from "./ActivityCard";
-import {fetchAPIData} from "../../../fetchAPIData";
+import {fetchAPIData} from "../../../js/fetchAPIData";
 
 
 const Activity = () => {

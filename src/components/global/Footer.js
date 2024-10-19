@@ -13,7 +13,7 @@
  *
   */
 import React from 'react';
-import '../../footer.css';
+import '../../css/footer.css';
 
 const Footer = () => {
     return (

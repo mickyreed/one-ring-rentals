@@ -14,7 +14,7 @@
   */
 import React, { useContext } from 'react';
 import { RegionsContext } from '../../contexts/RegionsContext';
-import '../../footer.css';
+import '../../css/footer.css';
 
 const FooterTop = () => {
 

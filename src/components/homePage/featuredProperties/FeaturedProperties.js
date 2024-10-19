@@ -29,7 +29,7 @@
 import React, { useEffect, useState } from 'react';
 import PropertyCard from "./PropertyCard";
 import 'bulma/css/bulma.css';
-import {fetchAPIData} from "../../../fetchAPIData";
+import {fetchAPIData} from "../../../js/fetchAPIData";
 
 const FeaturedProperties = () => {
     const [properties, setProperties] = useState([]);  // Empty array initially to hold the fetched data

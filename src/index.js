@@ -7,14 +7,14 @@ import './css/font-awesome.css'; //this has social media icons
 // import './css/style.less';
 // import 'bulma/css/bulma.min.css';
 
-import './index.css';
+import './css/index.css';
 import App from './App';
 import HomePage from "./views/HomePage";
 import NewsPage from "./views/NewsPage";
 import ContactPage from "./views/ContactPage";
 import RegionsPage from "./views/RegionsPage";
 
-import reportWebVitals from './reportWebVitals';
+import reportWebVitals from './js/reportWebVitals';
 import { RegionsProvider } from './contexts/RegionsContext';
 import {
     createBrowserRouter,
@@ -22,7 +22,7 @@ import {
 
 } from "react-router-dom";
 
-import "./index.css";
+import "./css/index.css";
 
 
 const router = createBrowserRouter([

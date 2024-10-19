@@ -20,7 +20,7 @@
 import React, {useEffect, useState} from 'react';
 import 'bulma/css/bulma.css';
 import ArticlesCard from "./ArticlesCard";
-import {fetchAPIData} from "../../../fetchAPIData";
+import {fetchAPIData} from "../../js/fetchAPIData";
 
 
 const RecentArticles = () => {

@@ -1,7 +1,7 @@
-import '../App.css';
+import '../css/App.css';
 import Header from '../components/global/Header';
 import Footer from '../components/global/Footer';
-import RecentArticles from "../components/homePage/recentArticles/RecentArticles";
+import RecentArticles from "../components/recentArticles/RecentArticles";
 import React from "react";
 
 function NewsPage() {

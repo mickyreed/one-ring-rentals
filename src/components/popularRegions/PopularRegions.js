@@ -28,7 +28,7 @@
 import React, { useContext } from 'react';
 import 'bulma/css/bulma.css';
 import RegionsCard from "./RegionsCard";
-import { RegionsContext } from '../../../contexts/RegionsContext';
+import { RegionsContext } from '../../contexts/RegionsContext';
 
 const PopularRegions = () => {
     const { regions, loading, error } = useContext(RegionsContext); // Use the context

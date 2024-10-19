@@ -20,7 +20,7 @@
 import React, {useEffect, useState} from 'react';
 import 'bulma/css/bulma.css';
 import DealsCard from "./DealsCard";
-import {fetchAPIData} from "../../../fetchAPIData";
+import {fetchAPIData} from "../../../js/fetchAPIData";
 
 const LastMinuteDeals = () => {
     const [deals, setDeals] = useState([]);  // Empty array initially to hold the fetched data

@@ -19,8 +19,8 @@
 import React from 'react';
 import 'bulma/css/bulma.css';
 import FeaturedProperties from "./featuredProperties/FeaturedProperties";
-import PopularRegions from "./popularRegions/PopularRegions";
-import RecentArticles from "./recentArticles/RecentArticles";
+import PopularRegions from "../popularRegions/PopularRegions";
+import RecentArticles from "../recentArticles/RecentArticles";
 import LastMinuteDeals from "./lastMinuteDeals/LastMinuteDeals";
 import Activity from "./activity/Activity";
 
