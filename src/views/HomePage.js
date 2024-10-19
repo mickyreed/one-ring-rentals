@@ -10,7 +10,6 @@ import AdvancedSearch from "../components/homePage/AdvancedSearch";
 
 function HomePage() {
     return (
-        // <RegionsProvider>
             <div className="App m-0 p-0">
                 <div id="wrapper">
                     <Header className="App-header"></Header>
@@ -21,9 +20,7 @@ function HomePage() {
                     <Footer className="App-footer"></Footer>
                 </div>
             </div>
-// </RegionsProvider>
-)
-    ;
+    );
 }
 
 export default HomePage;

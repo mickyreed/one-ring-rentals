@@ -17,7 +17,7 @@ export const fetchAPIData = async (url) => {
             throw new Error(`Error fetching data from ${url}: ${response.statusText}`);
         }
         const data = await response.json();
-        return data;  // Return the fetched data
+        return data;
     } catch (error) {
         console.error("Error fetching data:", error);
         throw error;  // Re-throw the error so it can be handled by the caller

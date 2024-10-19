@@ -37,7 +37,7 @@ const AdvancedSearch = () => {
                                             data-date-format="DD/MM/YYYY"
                                         />
                                         <span className="icon is-small is-right">
-                                                    <i className="fas fa-calendar-alt"></i></span>
+                                                    <i className="fa fa-calendar-alt"></i></span>
                                     </div>
                                 </div>
 
