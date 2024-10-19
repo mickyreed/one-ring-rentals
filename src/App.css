@@ -53,3 +53,10 @@
   margin: 1rem auto;
   max-width: 200px;
 }
+
+/* Custom CSS for placeholder text */
+.input::placeholder {
+  color: white; /* Dark grey color for placeholder */
+  opacity: 1; /* Ensures the color is solid and not transparent */
+  background: transparent;
+}

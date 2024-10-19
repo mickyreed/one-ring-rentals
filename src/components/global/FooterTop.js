@@ -33,7 +33,7 @@ const FooterTop = () => {
     const column2 = regions.slice(3, 6); // Next 3 items
 
     return (
-        <footer id="footer" className="footer has-background-light has-text-black pl-0 pr-0 pb-6 pb-0">
+        <footer id="footer" className="footer has-background-light has-text-black pl-4 pr-4 pb-6 pb-0">
             <div id="footer-top" className="container pl-2 pr-2">
                 <div className="columns">
                     <div className="column is-one-quarter pr-3 is-align-content-start has-text-left">
@@ -61,9 +61,9 @@ const FooterTop = () => {
                             <hr className="is-divider has-background-grey-lighter"/>
                         </ul>
                     </div>
-                    <div className="column is-half is-align-content-start has-text-left">
-                        <h3 className="title is-5 has-text-black pt-4  pb-4">Popular regions</h3>
-                        <div className="columns">
+                    <div className="column is-half is-align-content-start has-ext-left">
+                        <h3 className="title is-5 has-text-black pt-4 has-text-left pl-4">Popular regions</h3>
+                        <div className="columns pl-4">
 
                             {/* Column 1 */}
                             <div className="column is-half">
