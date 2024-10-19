@@ -30,8 +30,8 @@ const NavBar = () => {
     return (
 
         <nav className="navbar is-light is-display-flex" role="navigation" aria-label="main navigation">
-            <div className="container is-display-flex is-align-items-center mr-3 ml-3 pr-6 pl-6"
-                 style={{justifyContent: "space-between", padding: "0 1rem"}}>
+            <div className="container is-display-flex pr-4">
+                 {/*// style={{justifyContent: "space-between", padding: "0 1rem"}}>*/}
                 <div className="navbar-brand">
                     <div className="nav-logo is-display-flex">
                         <Link to="/"

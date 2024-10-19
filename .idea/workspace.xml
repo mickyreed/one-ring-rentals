@@ -5,14 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4c8730a5-2738-4db9-8168-91a0b381ef09" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/homePage/ContactForm.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/global/SearchBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/global/SearchBar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/homePage/AdvancedSearch.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/homePage/AdvancedSearch.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fetchAPIData.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/fetchAPIData.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/ContactPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/ContactPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/HomePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/HomePage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/global/NavBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/global/NavBar.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,7 +113,7 @@
       <workItem from="1729155211276" duration="1800000" />
       <workItem from="1729162414801" duration="18998000" />
       <workItem from="1729224976624" duration="26273000" />
-      <workItem from="1729339746177" duration="9876000" />
+      <workItem from="1729339746177" duration="10558000" />
     </task>
     <servers />
   </component>
