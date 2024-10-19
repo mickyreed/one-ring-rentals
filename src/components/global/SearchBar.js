@@ -44,7 +44,7 @@ const SearchBar = () => {
                     />
                 )}
                 <i
-                    className="fa fa-search sb-icon-search"
+                    className="fa fa-search sb-icon-search pl-2"
                     onClick={toggleSearch}
                     style={{cursor: 'pointer'}}
                 ></i>
