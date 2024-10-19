@@ -5,22 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4c8730a5-2738-4db9-8168-91a0b381ef09" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/contexts/LanguageContext.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/carousel.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/global/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/global/Footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/global/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/global/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/global/NavBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/global/NavBar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/global/SearchBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/global/SearchBar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/global/TopBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/global/TopBar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/homePage/Carousel.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/homePage/Carousel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/contexts/RegionsContext.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/contexts/RegionsContext.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/ContactPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/ContactPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/HomePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/HomePage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/NewsPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/NewsPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/RegionsPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/RegionsPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ContactForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ContactForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/homePage/AdvancedSearch.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/homePage/AdvancedSearch.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/homePage/activity/ActivityCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/homePage/activity/ActivityCard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/homePage/lastMinuteDeals/DealsCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/homePage/lastMinuteDeals/DealsCard.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +115,7 @@
       <workItem from="1729155211276" duration="1800000" />
       <workItem from="1729162414801" duration="18998000" />
       <workItem from="1729224976624" duration="26273000" />
-      <workItem from="1729339746177" duration="22184000" />
+      <workItem from="1729339746177" duration="22624000" />
     </task>
     <servers />
   </component>

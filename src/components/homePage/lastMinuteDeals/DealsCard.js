@@ -8,8 +8,8 @@
  * Created:     15/10/24
  * Author:      Michael Reed 20056066@tafe.wa.edu.au
  *
- * TODO: write a function that checks if the property is available
- *  and return "Now" if its available or a date eg "6th July"
+ * write a function that checks if the property is available
+ *  and return "Now" if its available or a date eg "6th July" COMPLETE
  *
  */
 

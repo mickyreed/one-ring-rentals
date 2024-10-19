@@ -8,8 +8,8 @@
  * Created:     15/10/24
  * Author:      Michael Reed 20056066@tafe.wa.edu.au
  *
- * TODO: (future) - write a function that checks if the posted time is less than one minute and return now, else return
- *  time in minutes, hours, days, weeks, months, year eg "Just Now", "45 minutes ago", "1 month ago"
+ * write a function that checks if the posted time is less than one minute and return now, else return
+ *  time in minutes, hours, days, weeks, months, year eg "Just Now", "45 minutes ago", "1 month ago" COMPLETED
  *
  */
 

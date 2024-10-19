@@ -8,15 +8,10 @@
  * Created:     19/10/24
  * Author:      Michael Reed 20056066@tafe.wa.edu.au
  *
- *
- * REFERENCES:
- *
  */
 
 import React, { useState } from 'react';
 import 'bulma/css/bulma.css';
-import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {faChevronDown, faChevronUp} from "@fortawesome/free-solid-svg-icons";
 
 const ContactForm = () => {
     return (

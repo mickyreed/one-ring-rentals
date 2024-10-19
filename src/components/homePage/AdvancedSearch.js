@@ -15,8 +15,6 @@
  */
 import React, { useState } from 'react';
 import 'bulma/css/bulma.css';
-import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {faChevronDown, faChevronUp} from "@fortawesome/free-solid-svg-icons";
 
 const AdvancedSearch = () => {
     return (
