@@ -1,3 +1,15 @@
+
+/**
+ * Regions Context
+ *
+ * Regions Context class component for all pages
+ *
+ * FILE NAME:   RegionsContext.js
+ * Location:    /src/contexts
+ * Created:     19/10/24
+ * Author:      Michael Reed 20056066@tafe.wa.edu.au
+ *
+ */
 // REFERNCE:
 // https://dev.to/clickpesa/react-manage-state-using-context-api-with-usestate-or-usereducer-hooks-d5l
 // https://stackoverflow.com/questions/69675357/what-is-the-proper-way-to-do-global-state

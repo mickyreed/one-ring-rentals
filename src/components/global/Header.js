@@ -18,10 +18,11 @@ import React from 'react';
 import TopBar from './TopBar';
 import NavBar from './NavBar';
 
-const Header = () => {
+const Header = ({languages}) => {
+
     return (
         <header className="header" id="header">
-            <TopBar></TopBar>
+            <TopBar languages={languages}></TopBar>
             <NavBar></NavBar>
         </header>
     )

@@ -1,4 +1,15 @@
-//import logo from './logo.svg';
+/**
+ * App
+ *
+ * Main App File
+ *
+ * FILE NAME:   RegionsPage.js
+ * Location:    /src/
+ * Created:
+ * Author:      Michael Reed 20056066@tafe.wa.edu.au
+ *
+ */
+
 import './css/App.css';
 
 // REFERENCE:
@@ -9,22 +20,33 @@ import './css/App.css';
 // Faster load times with images https://chatgpt.com/share/67116c8f-2144-8005-9868-fab8ae9325f0
 
 
-
-// import Header from './components/global/Header';
-// import Footer from './components/global/Footer';
-// import Carousel from './components/homePage/Carousel';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import HomePage from "./views/HomePage";
-
+import NewsPage from "./views/NewsPage";
+import ContactPage from "./views/ContactPage";
+import RegionsPage from "./views/RegionsPage";
+import Header from './components/global/Header';
+import Footer from './components/global/Footer';
 
 function App() {
+    const languages = ['English', 'Deutsch', 'Espanol', 'Francais', 'Portugues'];
+
   return (
-      // <RegionsProvider>
-          <div className="App m-0 p-0">
-              <div id="wrapper">
-                  <HomePage></HomePage>
+          <Router>
+              <div className="App m-0 p-0">
+                  <Header languages={languages} ></Header>
+                  <div id="wrapper">
+                      <Routes>
+                          <Route path="/" element={<HomePage />} />
+                          <Route path="/news" element={<NewsPage />} />
+                          <Route path="/contact" element={<ContactPage />} />
+                          <Route path="/regions" element={<RegionsPage />} />
+                      </Routes>
+                  </div>
+                  <Footer></Footer>
               </div>
-          </div>
-      // </RegionsProvider>
+          </Router>
+
   );
 }
 

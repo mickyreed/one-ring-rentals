@@ -1,6 +1,16 @@
+/**
+ * News Page
+ *
+ * News Page class component for all pages
+ *
+ * FILE NAME:   NewsPage.js
+ * Location:    /src/views
+ * Created:
+ * Author:      Michael Reed 20056066@tafe.wa.edu.au
+ *
+ */
+
 import '../css/App.css';
-import Header from '../components/global/Header';
-import Footer from '../components/global/Footer';
 import RecentArticles from "../components/recentArticles/RecentArticles";
 import React from "react";
 
@@ -9,7 +19,6 @@ function NewsPage() {
         <div
             className="App m-0 p-0 has-background-white">
             <div id="wrapper">
-                <Header className="App-header"></Header>
                 <div className="wrapper mr-6 ml-6">
                     <div className="columns">
                         {/*// <!-- BEGIN MAIN CONTENT -->*/}
@@ -18,7 +27,6 @@ function NewsPage() {
                         </div>
                     </div>
                 </div>
-                <Footer className="App-footer"></Footer>
             </div>
         </div>
     );

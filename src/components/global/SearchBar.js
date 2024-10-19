@@ -14,8 +14,6 @@
  *  - toggle    - https://dev.to/eclecticcoding/bulma-navbar-toogle-with-react-hooks-18ek
  *              - https://github.com/eclectic-coding/article_react-bulma-navbar
  *              - https://www.freecodecamp.org/news/react-router-tutorial/
- *
- *
  */
 
 import React, { useState } from 'react';

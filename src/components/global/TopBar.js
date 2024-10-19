@@ -8,17 +8,33 @@
  * Created:     8/10/24
  * Author:      Michael Reed 20056066@tafe.wa.edu.au
  *
- * create a reusable top bar component for the use on all pages COMPLETE
- *  TODO: add down CHEVRON to rh side of dropdown
- *  TODO: add little symbols on letters as per original dropdown
- *  TODO: remove Languages and just make this English
- *  TODO: pass in props for Languages
- *
+ * REFERENCES:
+ * dropdowns    - https://dev.to/eclecticcoding/bulma-navbar-toogle-with-react-hooks-18ek
+ *              - https://bulma.io/documentation/components/dropdown/#
+ *              - https://www.freecodecamp.org/news/build-a-dynamic-dropdown-component/
+ *              - https://codesandbox.io/p/sandbox/react-context-dropdown-example-jt1fs?file=%2Fsrc%2FApp.tsx%3A14%2C34
  */
 
-import React from 'react';
+import React, {useState} from 'react';
+import {faChevronDown} from "@fortawesome/free-solid-svg-icons";
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 
-const TopBar = () => {
+const TopBar = ({ languages }) => {
+
+    const [isDropDownActive, setIsDropDownActive] = useState(false);
+    const [selectedLanguage, setSelectedLanguage] = useState(languages[0]); // Default is first language
+
+    //Toggle dropdown for mobile
+    const toggleDropDown = () => {
+        setIsDropDownActive(!isDropDownActive);
+    };
+
+    // Handle language selection
+    const handleLanguageSelect = (language) => {
+        setSelectedLanguage(language); // Update selected language
+        setIsDropDownActive(false); // Close the dropdown after selection
+    };
+
     return (
         <div id="top-bar" className="has-background-light is-flex  py-2 pr-2 pl-2">
             <div className="container ">
@@ -35,34 +51,34 @@ const TopBar = () => {
                             </li>
                             <li className="mr-4 ml-4"><span>|</span></li>
                             <li className="mr-4">
-                                <div className="dropdown is-centered is-hoverable">
-                                    <div className="dropdown-trigger">
+                                <div className={`dropdown is-centered is-hoverable ${isDropDownActive ? 'is-active' : ''}`}
+                                     onMouseEnter={() => setIsDropDownActive(true)} // For desktop hover
+                                     onMouseLeave={() => setIsDropDownActive(false)} // For desktop hover
+                                     onClick={toggleDropDown} // For mobile click/tap
+                                    >
+                                    <div className="dropdown-trigger control">
                                         <span className="is-flex is-align-items-center">
-                                            <i className="fa fa-globe ml-4 mr-2"></i>Language
+                                            <i className="fa fa-globe ml-4 mr-2 "></i>{selectedLanguage}
+                                            <i className="faChevronDown pl-2 "><FontAwesomeIcon icon={faChevronDown}/></i>
                                         </span>
                                     </div>
                                     <div className="dropdown-menu pr-6" id="dropdown-menu"  role="menu">
                                         <div className="dropdown-content has-background-white">
-                                            <a href="#" className="dropdown-item has-background-white has-text-black">English</a>
-                                            <a href="#" className="dropdown-item has-background-white has-text-black">Deutsch</a>
-                                            <a href="#" className="dropdown-item has-background-white has-text-black">Espanol</a>
-                                            <a href="#" className="dropdown-item has-background-white has-text-black">Francais</a>
-                                            <a href="#" className="dropdown-item has-background-white has-text-black">Portugues</a>
+                                            {languages.map((language, index) => (
+                                                <a
+                                                    key={index}
+                                                    href="#"
+                                                    className="dropdown-item has-background-white has-text-black"
+                                                    onClick={() => handleLanguageSelect(language)}
+                                                >
+                                                    {language}
+                                                </a>
+                                            ))}
+
                                         </div>
                                     </div>
                                 </div>
                             </li>
-
-                            {/*<!-- BOOTSTRAP SEARCH BEGINS*/}
-
-                            {/*  <li>*/}
-                            {/*  <form id="site-search">*/}
-                            {/*      <span><i class="fa fa-search"></i></span>*/}
-                            {/*      <input type="text" name="q" placeholder="Search">*/}
-                            {/*  </form>	*/}
-                            {/*  </li> */}
-
-                            {/*  BOOTSTRAP SEARCH ENDS -->*/}
                         </ul>
                     </div>
                 </div>

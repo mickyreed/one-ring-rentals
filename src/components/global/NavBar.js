@@ -33,7 +33,7 @@ const NavBar = () => {
             <div className="container is-display-flex pr-4">
                  {/*// style={{justifyContent: "space-between", padding: "0 1rem"}}>*/}
                 <div className="navbar-brand">
-                    <div className="nav-logo is-display-flex">
+                    <div className="nav-logo is-display-flex pl-4">
                         <Link to="/"
                         ><img src="/images/logo.png" alt="One Ring Rentals"
                         /></Link>

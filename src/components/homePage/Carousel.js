@@ -25,6 +25,7 @@ import React, { useState } from 'react';
 import 'bulma/css/bulma.css';
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faChevronRight, faChevronLeft} from "@fortawesome/free-solid-svg-icons";
+import '../../css/carousel.css'
 
 const Carousel = () => {
     const [currentSlide, setCurrentSlide] = useState(0);
@@ -66,8 +67,7 @@ const Carousel = () => {
                     backgroundPosition: 'center',
                     height: '400px',
                     position: 'relative',
-                }}
-            >
+                }}>
                 <div
                     className="has-text-centered"
                     style={{
@@ -77,12 +77,23 @@ const Carousel = () => {
                         left: '50%',
                         transform: 'translate(-50%, -50%)',
                         color: 'white',
-                    }}
-                >
-                    <h1 className="title is-1 ">{slides[currentSlide].title}</h1>
-                    <p className="subtitle is-3">{slides[currentSlide].subtitle}</p>
-                    <button className="button is-primary">Learn More</button>
+                    }}>
+
                 </div>
+                <div className="has-text-centered pr-4 pl-4"
+                     style={{
+                         /* position Slide Text vertically center */
+                         position: 'relative',
+                         top: '50%',
+                         left: '50%',
+                         transform: 'translate(-50%, -50%)',
+                         color: 'white',
+                     }}>
+                    <h1 className="title is-size-1 is-align-items-center ">{slides[currentSlide].title}</h1>
+                    <p className="subtitle is-size-3 pr-6 pl-6 is-align-items-center">{slides[currentSlide].subtitle}</p>
+                    <button className="button is-primary is-align-items-center">Learn More</button>
+                </div>
+
             </div>
 
             {/* Navigation Arrows */}
@@ -92,7 +103,7 @@ const Carousel = () => {
                 style={{
                     /* position chevron button vertically center */
                     position: 'absolute',
-                    top: '40%',
+                    top: '50%',
                     left: '15px',
                     transform: 'translateY(-50%)',
                 }}
@@ -107,7 +118,7 @@ const Carousel = () => {
                 style={{
                     /* position chevron button vertically center */
                     position: 'absolute',
-                    top: '40%',
+                    top: '50%',
                     right: '15px',
                     transform: 'translateY(-25%)',
                 }}
