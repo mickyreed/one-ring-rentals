@@ -59,7 +59,7 @@ const Activity = () => {
 
     return (
         <div>
-            <column className="column ml-0 mr-0 pl-0 pr-0">
+            <div className="column ml-0 mr-0 pl-0 pr-0">
                 <h3 className="title is-3 has-text-black mt-6 mb-6">Activity</h3>
                 <div className="double-underline mb-6 has-text-center"></div>
                 <ul className="activity ml-0 mr-0 pl-0 pr-0 ">
@@ -69,7 +69,7 @@ const Activity = () => {
                         ))}
                     </li>
                 </ul>
-            </column>
+            </div>
         </div>
     );
 };

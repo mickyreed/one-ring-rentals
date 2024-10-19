@@ -55,7 +55,7 @@ const DealCard =({ title, location, region, link, image, availability,}) => {
                     <a href="#"></a>
                     <img alt={title} src={image}/>
                 </div>
-                <column className="column is-half is-flex is-align-items-center pb-4">
+                <div className="column is-half is-flex is-align-items-center pb-4">
                     <div className="is-size-7 mb-0 pr-2 ">
                         <div><i className="fa fa-calendar pr-2"></i>Available {checkDateAvailable(availability)}</div>
                     </div>
@@ -66,7 +66,7 @@ const DealCard =({ title, location, region, link, image, availability,}) => {
                            onMouseLeave={() => setIsHovered(false)}> {title}</a>
                         <p>{location}, {region}</p>
                     </h4>
-                </column>
+                </div>
             </div>
         </div>
     )

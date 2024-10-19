@@ -33,6 +33,7 @@ const AdvancedSearch = () => {
                                             className="input"
                                             placeholder="Arrive on..."
                                             data-date-format="DD/MM/YYYY"
+                                            id="date-arrived"
                                         />
                                         <span className="icon is-small is-right">
                                                     <i className="fa fa-calendar-alt"></i></span>
@@ -90,6 +91,7 @@ const AdvancedSearch = () => {
                                             className="input"
                                             name="location"
                                             placeholder="City, State, Country, etc..."
+                                            id="location"
                                         />
                                     </div>
                                 </div>

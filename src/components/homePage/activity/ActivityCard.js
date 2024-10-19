@@ -58,12 +58,12 @@ const ActivityCard =({ userName, action, location, link, image, comment, postedT
     const [isHovered, setIsHovered] = useState(false);
     return (
         <div className="columns">
-            <column className="column is-half">
+            <div className="column is-half">
                 <a href={link}
                 ><img className="has-radius-rounded" src={image} alt=""
                 /></a>
-            </column>
-            <column className="info column is-half has-text-left">
+            </div>
+            <div className="info column is-half has-text-left">
                 <h6 className="has-text-black is-size-7 mb-0 has-text-centered">
                     {userName} {action}
                     <a href={link} className={`location-highlight ${isHovered ? 'hovered' : ''}`}
@@ -73,7 +73,7 @@ const ActivityCard =({ userName, action, location, link, image, comment, postedT
                     {comment}
                 </p>
                 <h6 className="has-text-black is-size-7 mb-1 has-text-centered">{elapsedTime(postedTime)}</h6>
-            </column>
+            </div>
         </div>
     )
 }

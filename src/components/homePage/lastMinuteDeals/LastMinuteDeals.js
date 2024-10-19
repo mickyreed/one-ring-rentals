@@ -57,7 +57,7 @@ const LastMinuteDeals = () => {
 
     return (
         <div>
-            <column className="column mt-0 pt-0">
+            <div className="column mt-0 pt-0">
                 <h3 className="title is-3 has-text-black mt-6 mb-6 pt-0">Last minute deals</h3>
                 <div className="double-underline mb-6 has-text-center"></div>
                 <ul className="latest-news has-text-left">
@@ -68,7 +68,7 @@ const LastMinuteDeals = () => {
                 <p className="center">
                     <a className="button is-black mt-6 mb-6" href="#">More deals</a>
                 </p>
-            </column>
+            </div>
         </div>
     );
 };
