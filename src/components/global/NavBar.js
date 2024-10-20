@@ -14,9 +14,9 @@
  */
 
 import React, { useState } from 'react';
-import { Link } from "react-router-dom";
-import 'bulma/css/bulma.min.css';
+// import 'bulma/css/bulma.min.css';
 import SearchBar from "./SearchBar";
+import Link from 'next/link';
 
 const NavBar = () => {
 
@@ -34,7 +34,7 @@ const NavBar = () => {
                  {/*// style={{justifyContent: "space-between", padding: "0 1rem"}}>*/}
                 <div className="navbar-brand">
                     <div className="nav-logo is-display-flex pl-4">
-                        <Link to="/"
+                        <Link href="/"
                         ><img src="/images/logo.png" alt="One Ring Rentals"
                         /></Link>
                     </div>
@@ -42,12 +42,12 @@ const NavBar = () => {
 
                 <div id="navMenu" className={`navbar-menu ${isActive ? 'is-active' : ''}`}>
                     <div className="navbar-end">
-                        <Link className="navbar-item" to="/">Find a Rental</Link>
-                        <Link className="navbar-item" to="/">List your rental</Link>
-                        <Link className="navbar-item" to="/">Travel Guides</Link>
-                        <Link className="navbar-item" to="/regions">Regions</Link>
-                        <Link className="navbar-item" to="/news">News</Link>
-                        <Link className="navbar-item" to="/contact">Contact</Link>
+                        <Link className="navbar-item" href="/">Find a Rental</Link>
+                        <Link className="navbar-item" href="/">List your rental</Link>
+                        <Link className="navbar-item" href="/">Travel Guides</Link>
+                        <Link className="navbar-item" href="/regions">Regions</Link>
+                        <Link className="navbar-item" href="/news">News</Link>
+                        <Link className="navbar-item" href="/contact">Contact</Link>
                         <div id="search-bar" className="navbar-item">
                             <SearchBar></SearchBar>
                         </div>

@@ -12,8 +12,8 @@
  */
 
 import React, { useState } from 'react';
-import 'bulma/css/bulma.css';
-import '../../css/RegionsCard.css';
+// import 'bulma/css/bulma.css';
+// import '../../css/RegionsCard.css';
 
 const RegionCard =({ link, location, image}) => {
     const [isHovered, setIsHovered] = useState(false);

@@ -22,10 +22,10 @@
  *
  */
 import React, { useState } from 'react';
-import 'bulma/css/bulma.css';
+// import 'bulma/css/bulma.css';
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faChevronRight, faChevronLeft} from "@fortawesome/free-solid-svg-icons";
-import '../../css/carousel.css'
+// import '../../css/carousel.css'
 
 const Carousel = () => {
     const [currentSlide, setCurrentSlide] = useState(0);

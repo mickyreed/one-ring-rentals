@@ -26,7 +26,7 @@
  *
  */
 import React, { useContext } from 'react';
-import 'bulma/css/bulma.css';
+// import 'bulma/css/bulma.css';
 import RegionsCard from "./RegionsCard";
 import { RegionsContext } from '../../contexts/RegionsContext';
 

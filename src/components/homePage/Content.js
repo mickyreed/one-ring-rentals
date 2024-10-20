@@ -17,7 +17,7 @@
  *
  */
 import React from 'react';
-import 'bulma/css/bulma.css';
+// import 'bulma/css/bulma.css';
 import FeaturedProperties from "./featuredProperties/FeaturedProperties";
 import PopularRegions from "../popularRegions/PopularRegions";
 import RecentArticles from "../recentArticles/RecentArticles";

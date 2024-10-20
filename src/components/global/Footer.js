@@ -13,9 +13,6 @@
  *
   */
 
-import React from 'react';
-import '../../css/footer.css';
-
 const Footer = () => {
     return (
         <footer id="footer" className="footer has-text-black pl-0 pr-0 mb-0 pb-0 mt-0 pt-0">

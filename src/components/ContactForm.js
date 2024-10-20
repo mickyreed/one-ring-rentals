@@ -11,7 +11,7 @@
  */
 
 import React, { useState } from 'react';
-import 'bulma/css/bulma.css';
+// import 'bulma/css/bulma.css';
 
 const ContactForm = () => {
     return (

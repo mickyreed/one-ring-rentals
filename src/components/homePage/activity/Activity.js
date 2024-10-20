@@ -17,7 +17,7 @@
  * REFERENCES:
  */
 import React, {useEffect, useState} from 'react';
-import 'bulma/css/bulma.css';
+// import 'bulma/css/bulma.css';
 import ActivityCard from "./ActivityCard";
 import {fetchAPIData} from "../../../js/fetchAPIData";
 

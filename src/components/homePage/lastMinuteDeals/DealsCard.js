@@ -14,8 +14,8 @@
  */
 
 import React, { useState } from 'react';
-import 'bulma/css/bulma.css';
-import '../../../css/ActivityCard.css';
+// import 'bulma/css/bulma.css';
+// import '../../../css/ActivityCard.css';
 
 // Function to set the formatting of the date we will be returning
 const formatDate = (date) => {
