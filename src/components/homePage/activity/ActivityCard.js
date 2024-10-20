@@ -19,7 +19,7 @@ import '../../../css/ActivityCard.css';
 
 // Function to calculate time difference between now and when a post was made
 // REFERENCES:
-//  - rounding down times for more accurate display times - https://www.w3schools.com/jsref/jsref_floor.asp
+//  - rounding down of times for more accurate display times - https://www.w3schools.com/jsref/jsref_floor.asp
 //  - DateTime formatting and UTC - https://chatgpt.com/share/6711f7ec-4038-8005-a59f-d5fea2c168e0
 const elapsedTime = (dateTime) => {
     const currentTime = Date.now();

@@ -6,12 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4c8730a5-2738-4db9-8168-91a0b381ef09" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/homePage/AdvancedSearch.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/homePage/AdvancedSearch.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/homePage/activity/Activity.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/homePage/activity/Activity.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/homePage/activity/ActivityCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/homePage/activity/ActivityCard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/homePage/lastMinuteDeals/DealsCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/homePage/lastMinuteDeals/DealsCard.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/homePage/lastMinuteDeals/LastMinuteDeals.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/homePage/lastMinuteDeals/LastMinuteDeals.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,22 +49,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Node.js.App.js.executor": "Run",
-    "Node.js.Carousel.js.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/xcal1/source/repos/one-ring-rentals/src/css",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\PhpStorm 2024.2.0.1\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Node.js.App.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.Carousel.js.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/xcal1/source/repos/one-ring-rentals/src/css&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\PhpStorm 2024.2.0.1\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\xcal1\source\repos\one-ring-rentals\src\css" />
@@ -121,7 +116,8 @@
       <workItem from="1729155211276" duration="1800000" />
       <workItem from="1729162414801" duration="18998000" />
       <workItem from="1729224976624" duration="26273000" />
-      <workItem from="1729339746177" duration="24721000" />
+      <workItem from="1729339746177" duration="25121000" />
+      <workItem from="1729395848214" duration="1782000" />
     </task>
     <servers />
   </component>
