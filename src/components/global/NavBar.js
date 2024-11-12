@@ -42,7 +42,7 @@ const NavBar = () => {
 
                 <div id="navMenu" className={`navbar-menu ${isActive ? 'is-active' : ''}`}>
                     <div className="navbar-end">
-                        <Link className="navbar-item" href="/index">Find a Rental</Link>
+                        <Link className="navbar-item" href="/">Find a Rental</Link>
                         <Link className="navbar-item" href="/">List your rental</Link>
                         <Link className="navbar-item" href="/">Travel Guides</Link>
                         <Link className="navbar-item" href="/regions">Regions</Link>
@@ -53,8 +53,8 @@ const NavBar = () => {
                         </div>
                     </div>
                 </div>
-                    <a role="button" href="/index.js" className={`navbar-burger ${isActive ? 'is-active' : ''}`}
-                       aria-label="menu" aria-expanded="false" data-target="navMenu"
+                    <button role="button" className={`navbar-burger ${isActive ? 'is-active' : ''}`}
+                       aria-label="menu" aria-expanded={isActive} data-target="navMenu"
                        onClick={toggleBurgerMenu} style={{marginLeft: "auto"}}>
                         <div className="box is-align-content-top p-auto">
                             <span aria-hidden="true"></span>
@@ -62,7 +62,7 @@ const NavBar = () => {
                             <span aria-hidden="true"></span>
                             <span aria-hidden="true"></span>
                         </div>
-                    </a>
+                    </button>
             </div>
 
         </nav>
