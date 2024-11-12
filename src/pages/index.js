@@ -10,7 +10,7 @@
  *
  */
 
-import HomePage from '../components/Contact';
+import HomePage from '../components/HomePage';
 
 export default function Index() {
     return <HomePage />;
