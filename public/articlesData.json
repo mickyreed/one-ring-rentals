@@ -1,5 +1,6 @@
 [
   {
+    "id": "1",
     "title": "How to get your dream property for the best price?",
     "summary": "Sed rutrum urna id tellus euismod gravida. Praesent placerat, mauris ac pellentesque fringilla, tortor libero condimen.",
     "date": "July 30, 2014",
@@ -10,6 +11,7 @@
     "commentsCount": "2"
   },
   {
+    "id": "2",
     "title": "7 tips to get the best mortgage.",
     "summary": "Sed rutrum urna id tellus euismod gravida. Praesent placerat, mauris ac pellentesque fringilla, tortor libero condimen.",
     "date": "July 24, 2014",
@@ -20,6 +22,7 @@
     "commentsCount": "4"
   },
   {
+    "id": "3",
     "title": "House, location or price: What's the most important factor?",
     "summary": "Sed rutrum urna id tellus euismod gravida. Praesent placerat, mauris ac pellentesque fringilla, tortor libero condimen.",
     "date": "July 05, 2014",
