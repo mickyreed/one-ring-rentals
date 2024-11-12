@@ -1,14 +1,14 @@
 /**
- * Featured Properties
+ * Featured properties
  *
- * Featured Properties class component for home page
+ * Featured properties class component for home page
  *
  * FILE NAME:   FeaturedProperties.js
  * Location:    /src/components
  * Created:     13/10/24
  * Author:      Michael Reed 20056066@tafe.wa.edu.au
  *
- * create a Featured Properties component needs the following: COMPLETE 13/10/24
+ * create a Featured properties component needs the following: COMPLETE 13/10/24
  * Column suits 2/3 wide Title is centred COMPLETE 13/10/24
  * Add double underline COMPLETE:15/10/24
  * import 6 property cards into 3 columns of 2 (or grid) COMPLETE 13/10/24
@@ -30,6 +30,7 @@ import React, { useEffect, useState } from 'react';
 import PropertyCard from "./PropertyCard";
 // import 'bulma/css/bulma.css';
 import {fetchAPIData} from "../../../js/fetchAPIData";
+import Link from "next/link";
 
 const FeaturedProperties = () => {
     const [properties, setProperties] = useState([]);  // Empty array initially to hold the fetched data

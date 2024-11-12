@@ -6,9 +6,9 @@ var	properties_cluster_marker = "images/markers/coral-marker.png",     	//The UR
 	properties_cluster_textcolor = "#ffffff",					        //The color of the label text shown on the cluster icon
 	properties_initialZoom = 4,	  							    		//The initial zoom when properties map load	
 	properties_selectedZoom = 14,								        //The zoom to apply when an property is selected
-	properties_mapInitialLatitude = 26.596433,					        //Properties map initial Latitude
-	properties_mapInitialLongitude = -98.451481,				        //Properties map initial Longitude
-	properties_viewMore = "View More",							        //Properties View More Button Text
+	properties_mapInitialLatitude = 26.596433,					        //properties map initial Latitude
+	properties_mapInitialLongitude = -98.451481,				        //properties map initial Longitude
+	properties_viewMore = "View More",							        //properties View More Button Text
 
 	agency_initialZoom = 3,	  							//The initial zoom when agencies map load
 	agency_selectedZoom = 14,							//The zoom to apply when an agency is selected

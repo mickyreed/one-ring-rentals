@@ -7,8 +7,7 @@
     "price": "950",
     "beds": "4",
     "baths": "3",
-    "image": "https://picsum.photos/id/10/250/220.webp",
-    "link": "RegionsPage.js"
+    "image": "https://picsum.photos/id/10/250/220.webp"
   },
   {
     "id": "2",
@@ -18,8 +17,7 @@
     "price": "85",
     "beds": "1",
     "baths": "2",
-    "image": "https://picsum.photos/id/11/250/220.webp",
-    "link": "RegionsPage.js"
+    "image": "https://picsum.photos/id/11/250/220.webp"
   },
   {
     "id": "3",
@@ -29,8 +27,7 @@
     "price": "1,300",
     "beds": "5",
     "baths": "2",
-    "image": "https://picsum.photos/id/12/250/220.webp",
-    "link": "RegionsPage.js"
+    "image": "https://picsum.photos/id/12/250/220.webp"
   },
   {
     "id": "4",
@@ -40,8 +37,7 @@
     "price": "840",
     "beds": "2",
     "baths": "2",
-    "image": "https://picsum.photos/id/13/250/220.webp",
-    "link": "RegionsPage.js"
+    "image": "https://picsum.photos/id/13/250/220.webp"
   },
   {
     "id": "5",
@@ -51,8 +47,7 @@
     "price": "560",
     "beds": "3",
     "baths": "2",
-    "image": "https://picsum.photos/id/14/250/220.webp",
-    "link": "RegionsPage.js"
+    "image": "https://picsum.photos/id/14/250/220.webp"
   },
   {
     "id": "6",
@@ -62,7 +57,6 @@
     "price": "150",
     "beds": "3",
     "baths": "2",
-    "image": "https://picsum.photos/id/15/250/220.webp",
-    "link": "RegionsPage.js"
+    "image": "https://picsum.photos/id/15/250/220.webp"
   }
 ]
