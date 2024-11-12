@@ -42,7 +42,7 @@ const NavBar = () => {
 
                 <div id="navMenu" className={`navbar-menu ${isActive ? 'is-active' : ''}`}>
                     <div className="navbar-end">
-                        <Link className="navbar-item" href="/">Find a Rental</Link>
+                        <Link className="navbar-item" href="/index">Find a Rental</Link>
                         <Link className="navbar-item" href="/">List your rental</Link>
                         <Link className="navbar-item" href="/">Travel Guides</Link>
                         <Link className="navbar-item" href="/regions">Regions</Link>

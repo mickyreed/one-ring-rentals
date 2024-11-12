@@ -10,7 +10,7 @@
  *
  */
 
-import Contact from '../components/contact'; // Adjust the import path accordingly
+import Contact from '../components/Contact'; // Adjust the import path accordingly
 
 export default function ContactPage() {
     return <Contact />;
