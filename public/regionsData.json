@@ -2,31 +2,31 @@
   {
     "location": "Rhovanion",
     "image": "https://picsum.photos/id/231/194.webp",
-    "link": "#"
+    "link": "RegionsPage.js"
   },
   {
     "location": "Mordor",
     "image": "https://picsum.photos/id/177/194.webp",
-    "link": "#"
+    "link": "RegionsPage.js"
   },
   {
     "location": "Eriador",
     "image": "https://picsum.photos/id/93/194.webp",
-    "link": "#"
+    "link": "RegionsPage.js"
   },
   {
     "location": "The Southwest",
     "image": "https://picsum.photos/id/66/194.webp",
-    "link": "#"
+    "link": "RegionsPage.js"
   },
   {
     "location": "Bay of Belfalas",
     "image": "https://picsum.photos/id/128/194.webp",
-    "link": "#"
+    "link": "RegionsPage.js"
   },
   {
     "location": "Arnor",
     "image": "https://picsum.photos/id/95/194.webp",
-    "link": "#"
+    "link": "RegionsPage.js"
   }
 ]
