@@ -66,7 +66,7 @@ const LastMinuteDeals = () => {
                     ))}
                 </ul>
                 <p className="center">
-                    <a className="button is-black mt-6 mb-6" href="#">More deals</a>
+                    <a className="button is-black mt-6 mb-6" href="/index">More deals</a>
                 </p>
             </div>
         </div>

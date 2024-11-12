@@ -42,10 +42,10 @@ const TopBar = ({ languages }) => {
                     <div className="column is-narrow">
                         <ul id="top-buttons" className="is-flex is-align-items-center">
                             <li className="mr-4">
-                                <a href="#"><i className="fa fa-sign-in"></i> Login</a>
+                                <a href="/index"><i className="fa fa-sign-in"></i> Login</a>
                             </li>
                             <li className="mr-4">
-                                <a href="#"
+                                <a href="/index"
                                 ><i className="fa fa-pencil-square-o"></i> Register</a
                                 >
                             </li>
@@ -67,7 +67,7 @@ const TopBar = ({ languages }) => {
                                             {languages.map((language, index) => (
                                                 <a
                                                     key={index}
-                                                    href="#"
+                                                    href="/index"
                                                     className="dropdown-item has-background-white has-text-black"
                                                     onClick={() => handleLanguageSelect(language)}
                                                 >

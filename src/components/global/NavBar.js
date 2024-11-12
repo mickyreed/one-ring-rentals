@@ -53,18 +53,16 @@ const NavBar = () => {
                         </div>
                     </div>
                 </div>
-
-                {/*Burger Menu*/}
-                <a role="button" className={`navbar-burger ${isActive ? 'is-active' : ''}`}
-                   aria-label="menu" aria-expanded="false" data-target="navMenu"
-                   onClick={toggleBurgerMenu} style={{marginLeft: "auto"}}>
-                    <div className="box is-align-content-top p-auto">
-                        <span aria-hidden="true"></span>
-                        <span aria-hidden="true"></span>
-                        <span aria-hidden="true"></span>
-                        <span aria-hidden="true"></span>
-                    </div>
-                </a>
+                    <a role="button" href="/index.js" className={`navbar-burger ${isActive ? 'is-active' : ''}`}
+                       aria-label="menu" aria-expanded="false" data-target="navMenu"
+                       onClick={toggleBurgerMenu} style={{marginLeft: "auto"}}>
+                        <div className="box is-align-content-top p-auto">
+                            <span aria-hidden="true"></span>
+                            <span aria-hidden="true"></span>
+                            <span aria-hidden="true"></span>
+                            <span aria-hidden="true"></span>
+                        </div>
+                    </a>
             </div>
 
         </nav>

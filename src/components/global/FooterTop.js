@@ -38,7 +38,9 @@ const FooterTop = () => {
                 <div className="columns">
                     <div className="column is-one-quarter pr-3 is-align-content-start has-text-left">
                         <div className="footer-logo">
-                            <a href="#"><img src="/images/logo.png" alt="One Ring Rentals"/></a>
+                            {/*<a href="#">*/}
+                                <img src="/images/logo.png" alt="One Ring Rentals"/>
+                                {/*</a>*/}
                             {/*<br/><br/>*/}
                             <p className="pr-4">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
@@ -53,11 +55,23 @@ const FooterTop = () => {
                         <h3 className="title is-5 has-text-black pt-4 pb-4">Helpful Links</h3>
                         <ul className="footer-links">
                             <hr className="is-divider has-background-grey-lighter"/>
-                            <li><a href="#">All rentals</a></li>
+                            <li>
+                                {/*<a href="#">*/}
+                                    All rentals
+                                {/*</a>*/}
+                            </li>
                             <hr className="is-divider has-background-grey-lighter"/>
-                            <li><a href="#">List your rental</a></li>
+                            <li>
+                                {/*<a href="#">*/}
+                                    List your rental
+                                {/*</a>*/}
+                            </li>
                             <hr className="is-divider has-background-grey-lighter"/>
-                            <li><a href="#">Read our FAQs</a></li>
+                            <li>
+                                {/*<a href="#">*/}
+                                    Read our FAQs
+                                {/*</a>*/}
+                            </li>
                             <hr className="is-divider has-background-grey-lighter"/>
                         </ul>
                     </div>

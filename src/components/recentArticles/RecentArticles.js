@@ -84,7 +84,7 @@ const RecentArticles = () => {
                 </div>
 
                 <div className="center">
-                    <a href="#" className="button has-background-white is-bordered has-text-black mt-6 mb-6">View All
+                    <a href="/index" className="button has-background-white is-bordered has-text-black mt-6 mb-6">View All
                         News</a>
                 </div>
         </div>

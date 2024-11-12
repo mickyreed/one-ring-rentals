@@ -27,28 +27,40 @@ const Footer = () => {
                             {/*// <!-- BEGIN SOCIAL NETWORKS -->*/}
                             <ul className="social-networks is-flex pr-6 pl-6">
                                 <li>
-                                    <a href="#"><i className="fa fa-facebook
-                                    box-is-clear fa-border has-radius-normal has-text-grey p-3 m-2"></i></a>
+                                    {/*<a href="#">*/}
+                                        <i className="fa fa-facebook
+                                    {/*box-is-clear fa-border has-radius-normal has-text-grey p-3 m-2"></i>
+                                    {/*</a>*/}
                                 </li>
                                 <li>
-                                    <a href="#"><i className="fa fa-twitter
-                                     box-is-clear fa-border has-radius-normal has-text-grey p-3 m-2"></i></a>
+                                    {/*<a href="#">*/}
+                                        <i className="fa fa-twitter
+                                     box-is-clear fa-border has-radius-normal has-text-grey p-3 m-2"></i>
+                                    {/*</a>*/}
                                 </li>
                                 <li>
-                                    <a href="#"><i className="fa fa-google
-                                     box-is-clear fa-border has-radius-normal has-text-grey p-3 m-2"></i></a>
+                                    {/*<a href="#">*/}
+                                        <i className="fa fa-google
+                                     box-is-clear fa-border has-radius-normal has-text-grey p-3 m-2"></i>
+                                    {/*</a>*/}
                                 </li>
                                 <li>
-                                    <a href="#"><i className="fa fa-pinterest
-                                     box-is-clear fa-border has-radius-normal has-text-grey p-3 m-2"></i></a>
+                                    {/*<a href="#">*/}
+                                        <i className="fa fa-pinterest
+                                     box-is-clear fa-border has-radius-normal has-text-grey p-3 m-2"></i>
+                                    {/*</a>*/}
                                 </li>
                                 <li>
-                                    <a href="#"><i className="fa fa-youtube
-                                     box-is-clear fa-border has-radius-normal has-text-grey p-3 m-2"></i></a>
+                                    {/*<a href="#">*/}
+                                        <i className="fa fa-youtube
+                                     box-is-clear fa-border has-radius-normal has-text-grey p-3 m-2"></i>
+                                    {/*</a>*/}
                                 </li>
                                 <li>
-                                    <a href="#"><i className="fa fa-rss
-                                     box-is-clear fa-border has-radius-normal has-text-grey p-3 m-2"></i></a>
+                                    {/*<a href="#">*/}
+                                        <i className="fa fa-rss
+                                     box-is-clear fa-border has-radius-normal has-text-grey p-3 m-2"></i>
+                                    {/*</a>*/}
                                 </li>
                             </ul>
                             {/*// <!-- END SOCIAL NETWORKS -->*/}

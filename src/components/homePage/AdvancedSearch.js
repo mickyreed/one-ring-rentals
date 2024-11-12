@@ -13,7 +13,7 @@
  * https://bulma.io/documentation/form/textarea/
  *
  */
-import React, { useState } from 'react';
+import React from "react";
 // import 'bulma/css/bulma.css';
 
 const AdvancedSearch = () => {
