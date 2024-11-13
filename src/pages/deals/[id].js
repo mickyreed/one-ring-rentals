@@ -24,7 +24,7 @@ export default function DealsInfo() {
     // Find the property by id
     const deal = deals.find((prop) => prop.id === id);
 
-    if (!deals) {
+    if (!deal) {
         return <div>Loading...</div>;
     }
 
