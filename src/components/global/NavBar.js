@@ -53,7 +53,7 @@ const NavBar = () => {
                         </div>
                     </div>
                 </div>
-                    <button role="button" className={`navbar-burger ${isActive ? 'is-active' : ''}`}
+                    <button className={`navbar-burger ${isActive ? 'is-active' : ''}`}
                        aria-label="menu" aria-expanded={isActive} data-target="navMenu"
                        onClick={toggleBurgerMenu} style={{marginLeft: "auto"}}>
                         <div className="box is-align-content-top p-auto">

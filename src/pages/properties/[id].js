@@ -18,7 +18,7 @@ import React from "react";
 export default function PropertyInfo() {
     const router = useRouter();
     const { id } = router.query;
-    console.log('ID:', id);
+    //console.log('ID:', id);
 
     // Find the property by id
     const property = properties.find((prop) => prop.id === id);

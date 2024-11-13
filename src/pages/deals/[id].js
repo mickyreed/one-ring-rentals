@@ -19,7 +19,7 @@ import React from "react";
 export default function DealsInfo() {
     const router = useRouter();
     const { id } = router.query;
-    console.log('ID:', id);
+    //console.log('ID:', id);
 
     // Find the property by id
     const deal = deals.find((prop) => prop.id === id);
@@ -31,14 +31,14 @@ export default function DealsInfo() {
     return (
         <div className="columns pt-6 pb-6 flex-col">
             <div className="column is-full is-centered">
-                <h2 className="title is-2">{deal.title}</h2>
+                <h2 className="title is-2">{deal["title"]}</h2>
                 <h4 className="title is-4">{deal.location}, {deal.region}</h4>
 
                 <img src={deal.image} alt={deal.title}
                      className="w-full image-large object-cover pt-4 mt-4 mb-4 pb-4"/>
                 <div className="pb-4 mb-4">
 
-                    <h3 className="title is-3">Availability: {checkDateAvailable(deal.availability)}</h3>
+                    <h3 className="title is-3">Availability: {checkDateAvailable(deal["availability"])}</h3>
                 </div>
                 <div className="flex justify-center mt-8 w-full">
                     <Link href="/">
