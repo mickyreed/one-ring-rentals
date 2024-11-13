@@ -2,37 +2,31 @@
   {
     "id": "1",
     "location": "Rhovanion",
-    "image": "https://picsum.photos/id/231/194.webp",
-    "link": "RegionsPage.js"
+    "image": "https://picsum.photos/id/231/194.webp"
   },
   {
     "id": "2",
     "location": "Mordor",
-    "image": "https://picsum.photos/id/177/194.webp",
-    "link": "RegionsPage.js"
+    "image": "https://picsum.photos/id/177/194.webp"
   },
   {
     "id": "3",
     "location": "Eriador",
-    "image": "https://picsum.photos/id/93/194.webp",
-    "link": "RegionsPage.js"
+    "image": "https://picsum.photos/id/93/194.webp"
   },
   {
     "id": "4",
     "location": "The Southwest",
-    "image": "https://picsum.photos/id/66/194.webp",
-    "link": "RegionsPage.js"
+    "image": "https://picsum.photos/id/66/194.webp"
   },
   {
     "id": "5",
     "location": "Bay of Belfalas",
-    "image": "https://picsum.photos/id/128/194.webp",
-    "link": "RegionsPage.js"
+    "image": "https://picsum.photos/id/128/194.webp"
   },
   {
     "id": "6",
     "location": "Arnor",
-    "image": "https://picsum.photos/id/95/194.webp",
-    "link": "RegionsPage.js"
+    "image": "https://picsum.photos/id/95/194.webp"
   }
 ]

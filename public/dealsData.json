@@ -5,7 +5,6 @@
       "location": "Lossarnach",
       "region": "Eriado",
       "image": "https://picsum.photos/id/447/100.webp",
-      "link": "#",
       "availability": "2024-10-15T10:00:00Z"
     },
     {
@@ -14,7 +13,6 @@
       "location": "Hyarnustar",
       "region": "Rhovanion",
       "image": "https://picsum.photos/id/327/100.webp",
-      "link": "#",
       "availability": "2024-10-20T10:00:00Z"
     },
     {
@@ -23,7 +21,6 @@
       "location": "Minhiriath",
       "region": "Eriador",
       "image": "https://picsum.photos/id/322/100.webp",
-      "link": "#",
       "availability": "2024-11-24T10:00:00Z"
     },
     {
@@ -32,7 +29,6 @@
       "location": "West Beleriand",
       "region": "Mordor",
       "image": "https://picsum.photos/id/448/100.webp",
-      "link": "#",
       "availability": "2024-12-11T10:00:00Z"
     }
   ]
