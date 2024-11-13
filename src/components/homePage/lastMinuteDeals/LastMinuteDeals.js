@@ -1,14 +1,14 @@
 /**
- * Last Minutes Deals
+ * Last Minutes deals
  *
- * Last Minute Deals class component for home page
+ * Last Minute deals class component for home page
  *
  * FILE NAME:   LastMinuteDeals.js
  * Location:    /src/components
  * Created:     13/10/24
  * Author:      Michael Reed 20056066@tafe.wa.edu.au
  *
- * create a Last Minute Deals component needs the following: COMPLETE 13/10/24
+ * create a Last Minute deals component needs the following: COMPLETE 13/10/24
  * Column suits 1/3 wide Title is centred COMPLETE 13/10/24
  * Add double underline COMPLETED 15/10/24
  * import 4 Deal cards into 1 columns (cards are 2 columns) COMPLETED 15/10/24
