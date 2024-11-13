@@ -21,7 +21,7 @@ import Link from "next/link";
 
 // REF: hovered state research
 // https://medium.com/@iamviveksi/how-to-animate-a-button-in-react-using-css-transitions-eca2f636a63
-const ArticlesCard =({ id, title, summary, date, tags, image, link, mediaType, commentsCount}) => {
+const ArticlesCard =({ id, title, summary, date, tags, image, mediaType, commentsCount}) => {
     const [isHovered, setIsHovered] = useState(false);
     return (
         <Link href={`/news/${id}`}>

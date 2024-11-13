@@ -17,7 +17,7 @@ import React from "react";
 export default function ArticlesInfo() {
     const router = useRouter();
     const { id } = router.query;
-    console.log('ID:', id);
+    //console.log('ID:', id);
 
     // Find the property by id
     const article = articles.find((prop) => prop.id === id);

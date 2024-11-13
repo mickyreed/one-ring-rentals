@@ -13,7 +13,7 @@ import { useRouter } from 'next/router';
 import properties from '../../../public/propertiesData.json';
 import Link from "next/link";
 import React from "react";
-console.log('Properties:', properties);
+//console.log('Properties:', properties);
 
 export default function PropertyInfo() {
     const router = useRouter();

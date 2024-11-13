@@ -6,7 +6,6 @@
     "date": "July 30, 2014",
     "tags": "Properties, Prices, best deals",
     "image": "https://picsum.photos/id/606/766/515.webp",
-    "link": "#",
     "mediaType": "fa fa-file-text",
     "commentsCount": "2"
   },
@@ -17,7 +16,6 @@
     "date": "July 24, 2014",
     "tags": "Tips, Mortgage",
     "image": "https://picsum.photos/id/668/766/515.webp",
-    "link": "#",
     "mediaType": "fa fa-file-video",
     "commentsCount": "4"
   },
@@ -28,7 +26,6 @@
     "date": "July 05, 2014",
     "tags": "Location, Price, House",
     "image": "https://picsum.photos/id/768/766/515.webp",
-    "link": "#",
     "mediaType": "fa fa-file-text",
     "commentsCount": "1"
   }

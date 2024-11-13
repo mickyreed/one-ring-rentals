@@ -94,9 +94,7 @@ const FooterTop = () => {
                                                     />
                                                 </Link>
                                             </div>
-                                            <p>
-                                                <Link href={`/regions/${region.id}`}></Link>{region.location} {/* Dynamically rendered region name */}
-                                            </p>
+                                            <p><Link href={`/regions/${region.id}`}></Link>{region.location}</p>
                                         </li>
                                     ))}
                                 </ul>
@@ -116,9 +114,7 @@ const FooterTop = () => {
                                                     />
                                                 </Link>
                                             </div>
-                                            <p>
-                                                <Link href={`/regions/${region.id}`}></Link>{region.location}
-                                            </p>
+                                            <p><Link href={`/regions/${region.id}`}></Link>{region.location}</p>
                                         </li>
                                     ))}
                                 </ul>

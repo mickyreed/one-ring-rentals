@@ -14,7 +14,7 @@ import deals from '../../../public/dealsData.json';
 import { checkDateAvailable } from '../../js/dateUtility';
 import Link from "next/link";
 import React from "react";
-console.log('Deals:', deals);
+//console.log('Deals:', deals);
 
 export default function DealsInfo() {
     const router = useRouter();

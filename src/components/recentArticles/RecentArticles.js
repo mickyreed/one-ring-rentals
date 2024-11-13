@@ -12,8 +12,8 @@
  * Column suits 2/3 wide Title is centred COMPLETE 13/10/24
  * Add double underline COMPLETE
  * import 3 Article cards into 3 columns of 1 (or grid) COMPLETE
- * under this is a rectangular button "VIEW ALL NEWS" rounded corners border and tranparent background COMPLETE 13/10/24
- * Article cards (will be another component props for Title, Summary, Availability, Tags, CommentCount, image, articleLink COMPLETE
+ * under this is a rectangular button "VIEW ALL NEWS" rounded corners border and transparent background COMPLETE 13/10/24
+ * Article cards (will be another component) props for Title, Summary, Availability, Tags, CommentCount, image, articleLink COMPLETE
  *
  * REFERENCES:
  */
@@ -54,9 +54,9 @@ const RecentArticles = () => {
     }
 
     // Split into 3 columns using slice()
-    const column1 = articles.slice(0, 1); // First 1 items
-    const column2 = articles.slice(1, 2); // Next 1 items
-    const column3 = articles.slice(2, 3); // Last 1 items
+    const column1 = articles.slice(0, 1); // First 1 item
+    const column2 = articles.slice(1, 2); // Next 1 item
+    const column3 = articles.slice(2, 3); // Last 1 item
 
     return (
         <div className="">
