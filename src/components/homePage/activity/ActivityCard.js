@@ -14,6 +14,7 @@
  */
 
 import React, { useState } from 'react';
+import Link from "next/link";
 // import 'bulma/css/bulma.css';
 // import '../../../css/ActivityCard.css';
 
@@ -54,27 +55,29 @@ const elapsedTime = (dateTime) => {
 
 // REF: hovered state research
 // https://medium.com/@iamviveksi/how-to-animate-a-button-in-react-using-css-transitions-eca2f636a63
-const ActivityCard =({ userName, action, location, link, image, comment, postedTime}) => {
+const ActivityCard =({ id, userName, action, location, link, image, comment, postedTime}) => {
     const [isHovered, setIsHovered] = useState(false);
     return (
-        <div className="columns">
-            <div className="column is-half">
-                <a href={link}
-                ><img className="has-radius-rounded" src={image} alt=""
-                /></a>
+        <Link href={`/news/${id}`}>
+            <div className="columns">
+                <div className="column is-half">
+                    <a href={link}
+                    ><img className="has-radius-rounded" src={image} alt=""
+                    /></a>
+                </div>
+                <div className="info column is-half has-text-left">
+                    <h6 className="has-text-black is-size-7 mb-0 has-text-centered">
+                        {userName} {action}
+                        <Link href={"/news"} className={`location-highlight ${isHovered ? 'hovered' : ''}`}
+                           onMouseEnter={() => setIsHovered(true)}
+                           onMouseLeave={() => setIsHovered(false)}> {location}</Link></h6>
+                    <p className="is-size-7 mb-2 has-text-centered">
+                        {comment}
+                    </p>
+                    <h6 className="has-text-black is-size-7 mb-1 has-text-centered">{elapsedTime(postedTime)}</h6>
+                </div>
             </div>
-            <div className="info column is-half has-text-left">
-                <h6 className="has-text-black is-size-7 mb-0 has-text-centered">
-                    {userName} {action}
-                    <a href={link} className={`location-highlight ${isHovered ? 'hovered' : ''}`}
-                       onMouseEnter={() => setIsHovered(true)}
-                       onMouseLeave={() => setIsHovered(false)}> {location}</a></h6>
-                <p className="is-size-7 mb-2 has-text-centered">
-                    {comment}
-                </p>
-                <h6 className="has-text-black is-size-7 mb-1 has-text-centered">{elapsedTime(postedTime)}</h6>
-            </div>
-        </div>
+        </Link>
     )
 }
 

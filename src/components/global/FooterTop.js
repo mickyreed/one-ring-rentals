@@ -14,6 +14,7 @@
   */
 import React, { useContext } from 'react';
 import { RegionsContext } from '../../contexts/RegionsContext';
+import Link from "next/link";
 // import '../../css/footer.css';
 
 const FooterTop = () => {
@@ -85,16 +86,16 @@ const FooterTop = () => {
                                     {column1.map((region, index) => (
                                         <li key={index} className="footer-list-item">
                                             <div className="image">
-                                                <a href={region.link}>
+                                                <Link href={`/regions/${region.id}`}>
                                                     <img
                                                         style={{width: 60, height: 60}}
                                                         src={region.image} // Dynamically rendered image
                                                         alt={region.location} // Use the region name for alt text
                                                     />
-                                                </a>
+                                                </Link>
                                             </div>
                                             <p>
-                                                <a href={region.link}>{region.location}</a> {/* Dynamically rendered region name */}
+                                                <Link href={`/regions/${region.id}`}></Link>{region.location} {/* Dynamically rendered region name */}
                                             </p>
                                         </li>
                                     ))}
@@ -107,16 +108,16 @@ const FooterTop = () => {
                                     {column2.map((region, index) => (
                                         <li key={index} className="footer-list-item">
                                             <div className="image">
-                                                <a href={region.link}>
+                                                <Link href={`/regions/${region.id}`}>
                                                     <img
                                                         style={{width: 60, height: 60}}
-                                                        src={region.image}
-                                                        alt={region.location}
+                                                        src={region.image} // Dynamically rendered image
+                                                        alt={region.location} // Use the region name for alt text
                                                     />
-                                                </a>
+                                                </Link>
                                             </div>
                                             <p>
-                                                <a href={region.link}>{region.location}</a>
+                                                <Link href={`/regions/${region.id}`}></Link>{region.location}
                                             </p>
                                         </li>
                                     ))}

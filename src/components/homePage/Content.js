@@ -11,8 +11,8 @@
  * create a Content component needs the following:
  * Column 2/3 wide large padding on left Content Centered COMPLETE 12/10/24
  * Column 1/3 wide large padding on right Content centered COMPLETE 12/10/24
- * ADD Hard Coded featured property, deals, regions, activity & recent articles COMPLETE 12/10/24
- * Change to COMPONENTS for hardcoded featured property, deals, regions, activity & recent articles COMPLETE 13/10/24
+ * ADD Hard Coded featured property, deals, regions, activity & recent news COMPLETE 12/10/24
+ * Change to COMPONENTS for hardcoded featured property, deals, regions, activity & recent news COMPLETE 13/10/24
  * TODO: Continue to adjust styles and classNames to suit react bulma
  *
  */

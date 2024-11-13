@@ -12,25 +12,28 @@
  */
 
 import React, { useState } from 'react';
+import Link from "next/link";
 // import 'bulma/css/bulma.css';
 // import '../../css/RegionsCard.css';
 
-const RegionCard =({ link, location, image}) => {
+const RegionCard =({ id, location, image}) => {
     const [isHovered, setIsHovered] = useState(false);
     return (
-        <div>
-            <div className={`property-card ${isHovered ? 'hovered' : ''}`}
-                 onMouseEnter={() => setIsHovered(true)}
-                 onMouseLeave={() => setIsHovered(false)}>
+        <Link href={`/regions/${id}`}>
+            <div>
+                <div className={`property-card ${isHovered ? 'hovered' : ''}`}
+                     onMouseEnter={() => setIsHovered(true)}
+                     onMouseLeave={() => setIsHovered(false)}>
 
-                <div className="item">
-                    <a href={link}>
-                        <img src={image} alt={location}/>
-                        <h4 className="title is-5 has-text-black mb-4">{location} </h4>
-                    </a>
+                    <div className="item">
+                        <Link href={`/regions/${id}`}>
+                            <img src={image} alt={location}/>
+                            <h5 className="title is-5 has-text-black mb-4">{location}</h5>
+                        </Link>
+                    </div>
                 </div>
             </div>
-        </div>
+        </Link>
     )
 }
 

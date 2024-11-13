@@ -1,7 +1,7 @@
 /**
- * News Page
+ * news Page
  *
- * News Page class component for all pages
+ * news Page class component for all pages
  *
  * FILE NAME:   news.js
  * Location:    /src/components
